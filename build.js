@@ -38,6 +38,7 @@ function load() {
       id, title: d.title, dek: d.dek || "", body: d.body || "", section: d.section || "News",
       author: d.author || "Declaration Desk", publishedAt: pub, updatedAt: upd && !isNaN(upd) ? upd : null,
       lead: !!d.lead, breaking: !!d.breaking, correction: d.correction || "",
+      image: d.image && /^[a-z0-9-]+\.(jpg|jpeg|png|webp)$/.test(d.image.src || "") && fs.existsSync(path.join(ROOT, "content/images", d.image.src)) ? d.image : null,
       sources: Array.isArray(d.sources) ? d.sources.filter((s) => s && /^https?:\/\//.test(s.url || "")) : [],
     });
   }
@@ -61,7 +62,7 @@ const firstPara = (s) => (s.body.split(/\n\s*\n/).find((p) => p.trim() && !/^(##
 const clip = (t, n) => (t.length > n ? t.slice(0, t.lastIndexOf(" ", n - 20)) + "…" : t);
 
 // ---------- layout ----------
-function layout({ root, title, description, canonical, body, current, ogType = "website", jsonld, newest, small, live }) {
+function layout({ root, title, description, canonical, body, current, ogType = "website", jsonld, newest, small, live, ogImage }) {
   const fullTitle = title ? `${title} · ${site.name}` : `${site.name} · ${site.tagline}`;
   const url = BASE && canonical != null ? BASE + "/" + canonical : "";
   const nav = [`<a href="${root}" ${current === "front" ? 'aria-current="page"' : ""}>Front page</a>`]
@@ -79,7 +80,7 @@ ${url ? `<link rel="canonical" href="${url}">` : ""}
 <meta property="og:description" content="${esc(description || site.description)}">
 <meta property="og:type" content="${ogType}">
 ${url ? `<meta property="og:url" content="${url}">` : ""}
-<meta property="og:image" content="${BASE ? BASE + "/assets/share.png" : root + "assets/share.png"}">
+<meta property="og:image" content="${ogImage ? (BASE ? BASE + "/images/" + ogImage : root + "images/" + ogImage) : (BASE ? BASE + "/assets/share.png" : root + "assets/share.png")}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="${root}assets/favicon.svg" type="image/svg+xml">
 <link rel="alternate" type="application/rss+xml" title="${esc(site.name)}" href="${root}feed.xml">
@@ -132,6 +133,12 @@ function byline(s, withUpdate) {
 }
 const card = (s, root) => `<article class="card">${kicker(s, root)}<h3><a href="${href(s, root)}">${esc(s.title)}</a></h3>${s.dek ? `<p>${esc(s.dek)}</p>` : ""}<div class="byline"><time data-ago datetime="${when(s).toISOString()}">${ist(when(s))}</time> · ${readTime(s)}</div></article>`;
 const readTime = (s) => Math.max(1, Math.round((s.title + " " + s.dek + " " + s.body).split(/\s+/).length / 220)) + " min read";
+const figure = (s, root, linked) => {
+  if (!s.image) return "";
+  const img = `<img src="${root}images/${s.image.src}" alt="${esc(s.image.alt || "")}" width="1600" height="900" loading="lazy" decoding="async">`;
+  const cap = [s.image.caption, s.image.credit].filter(Boolean).map(esc).join(" · ");
+  return `<figure class="fig">${linked ? `<a href="${href(s, root)}" tabindex="-1">${img}</a>` : img}${cap ? `<figcaption>${cap}</figcaption>` : ""}</figure>`;
+};
 const isLive = (s, now) => s.breaking && now - s.publishedAt < 36 * 3600e3;
 function liveBar(stories, root, now) {
   const b = stories.find((s) => isLive(s, now));
@@ -142,7 +149,7 @@ function frontGrid(list, root, now, briefTitle = "Today's Briefing") {
   const lp = firstPara(lead);
   const brief = list.filter((s) => s !== lead).slice(0, 7).map((s) => `<li><a href="${href(s, root)}"><span class="s label">${s.breaking ? "Breaking · " : ""}${esc(s.section)}</span><span class="t">${esc(s.title)}</span><time datetime="${s.publishedAt.toISOString()}">${dayKey(s.publishedAt) === dayKey(now) ? fTime.format(s.publishedAt) + " IST" : fDay.format(s.publishedAt)}</time></a></li>`).join("");
   return { lead, html: `<div class="front">
-    <article class="lead">
+    <article class="lead">${figure(lead, root, true)}
       <div class="top">${isLive(lead, now) ? '<span class="chip">BREAKING</span>' : `<span class="kicker label" style="margin-right:12px">${esc(lead.section)}</span>`}<span class="readtime">${readTime(lead)}</span></div>
       <h2><a href="${href(lead, root)}">${esc(lead.title)}</a></h2>${lead.dek ? `<p class="dek">${esc(lead.dek)}</p>` : ""}${byline(lead, true)}${lp ? `<p class="excerpt">${esc(clip(lp, 420))}</p>` : ""}</article>
     ${brief ? `<aside class="brief"><div class="brief-head"><h2>${briefTitle}</h2><span>LATEST</span></div><ol>${brief}</ol></aside>` : ""}
@@ -156,6 +163,7 @@ function build() {
   fs.rmSync(OUT, { recursive: true, force: true });
   fs.mkdirSync(OUT, { recursive: true });
   fs.cpSync(path.join(ROOT, "assets"), path.join(OUT, "assets"), { recursive: true });
+  if (fs.existsSync(path.join(ROOT, "content/images"))) fs.cpSync(path.join(ROOT, "content/images"), path.join(OUT, "images"), { recursive: true });
   const stories = load();
   const now = new Date();
   const newest = stories.length ? stories[0].id + "@" + when(stories[0]).toISOString() : "";
@@ -206,6 +214,7 @@ function build() {
   <h1>${esc(s.title)}</h1>
   ${s.dek ? `<p class="dek">${esc(s.dek)}</p>` : ""}
   <div class="meta">${byline(s, true)}<div class="share">${BASE ? `<a href="https://wa.me/?text=${shareText}" target="_blank" rel="noopener">WhatsApp</a><a href="https://x.com/intent/post?text=${shareText}" target="_blank" rel="noopener">X</a>` : ""}<button type="button" data-copy>Copy link</button></div></div>
+  ${figure(s, root, false)}
   <div class="prose">${prose(s.body)}</div>
   ${s.correction ? `<div class="correction"><b>Correction:</b> ${inline(s.correction)}</div>` : ""}
   ${s.sources.length ? `<section class="sources"><h2 class="label">Sources</h2><ol>${s.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a></li>`).join("")}</ol></section>` : ""}
@@ -213,8 +222,8 @@ function build() {
 </article>
 ${others.length ? `<section class="more"><div class="block-head"><h2 class="label">More from ${esc(site.name)}</h2></div><div class="cards">${others.map((x) => card(x, root)).join("")}</div></section>` : ""}
 </main>`;
-    const jsonld = { "@context": "https://schema.org", "@type": "NewsArticle", headline: s.title, description: s.dek, datePublished: s.publishedAt.toISOString(), dateModified: when(s).toISOString(), author: { "@type": "Organization", name: s.author }, publisher: { "@type": "Organization", name: site.name, ...(BASE ? { logo: { "@type": "ImageObject", url: BASE + "/assets/share.png" } } : {}) }, articleSection: s.section, ...(BASE ? { image: [BASE + "/assets/share.png"], mainEntityOfPage: BASE + "/story/" + s.id + "/" } : {}) };
-    write(`story/${s.id}/index.html`, layout({ root, title: s.title, description: s.dek || clip(firstPara(s), 160), canonical: `story/${s.id}/`, body, ogType: "article", jsonld, small: true, live: s.breaking ? "" : liveBar(stories, root, now) }));
+    const jsonld = { "@context": "https://schema.org", "@type": "NewsArticle", headline: s.title, description: s.dek, datePublished: s.publishedAt.toISOString(), dateModified: when(s).toISOString(), author: { "@type": "Organization", name: s.author }, publisher: { "@type": "Organization", name: site.name, ...(BASE ? { logo: { "@type": "ImageObject", url: BASE + "/assets/share.png" } } : {}) }, articleSection: s.section, ...(BASE ? { image: [BASE + (s.image ? "/images/" + s.image.src : "/assets/share.png")], mainEntityOfPage: BASE + "/story/" + s.id + "/" } : {}) };
+    write(`story/${s.id}/index.html`, layout({ root, title: s.title, description: s.dek || clip(firstPara(s), 160), canonical: `story/${s.id}/`, body, ogType: "article", jsonld, small: true, ogImage: s.image ? s.image.src : null, live: s.breaking ? "" : liveBar(stories, root, now) }));
   }
 
   // About page

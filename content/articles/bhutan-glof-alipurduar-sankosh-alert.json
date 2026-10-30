@@ -23,5 +23,11 @@
       "url": "https://www.dtnext.in/news/national/cyclone-arnab-likely-to-bring-heavy-rain-in-parts-of-bengal-till-oct-31"
     }
   ],
-  "correction": ""
+  "correction": "",
+  "image": {
+    "src": "sankosh-flood-route.jpg",
+    "alt": "Diagram of the flood path from Shintaphu glacial lake in Bhutan down the Punatsangchhu and Sankosh rivers to Kumargram in Alipurduar and Dhubri in Assam",
+    "caption": "How the flood is travelling (schematic, not to scale)",
+    "credit": "Graphic: The Declaration"
+  }
 }
