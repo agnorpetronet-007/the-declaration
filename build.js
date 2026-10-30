@@ -144,16 +144,37 @@ function liveBar(stories, root, now) {
   const b = stories.find((s) => isLive(s, now));
   return b ? `<div class="livebar"><div class="wrap"><span class="tag"><i aria-hidden="true"></i>LIVE</span><a href="${href(b, root)}">BREAKING: ${esc(b.title)}</a></div></div>` : "";
 }
-function frontGrid(list, root, now, briefTitle = "Today's Briefing") {
+const plain = (p) => p.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*/g, "");
+function excerptHtml(s, root) {
+  const paras = s.body.split(/\n\s*\n/).map((p) => p.trim()).filter((p) => p && !/^(##|>)/.test(p)).slice(0, 2).map(plain);
+  if (!paras.length) return "";
+  let out = [], len = 0;
+  for (const p of paras) { if (len > 0 && len + p.length > 700) break; out.push(clip(p, 520)); len += p.length; }
+  return `<div class="excerpt">${out.map((p) => `<p>${esc(p)}</p>`).join("")}<a class="cont" href="${href(s, root)}">Continue reading →</a></div>`;
+}
+const stamp = (d, now) => dayKey(d) === dayKey(now) ? fTime.format(d) : fDay.format(d);
+const ago = (s) => `<time data-ago datetime="${when(s).toISOString()}">${ist(when(s))}</time>`;
+// Pictures appear on front and section pages only when marked as a hero (a graphic that explains the story at a glance).
+// Every other picture appears inside its story only.
+const heroFig = (s, root) => (s.image && s.image.hero ? figure(s, root, true) : "");
+const secondary = (s, root) => `<article class="sec">${kicker(s, root)}<h3><a href="${href(s, root)}">${esc(s.title)}</a></h3>${s.dek ? `<p>${esc(s.dek)}</p>` : ""}<div class="byline">${ago(s)}</div></article>`;
+const compact = (s, root) => `<article class="mini-card">${kicker(s, root)}<h3><a href="${href(s, root)}">${esc(s.title)}</a></h3>${s.dek ? `<p>${esc(clip(s.dek, 150))}</p>` : ""}<div class="byline">${ago(s)} · ${readTime(s)}</div></article>`;
+// Top of a page: secondaries | lead | latest rail
+function topBlock(list, root, now, latestTitle = "Latest") {
   const lead = list.find((s) => s.lead) || list[0];
+  const others = list.filter((s) => s !== lead);
+  const secs = [...others.filter((s) => isLive(s, now)), ...others.filter((s) => !isLive(s, now))].slice(0, 3);
   const lp = firstPara(lead);
-  const brief = list.filter((s) => s !== lead).slice(0, 7).map((s) => `<li><a href="${href(s, root)}"><span class="s label">${s.breaking ? "Breaking · " : ""}${esc(s.section)}</span><span class="t">${esc(s.title)}</span><time datetime="${s.publishedAt.toISOString()}">${dayKey(s.publishedAt) === dayKey(now) ? fTime.format(s.publishedAt) + " IST" : fDay.format(s.publishedAt)}</time></a></li>`).join("");
-  return { lead, html: `<div class="front">
-    <article class="lead">${figure(lead, root, true)}
-      <div class="top">${isLive(lead, now) ? '<span class="chip">BREAKING</span>' : `<span class="kicker label" style="margin-right:12px">${esc(lead.section)}</span>`}<span class="readtime">${readTime(lead)}</span></div>
-      <h2><a href="${href(lead, root)}">${esc(lead.title)}</a></h2>${lead.dek ? `<p class="dek">${esc(lead.dek)}</p>` : ""}${byline(lead, true)}${lp ? `<p class="excerpt">${esc(clip(lp, 420))}</p>` : ""}</article>
-    ${brief ? `<aside class="brief"><div class="brief-head"><h2>${briefTitle}</h2><span>LATEST</span></div><ol>${brief}</ol></aside>` : ""}
-  </div>` };
+  const latestList = others.filter((s) => !secs.includes(s)).slice(0, 6);
+  const latest = latestList.map((s) => `<li><a href="${href(s, root)}"><time datetime="${s.publishedAt.toISOString()}">${stamp(s.publishedAt, now)}</time><span><span class="s label${isLive(s, now) ? " live" : ""}">${isLive(s, now) ? "Breaking" : esc(s.section)}</span><span class="t">${esc(s.title)}</span></span></a></li>`).join("");
+  const html = `<div class="fp${secs.length ? "" : " no-left"}${latest ? "" : " no-right"}">
+    ${secs.length ? `<div class="fp-left">${secs.map((s) => secondary(s, root)).join("")}</div>` : ""}
+    <article class="fp-lead">
+      <div class="top">${isLive(lead, now) ? '<span class="chip">BREAKING</span>' : `<span class="kicker label">${esc(lead.section)}</span>`}<span class="readtime">${readTime(lead)}</span></div>
+      <h2><a href="${href(lead, root)}">${esc(lead.title)}</a></h2>${lead.dek ? `<p class="dek">${esc(lead.dek)}</p>` : ""}${byline(lead, true)}${lead.image && lead.image.hero ? `<div class="hero">${heroFig(lead, root)}</div>` : excerptHtml(lead, root)}</article>
+    ${latest ? `<aside class="fp-latest"><div class="rail-head"><h2>${latestTitle}</h2><span class="label">IST</span></div><ol>${latest}</ol></aside>` : ""}
+  </div>`;
+  return { lead, used: [lead, ...secs, ...latestList], html };
 }
 const opinionCol = (s, root) => `<article class="op"><h3><a href="${href(s, root)}">${esc(s.title)}</a></h3>${s.dek ? `<p>${esc(s.dek)}</p>` : ""}<div class="who">${esc(s.author)}</div></article>`;
 const standardsBox = (root) => `<aside class="standards"><div><div class="label">Independent journalism</div><h2>Every story sourced. Every correction in the open.</h2></div><a class="btn" href="${root}about/">Our standards →</a></aside>`;
@@ -174,16 +195,18 @@ function build() {
     let body;
     if (!stories.length) body = `<main><div class="notice"><div class="label kicker">First edition</div><h2>Stories will appear here as they are published</h2></div></main>`;
     else {
-      const { lead, html } = frontGrid(stories, root, now);
-      const rest = stories.filter((s) => s !== lead);
-      const secs = [...new Set(rest.map((s) => s.section))].sort((a, b) => ((SECTIONS.indexOf(a) + 1) || 99) - ((SECTIONS.indexOf(b) + 1) || 99));
-      const blocks = secs.map((sec) => {
-        const items = rest.filter((s) => s.section === sec).slice(0, 6);
-        const more = SECTIONS.includes(sec) ? `<a href="${root}section/${slug(sec)}/">More ›</a>` : "";
-        if (sec === "Opinion") return `<section><div class="block-head"><h2 class="italic">Opinion</h2>${more}</div><div class="ops">${items.slice(0, 3).map((s) => opinionCol(s, root)).join("")}</div></section>`;
-        return `<section><div class="block-head"><h2>${esc(sec)}</h2>${more}</div><div class="cards">${items.map((s) => card(s, root)).join("")}</div></section>`;
+      const { used, html } = topBlock(stories, root, now);
+      const rest = stories.filter((s) => !used.includes(s));
+      const more = rest.slice(0, 8);
+      const moreHtml = more.length ? `<section class="more-news"><div class="block-head"><h2>More news</h2></div><div class="grid4">${more.map((s) => compact(s, root)).join("")}</div></section>` : "";
+      const secsWith = SECTIONS.filter((sec) => stories.some((s) => s.section === sec));
+      const strips = secsWith.map((sec) => {
+        const items = stories.filter((s) => s.section === sec).slice(0, 4);
+        if (sec === "Opinion") return `<section class="strip"><div class="strip-name"><h2 class="italic">Opinion</h2><a href="${root}section/opinion/">More ›</a></div><div class="ops">${items.slice(0, 3).map((s) => opinionCol(s, root)).join("")}</div></section>`;
+        return `<section class="strip"><div class="strip-name"><h2>${esc(sec)}</h2><a href="${root}section/${slug(sec)}/">All ${esc(sec)} ›</a></div><ul class="strip-list">${items.map((s) => `<li><a href="${href(s, root)}">${esc(s.title)}</a><time datetime="${s.publishedAt.toISOString()}">${stamp(s.publishedAt, now)}</time></li>`).join("")}</ul></section>`;
       }).join("");
-      body = `<main>${html}${blocks ? `<div class="blocks">${blocks}</div>` : ""}${standardsBox(root)}</main>`;
+      const blocks = strips ? `<div class="by-section"><div class="block-head"><h2>By section</h2></div>${strips}</div>` : "";
+      body = `<main>${html}${moreHtml}${blocks}${standardsBox(root)}</main>`;
     }
     write("index.html", layout({ root, canonical: "", body, live: liveBar(stories, root, now), current: "front", newest, jsonld: { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: site.name, description: site.description, ...(BASE ? { url: BASE + "/", logo: BASE + "/assets/share.png" } : {}) } }));
   }
@@ -195,9 +218,9 @@ function build() {
     let main;
     if (!list.length) main = `<div class="notice"><div class="label kicker">${esc(sec)}</div><h2>No ${esc(sec)} stories yet</h2><p>New stories in this section will appear here as soon as they are published.</p></div>`;
     else {
-      const { lead, html } = frontGrid(list, root, now, "More in " + sec);
-      const rest = list.filter((s) => s !== lead).slice(7);
-      main = `<div class="page-head"><h1>${esc(sec)}</h1><p>${list.length} ${list.length === 1 ? "story" : "stories"}</p></div>${html}${rest.length ? `<div class="cards more">${rest.map((s) => card(s, root)).join("")}</div>` : ""}`;
+      const { used, html } = topBlock(list, root, now, "Latest in " + sec);
+      const rest = list.filter((s) => !used.includes(s));
+      main = `<div class="page-head"><h1>${esc(sec)}</h1><p>${list.length} ${list.length === 1 ? "story" : "stories"}</p></div>${html}${rest.length ? `<section class="more-news"><div class="block-head"><h2>More ${esc(sec)}</h2></div><div class="grid4">${rest.map((s) => compact(s, root)).join("")}</div></section>` : ""}`;
     }
     write(`section/${slug(sec)}/index.html`, layout({ root, title: sec, description: `${sec} news from ${site.name}.`, canonical: `section/${slug(sec)}/`, body: `<main>${main}</main>`, live: liveBar(stories, root, now), current: slug(sec), newest, small: true }));
   }

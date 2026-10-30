@@ -33,7 +33,7 @@ Source for the public news site. Every push to `main` rebuilds and publishes the
 - `lead: true` puts the story at the top of the front page (the newest lead wins).
 - `breaking: true` shows the red LIVE bar for 36 hours.
 - `"status": "draft"` keeps a story off the site.
-- `image` (optional): `{"src": "file-name.jpg", "alt": "...", "caption": "...", "credit": "..."}`. The file goes in `content/images/` (lowercase, hyphens; jpg/png/webp, about 1600×900). Shown on the story page, and at the top of the front page or section page when the story leads.
+- `image` (optional): `{"src": "file-name.jpg", "alt": "...", "caption": "...", "credit": "..."}`. The file goes in `content/images/` (lowercase, hyphens; jpg/png/webp, about 1600×900). Always shown inside the story. Add `"hero": true` only when the graphic explains the story at a glance (a route diagram, a key-facts card); a hero graphic is also shown under the headline when that story leads the front page or a section page. Charts and supporting graphics stay inside the story.
 - To correct a story, edit the text, set `updatedAt`, and fill in `correction`.
 
 ## Editorial workflow
@@ -46,7 +46,7 @@ Claude researches and drafts stories every 3 hours and opens a **pull request** 
 
 ## Picture rules (no copyright risk)
 
-Use pictures sparingly: one or two per edition at most. Only these are allowed:
+Most stories do not need a picture. Add one only when it tells the reader something the words can't easily do: where something is happening, how big a number is compared with others, how a process unfolds, or a sequence of events. One per edition is typical, two at most, and none is fine. Only these are allowed:
 1. **Original graphics made for The Declaration**: charts, diagrams, schematic route graphics and fact cards built from the story's own sourced figures. Credit: "Graphic: The Declaration".
 2. **Photos the owner took or holds the rights to.**
 3. **Wikimedia Commons files** whose licence has been checked on the file page and is Public Domain, CC0, CC BY or CC BY-SA, credited exactly as the licence requires (author, licence, link).
