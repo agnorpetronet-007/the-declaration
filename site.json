@@ -2,8 +2,18 @@
   "name": "The Declaration",
   "tagline": "An independent news journal",
   "description": "The Declaration is an independent news journal covering India and the world. Every story is sourced, timestamped in IST and corrected in the open.",
-  "domain": "",
+  "domain": "thedeclaration.in",
   "contactEmail": "",
   "grievanceOfficer": "",
-  "sections": ["India", "World", "Politics", "Business", "Technology", "Science", "Sport", "Culture", "Opinion"]
+  "sections": [
+    "India",
+    "World",
+    "Politics",
+    "Business",
+    "Technology",
+    "Science",
+    "Sport",
+    "Culture",
+    "Opinion"
+  ]
 }
