@@ -1,0 +1,30 @@
+{
+  "title": "Binance hit by suspected $6.3 billion hack, the largest crypto theft on record",
+  "dek": "The world's biggest crypto exchange has suspended deposits and withdrawals and says it will cover all losses. Blockchain investigators point to a North Korea-linked group.",
+  "section": "Business",
+  "author": "Declaration Desk",
+  "publishedAt": "2026-10-30T06:50:00.000Z",
+  "updatedAt": "2026-10-30T06:50:00.000Z",
+  "lead": true,
+  "breaking": true,
+  "status": "published",
+  "body": "Binance, the world's largest cryptocurrency exchange, says about $6.3 billion in digital assets was affected by a security breach that began late on Thursday, October 29. If the figure holds, it would be the largest theft in the history of crypto, roughly four times the $1.5 billion taken from the Bybit exchange in February 2025.\n\nIn a statement, Binance said its preliminary investigation suggests a software engineer's laptop may have been compromised, giving the attackers access to internal systems and allowing them to start unauthorised withdrawals from the exchange's internet-connected \"hot\" wallets. The company said it had found no evidence that any wallet private keys were leaked.\n\n## What Binance has done\n\nThe exchange has temporarily suspended all deposits and withdrawals while security checks are carried out. It says it will cover all customer losses from its Secure Asset Fund for Users (SAFU) and other company funds, and that \"user funds are safe.\" It plans to publish an updated proof of reserves once the problem is fixed, and says it is working with law enforcement and blockchain investigators.\n\nAbout $3 billion of the affected assets has been frozen with the help of partners, according to Binance. Tether, which issues the USDT stablecoin, said it froze more than $1.5 billion, and Circle chief executive Jeremy Allaire said Circle had frozen more than 800 million USDC.\n\n## How the money moved\n\nAn on-chain tally published by Decrypt traced at least $5.57 billion leaving Binance-linked wallets on Thursday across the Ethereum, Bitcoin and Tron networks. The first large Ethereum transfer was recorded at 20:24 UTC (about 1:54 am IST on Friday).\n\n## Who is suspected\n\nBlockchain intelligence firm TRM Labs linked the breach with \"high confidence\" to TraderTraitor, a hacking group tied to North Korea, citing similarities to earlier heists and the use of the Tornado Cash mixing service, Forbes reported. Binance has not commented on who was responsible.\n\n> \"It does look like a hack on Binance.\" Changpeng Zhao, Binance co-founder, on X\n\n## Market impact\n\nCrypto prices fell sharply. Bitcoin dropped about 4.5% to a six-week low of $76,368 before recovering to around $78,400, and Ether fell more than 5%. Binance's own BNB token slid between 5% and 7%. Several South Korean won-based exchanges issued withdrawal warnings to their users.\n\nThe investigation is continuing and the figures may change. We will update this story.",
+  "sources": [
+    {
+      "title": "Forbes: Binance says $6.3 billion impacted in record crypto hack, suspends withdrawals",
+      "url": "https://forbes.com/sites/antoniopequenoiv/2026/10/30/binance-says-63-billion-impacted-in-record-crypto-hack-suspends-withdrawals"
+    },
+    {
+      "title": "Decrypt: Binance drained of $5.5 billion in suspected hack, Tether and Circle freeze $1.8 billion",
+      "url": "https://decrypt.co/382191/binance-suspected-hack-5-billion-tether-circle-freeze-crypto"
+    },
+    {
+      "title": "ABC News: Billions stolen as Binance targeted in largest cryptocurrency hack in history",
+      "url": "https://www.abc.net.au/news/2026-10-30/largest-cryptocurrency-hack-billions-stolen-binance/107327732"
+    },
+    {
+      "title": "SBS News: Today's major news (October 30, 2026)",
+      "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008823063"
+    }
+  ]
+}

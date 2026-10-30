@@ -1,0 +1,22 @@
+{
+  "title": "ISRO set to launch NVS-03 tonight to shore up India's NavIC navigation system",
+  "dek": "The GSLV-F18 is scheduled to lift off from Sriharikota at 11:51 pm. NavIC has been running short of working satellites since NVS-02 failed to reach its orbit.",
+  "section": "Science",
+  "author": "Declaration Desk",
+  "publishedAt": "2026-10-30T06:35:00.000Z",
+  "updatedAt": "2026-10-30T06:35:00.000Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The countdown is under way at the Satish Dhawan Space Centre in Sriharikota for tonight's launch of the GSLV-F18 rocket, which will carry the navigation satellite NVS-03. Lift-off is scheduled for 11:51 pm IST on Friday, October 30.\n\nNVS-03 is the third of five second-generation satellites for NavIC (Navigation with Indian Constellation), India's own satellite positioning system, which serves as a regional alternative to GPS.\n\n## Why this launch matters\n\nNavIC has been running below strength. Its predecessor, NVS-02, launched in January 2025 as ISRO's 100th mission from Sriharikota, reached its transfer orbit but could not be raised to its planned orbit because of a propulsion problem. The government has said only three satellites are currently providing positioning, navigation and timing services, which limits NavIC's ability to work independently.\n\nA successful launch will not restore full service straight away. The satellite must first reach its designated orbit and pass in-orbit testing before it can be commissioned. NVS-04 and NVS-05 are expected to follow.\n\nWe will update this story after the launch.",
+  "sources": [
+    {
+      "title": "The CSR Journal: ISRO gears up to launch NVS-03 on GSLV-F18",
+      "url": "https://thecsrjournal.in/isro-to-launch-nvs-03-navigation-satellite-on-october-30-2026-aiming-to-enhance-indias-navic-system-and-restore-independent-positioning-services"
+    },
+    {
+      "title": "The News Insight: Morning headlines, October 30, 2026",
+      "url": "https://enewsinsight.com/tni-morning-news-headlines-october-30-2026/"
+    }
+  ]
+}
