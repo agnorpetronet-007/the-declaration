@@ -9,6 +9,7 @@ Source for the public news site. Every push to `main` rebuilds and publishes the
 | `content/articles/<id>.json` | One file per story. The file name (lowercase, hyphens) becomes the web address: `/story/<id>/` |
 | `site.json` | Site name, domain, contact email, grievance officer, list of sections |
 | `assets/` | Logo, styles, scripts, share image |
+| `content/cards/<id>.jpg` | Share image for each story (WhatsApp/X preview). Make with `npm install && node tools/cards.js` |
 | `build.js` | Turns the stories into web pages. Run `node build.js` to preview locally in `_site/` |
 
 ## Story file format
@@ -32,6 +33,8 @@ Source for the public news site. Every push to `main` rebuilds and publishes the
 - Times are in UTC; the site shows them in IST.
 - `lead: true` puts the story at the top of the front page (the newest lead wins).
 - `breaking: true` shows the red LIVE bar for 36 hours.
+- `format`: `"brief"` (about 200 words), `"standard"` (500-700 words, the default) or `"indepth"` (900-1,200 words). Shown as "Brief", "N min read" or "In depth · N min read".
+- `topics`: 1-3 short tags, such as `["Cyclone Arnab", "Odisha"]`. Each topic gets its own page at `/topic/<name>/`, and related stories are chosen by shared topics. Reuse an existing topic name exactly when the story continues a running story.
 - `"status": "draft"` keeps a story off the site.
 - `image` (optional): `{"src": "file-name.jpg", "alt": "...", "caption": "...", "credit": "..."}`. The file goes in `content/images/` (lowercase, hyphens; jpg/png/webp, about 1600×900). Always shown inside the story. Add `"hero": true` only when the graphic explains the story at a glance (a route diagram, a key-facts card); a hero graphic is also shown under the headline when that story leads the front page or a section page. Charts and supporting graphics stay inside the story.
 - To correct a story, edit the text, set `updatedAt`, and fill in `correction`.

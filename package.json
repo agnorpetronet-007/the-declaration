@@ -1,0 +1,10 @@
+{
+  "name": "the-declaration",
+  "private": true,
+  "description": "The Declaration news site. Build: node build.js. Share images: npm install && node tools/cards.js",
+  "devDependencies": {
+    "@fontsource/ibm-plex-mono": "5.1.0",
+    "@fontsource/playfair-display": "5.1.0",
+    "@fontsource/source-serif-4": "5.1.0"
+  }
+}

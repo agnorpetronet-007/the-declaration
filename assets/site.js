@@ -44,6 +44,30 @@
     }, 120000);
   }
 
+  // Light / dark switch (remembered on this device only)
+  document.querySelectorAll("[data-theme-toggle]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      var cur = document.documentElement.getAttribute("data-theme");
+      if (!cur) cur = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      var next = cur === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      try { localStorage.setItem("theme", next); } catch (e) {}
+    });
+  });
+
+  // Reading progress on story pages
+  var bar = document.querySelector(".progress i"), story = document.querySelector(".story");
+  if (bar && story) {
+    var upd = function () {
+      var r = story.getBoundingClientRect(), total = r.height - window.innerHeight;
+      var p = total > 0 ? Math.min(1, Math.max(0, -r.top / total)) : 1;
+      bar.style.width = (p * 100).toFixed(1) + "%";
+    };
+    window.addEventListener("scroll", upd, { passive: true });
+    window.addEventListener("resize", upd);
+    upd();
+  }
+
   // Copy link button
   document.querySelectorAll("[data-copy]").forEach(function (btn) {
     btn.addEventListener("click", function () {
