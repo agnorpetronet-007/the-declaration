@@ -26,5 +26,11 @@
       "title": "SBS News: Today's major news (October 30, 2026)",
       "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008823063"
     }
-  ]
+  ],
+  "image": {
+    "src": "crypto-exchange-hacks-compared.jpg",
+    "alt": "Bar chart: Binance October 2026, $6.3 billion affected; Bybit February 2025, $1.5 billion; Binance October 2022, $570 million; Bitget September 2026, $388 million",
+    "caption": "Value of crypto assets affected in major exchange hacks, as reported",
+    "credit": "Graphic: The Declaration. Sources: Binance, Forbes, Decrypt"
+  }
 }
