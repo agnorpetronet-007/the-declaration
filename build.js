@@ -179,7 +179,10 @@ const secondary = (s, root) => `<article class="sec">${kicker(s, root)}<h3><a hr
 const compact = (s, root) => `<article class="mini-card">${kicker(s, root)}<h3><a href="${href(s, root)}">${esc(s.title)}</a></h3>${s.dek ? `<p>${esc(clip(s.dek, 150))}</p>` : ""}<div class="byline">${ago(s)} · ${readTime(s)}</div></article>`;
 // Top of a page: secondaries | lead | latest rail
 function topBlock(list, root, now, latestTitle = "Latest") {
-  const lead = list.find((s) => s.lead) || list[0];
+  // The lead is the newest story marked lead, as long as it is fresh (18 hours). If nothing fresh is marked,
+  // the newest live breaking story leads, then simply the newest story, so the front page never goes stale.
+  const fresh = (s) => now - when(s) < 18 * 3600e3;
+  const lead = list.find((s) => s.lead && fresh(s)) || list.find((s) => isLive(s, now)) || list[0];
   const others = list.filter((s) => s !== lead);
   const secs = [...others.filter((s) => isLive(s, now)), ...others.filter((s) => !isLive(s, now))].slice(0, 3);
   const lp = firstPara(lead);
