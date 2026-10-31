@@ -309,3 +309,50 @@ footer .mini{display:block;margin:0 auto;width:min(300px,70%);aspect-ratio:1000/
 [hidden]{display:none!important}
 
 .src-tag{display:inline-block;font:600 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--red);border:1px solid currentColor;padding:1px 6px;margin-right:8px;vertical-align:1px}
+
+/* ---------- Phone layout refinements ---------- */
+.util-search{display:none;align-items:center}
+@media (max-width:700px){
+  /* compact header: smaller masthead, search moves to an icon in the top bar */
+  .util{padding-block:10px;font-size:11.5px}
+  .util-r{gap:14px}
+  .util-search{display:inline-flex}
+  .mast{padding-block:16px 12px}
+  .mast .logo{width:min(250px,72%)}
+  .mast.small{padding-block:12px 10px}
+  .mast.small .logo{width:min(190px,56%)}
+  .rail{flex-wrap:nowrap;gap:0}
+  .rail .search{display:none}
+  .sections{flex-basis:auto;-webkit-mask-image:linear-gradient(to right,#000 85%,transparent);mask-image:linear-gradient(to right,#000 85%,transparent);padding-right:24px;scroll-snap-type:x proximity}
+  .sections a{padding:12px 10px 10px;font-size:11.5px;scroll-snap-align:start}
+  .sections a:first-child{padding-left:0}
+  /* Latest / LIVE bar: one tidy block */
+  .livebar .wrap{gap:10px;padding-block:9px;align-items:flex-start}
+  .livebar .tag{padding-right:10px;font-size:10px;padding-top:3px}
+  .livebar a{font-size:14px;line-height:1.35;white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .latest-bar .ticker a{white-space:normal;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+  .latest-bar .ticker a[hidden]{display:none!important}
+  .latest-bar .tk-time{font-size:11px}
+  /* headlines: avoid awkward balanced breaks on narrow screens */
+  h1,h2,h3,.story h1,.fp-lead h2,.sec h3,.mini-card h3,.card h3,.page-head h1,.block-head h2{text-wrap:pretty}
+  main{padding-block:22px 44px}
+  .fp-lead h2{font-size:29px;line-height:1.12}
+  .story h1{font-size:32px;line-height:1.1}
+  .block-head{padding-top:16px}
+  .block-head h2{font-size:21px}
+  .more-news,.by-section,.more{margin-top:34px}
+  .mini-card h3,.sec h3{font-size:18px}
+  /* By section: one column list */
+  .strip{padding-block:14px}
+  .strip-name{display:flex;justify-content:space-between;align-items:baseline}
+  .strip-name h2{font-size:19px;margin:0}
+  .strip-list{grid-template-columns:minmax(0,1fr);gap:0}
+  .strip-list li{flex-direction:row;justify-content:space-between;gap:14px;padding-block:9px;border-top:1px solid var(--rule)}
+  .strip-list li:first-child{border-top:0}
+  .strip-list a{font-size:15.5px}
+  .strip-list time{flex:none;padding-top:3px}
+  .prose>p:first-child::first-letter{font-size:3.1em}
+  .standards{margin-top:40px}
+  .standards h2{font-size:22px}
+  .fbase{flex-direction:column}
+}

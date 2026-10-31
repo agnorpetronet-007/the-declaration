@@ -33,7 +33,11 @@ function load() {
     if (d.status === "draft") continue;
     const pub = new Date(d.publishedAt);
     if (!d.title || isNaN(pub)) throw new Error(f + ": needs a title and a valid publishedAt");
-    const upd = d.updatedAt ? new Date(d.updatedAt) : null;
+    let upd = d.updatedAt ? new Date(d.updatedAt) : null;
+    // Never show a time that hasn't happened yet: future timestamps are capped at the build time.
+    const buildNow = new Date();
+    if (pub > buildNow) { console.warn(f + ": publishedAt is in the future; showing build time instead"); pub.setTime(buildNow.getTime()); }
+    if (upd && upd > buildNow) upd = new Date(buildNow);
     list.push({
       id, title: d.title, dek: d.dek || "", body: d.body || "", section: d.section || "News",
       author: d.author || "Declaration Desk", publishedAt: pub, updatedAt: upd && !isNaN(upd) ? upd : null,
@@ -97,7 +101,7 @@ ${jsonld ? `<script type="application/ld+json">${JSON.stringify(jsonld).replace(
 <body${newest ? ` data-newest="${esc(newest)}"` : ""}>
 ${progress ? '<div class="progress" aria-hidden="true"><i></i></div>' : ""}
 <div class="wrap">
-  <div class="util"><span id="today">${esc(fLong.format(new Date()))}</span><span class="util-r"><a href="${root}about/">About</a><a href="${root}team/">Team</a><a href="${root}feed.xml">RSS</a><button type="button" class="theme" data-theme-toggle aria-label="Switch between light and dark mode"><span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span><span class="tt">Theme</span></button></span></div>
+  <div class="util"><span id="today">${esc(fLong.format(new Date()))}</span><span class="util-r"><a class="util-search" href="${root}search/" aria-label="Search"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg></a><a href="${root}about/">About</a><a href="${root}team/">Team</a><a href="${root}feed.xml">RSS</a><button type="button" class="theme" data-theme-toggle aria-label="Switch between light and dark mode"><span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span><span class="tt">Theme</span></button></span></div>
   <a class="mast${small ? " small" : ""}" href="${root}" aria-label="${esc(site.name)}, front page"><span class="logo" aria-hidden="true"></span><span class="sr">${esc(site.name)}. ${esc(site.tagline)}.</span></a>
   <nav class="rail" aria-label="Sections">
     <div class="sections">${nav}</div>
