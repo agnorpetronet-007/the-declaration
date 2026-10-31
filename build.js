@@ -42,8 +42,8 @@ function load() {
       id, title: d.title, dek: d.dek || "", body: d.body || "", section: d.section || "News",
       author: d.author || "Declaration Desk", publishedAt: pub, updatedAt: upd && !isNaN(upd) ? upd : null,
       lead: !!d.lead, breaking: !!d.breaking, correction: d.correction || "",
-      format: ["brief", "standard", "indepth"].includes(d.format) ? d.format : "standard",
-      topics: Array.isArray(d.topics) ? d.topics.filter((t) => typeof t === "string" && t.trim()).map((t) => t.trim()).slice(0, 5) : [],
+      format: ["brief", "standard", "indepth", "longread"].includes(d.format) ? d.format : "standard",
+      topics: [...new Set([...(d.format === "longread" ? ["The Sunday Read"] : []), ...(Array.isArray(d.topics) ? d.topics.filter((t) => typeof t === "string" && t.trim()).map((t) => t.trim()) : [])])].slice(0, 5),
       card: fs.existsSync(path.join(ROOT, "content/cards", id + ".jpg")) ? id + ".jpg" : null,
       image: d.image && /^[a-z0-9-]+\.(jpg|jpeg|png|webp)$/.test(d.image.src || "") && fs.existsSync(path.join(ROOT, "content/images", d.image.src)) ? d.image : null,
       sources: Array.isArray(d.sources) ? d.sources.filter((s) => s && /^https?:\/\//.test(s.url || "")) : [],
@@ -143,7 +143,7 @@ function byline(s, withUpdate) {
 }
 const card = (s, root) => `<article class="card">${kicker(s, root)}<h3><a href="${href(s, root)}">${esc(s.title)}</a></h3>${s.dek ? `<p>${esc(s.dek)}</p>` : ""}<div class="byline"><time data-ago datetime="${when(s).toISOString()}">${ist(when(s))}</time> · ${readTime(s)}</div></article>`;
 const minutes = (s) => Math.max(1, Math.round((s.title + " " + s.dek + " " + s.body).split(/\s+/).length / 220));
-const readTime = (s) => s.format === "brief" ? "Brief" : s.format === "indepth" ? `In depth · ${minutes(s)} min read` : `${minutes(s)} min read`;
+const readTime = (s) => s.format === "brief" ? "Brief" : s.format === "longread" ? `The Sunday Read · ${minutes(s)} min read` : s.format === "indepth" ? `In depth · ${minutes(s)} min read` : `${minutes(s)} min read`;
 const topicHref = (t, root) => `${root}topic/${slug(t)}/`;
 const tagsHtml = (s, root) => s.topics.length ? `<div class="tags"><span class="label">Topics</span>${s.topics.map((t) => `<a href="${topicHref(t, root)}">${esc(t)}</a>`).join("")}</div>` : "";
 function relatedTo(s, stories, n) {
@@ -213,6 +213,9 @@ function topBlock(list, root, now, latestTitle = "Latest") {
   return { lead, used: [lead, ...secs, ...latestList], html };
 }
 const opinionCol = (s, root) => `<article class="op"><h3><a href="${href(s, root)}">${esc(s.title)}</a></h3>${s.dek ? `<p>${esc(s.dek)}</p>` : ""}<div class="who">${esc(s.author)}</div></article>`;
+// The Sunday Read: the week's long read keeps its own slot on the front page for 7 days.
+const SUNDAY_TOPIC = "The Sunday Read";
+const sundayBand = (s, root) => `<section class="sunday${s.image && s.image.hero ? " has-fig" : ""}"><div class="sunday-text"><div class="sunday-head"><span class="label">The Sunday Read</span><a href="${root}topic/${slug(SUNDAY_TOPIC)}/">All Sunday Reads ›</a></div><h2><a href="${href(s, root)}">${esc(s.title)}</a></h2>${s.dek ? `<p class="dek">${esc(s.dek)}</p>` : ""}<div class="byline">${esc(s.section)} · ${ist(s.publishedAt)} · ${minutes(s)} min read</div><a class="btn" href="${href(s, root)}">Read the long read →</a></div>${s.image && s.image.hero ? `<div class="sunday-fig">${heroFig(s, root)}</div>` : ""}</section>`;
 const standardsBox = (root) => `<aside class="standards"><div><div class="label">Independent journalism</div><h2>Every story sourced. Every correction in the open.</h2></div><a class="btn" href="${root}about/">Our standards →</a></aside>`;
 
 // ---------- build ----------
@@ -232,7 +235,9 @@ function build() {
     let body;
     if (!stories.length) body = `<main><div class="notice"><div class="label kicker">First edition</div><h2>Stories will appear here as they are published</h2></div></main>`;
     else {
-      const { used, html } = topBlock(stories, root, now);
+      const sunday = stories.find((s) => s.format === "longread" && now - s.publishedAt < 7 * 24 * 3600e3);
+      const { used, html } = topBlock(stories.filter((s) => s !== sunday), root, now);
+      if (sunday) used.push(sunday);
       const rest = stories.filter((s) => !used.includes(s));
       const more = rest.slice(0, 8);
       const moreHtml = more.length ? `<section class="more-news"><div class="block-head"><h2>More news</h2></div><div class="grid4">${more.map((s) => compact(s, root)).join("")}</div></section>` : "";
@@ -243,7 +248,7 @@ function build() {
         return `<section class="strip"><div class="strip-name"><h2>${esc(sec)}</h2><a href="${root}section/${slug(sec)}/">All ${esc(sec)} ›</a></div><ul class="strip-list">${items.map((s) => `<li><a href="${href(s, root)}">${esc(s.title)}</a><time datetime="${s.publishedAt.toISOString()}">${stamp(s.publishedAt, now)}</time></li>`).join("")}</ul></section>`;
       }).join("");
       const blocks = strips ? `<div class="by-section"><div class="block-head"><h2>By section</h2></div>${strips}</div>` : "";
-      body = `<main>${html}${moreHtml}${blocks}${standardsBox(root)}</main>`;
+      body = `<main>${html}${sunday ? sundayBand(sunday, root) : ""}${moreHtml}${blocks}${standardsBox(root)}</main>`;
     }
     write("index.html", layout({ root, canonical: "", body, live: liveBar(stories, root, now), current: "front", newest, jsonld: { "@context": "https://schema.org", "@type": "NewsMediaOrganization", name: site.name, description: site.description, ...(BASE ? { url: BASE + "/", logo: BASE + "/assets/share.png" } : {}) } }));
   }

@@ -59,3 +59,7 @@ Never use photos from news sites, agencies, Google Images or social media. Never
 ## Primary sources first
 
 Wherever possible, stories are reported from the original source: court judgments and orders, government and ministry releases (PIB, West Bengal government), regulator and agency statements (IMD, Election Commission, RBI, SEBI, police, NDRF/SDRF), stock-exchange filings, official data and reports. Mark these in `sources` with `"primary": true`; the site lists them first, labelled "Original document". Other news outlets are used to find stories and for material only they have (their own interviews or eyewitness reporting), always credited by name in the text ("told The Telegraph"). Never write "sources said" for sourcing we did not do ourselves.
+
+## The Sunday Read
+
+Every Sunday the desk publishes one long read (`"format": "longread"`, 1,800-2,800 words). It covers a development that is in the news, or one missing the limelight, that has the potential to shape future events. The build tags it "The Sunday Read" automatically, so all of them are collected at /topic/the-sunday-read/. The newest one also gets its own slot on the front page for 7 days, between the top stories and "More news". It does not take the lead slot.

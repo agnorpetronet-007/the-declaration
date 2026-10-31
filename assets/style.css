@@ -356,3 +356,19 @@ footer .mini{display:block;margin:0 auto;width:min(300px,70%);aspect-ratio:1000/
   .standards h2{font-size:22px}
   .fbase{flex-direction:column}
 }
+
+/* The Sunday Read: the week's long read, on the front page for 7 days */
+.sunday{margin-top:44px;border-top:3px solid var(--ink);border-bottom:1px solid var(--rule);padding:26px 0 30px;display:grid;grid-template-columns:1fr;gap:32px;align-items:center}
+.sunday.has-fig{grid-template-columns:5fr 6fr}
+.sunday-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;margin-bottom:14px}
+.sunday-head .label{color:var(--red);font-size:11.5px;letter-spacing:.14em}
+.sunday-head a{font:11.5px var(--mono);letter-spacing:.1em;text-transform:uppercase;color:var(--ink-2);text-decoration:none}
+.sunday-head a:hover{color:var(--red)}
+.sunday h2{font:italic 700 clamp(28px,3.4vw,44px)/1.12 var(--display);margin:0 0 14px;max-width:26ch;text-wrap:pretty}
+.sunday h2 a{color:inherit;text-decoration:none}
+.sunday h2 a:hover{color:var(--red)}
+.sunday .dek{font-size:19px;line-height:1.5;color:var(--ink-2);margin:0 0 14px;max-width:60ch}
+.sunday .btn{margin-top:18px;display:inline-block}
+.sunday-fig figure{margin:0}
+@media (max-width:900px){.sunday.has-fig{grid-template-columns:1fr}}
+@media (max-width:700px){.sunday{margin-top:32px;padding:20px 0 24px;gap:20px}.sunday .dek{font-size:17px}.sunday-head{flex-wrap:wrap}}
