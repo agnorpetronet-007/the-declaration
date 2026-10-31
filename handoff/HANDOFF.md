@@ -16,6 +16,7 @@ Everything Claude needs to carry on is in these two files. The site's code and s
 | Domain and DNS | GoDaddy | Nothing. |
 | Hosting | GitHub Pages | Nothing. |
 | Decisions, rules, settings | This file | Attach it in the new account. |
+| The Sunday Read (Sundays 4:23 am IST) | A second scheduled task in the OLD account | Recreate it from `sunday-read-prompt.md`, then delete the old one (id `trig_013WtDrA2ENk2DXBBHCQyWaq`). |
 | News desk (every 3 hours) | A scheduled task in the OLD Claude account | Recreate it in the new account from `desk-prompt.md`, then delete the old one. |
 | Old chat history | Old Claude account | Can't be moved, and isn't needed. |
 
