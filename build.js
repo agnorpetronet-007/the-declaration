@@ -275,7 +275,7 @@ function build() {
   ${s.correction ? `<div class="correction"><b>Correction:</b> ${inline(s.correction)}</div>` : ""}
   ${s.sources.length ? `<section class="sources"><h2 class="label">Sources</h2><ol>${[...s.sources.filter((x) => x.primary), ...s.sources.filter((x) => !x.primary)].map((x) => `<li>${x.primary ? '<span class="src-tag">Original document</span>' : ""}<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a></li>`).join("")}</ol></section>` : ""}
   ${tagsHtml(s, root)}
-  <p class="disclosure">This story was researched and drafted with AI assistance and reviewed by an editor before publication. Spotted an error? <a href="${root}about/#contact">Tell us</a>. <a href="${root}corrections/">Corrections log</a>.</p>
+  <p class="disclosure">${s.section === "Opinion" ? `This is an opinion piece. The views expressed are the author's own and do not necessarily reflect those of ${esc(site.name)}.` : s.author === "Declaration Desk" ? "This story was researched and drafted with AI assistance and reviewed by an editor before publication." : "This story was reviewed by an editor before publication."} Spotted an error? <a href="${root}about/#contact">Tell us</a>. <a href="${root}corrections/">Corrections log</a>.</p>
 </article>
 ${related.length ? `<section class="more"><div class="block-head"><h2>Related coverage</h2></div><div class="grid4">${related.map((x) => compact(x, root)).join("")}</div></section>` : ""}
 ${latestOther.length ? `<section class="more-news"><div class="block-head"><h2>Latest from ${esc(site.name)}</h2><a href="${root}">Front page ›</a></div><div class="grid4">${latestOther.map((x) => compact(x, root)).join("")}</div></section>` : ""}
