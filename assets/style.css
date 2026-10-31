@@ -1,7 +1,7 @@
-/* The Declaration. Direction taken from the editor's Figma reference: cream paper, black ink, one crimson accent;
+/* The Declaration. Direction taken from the editor's Figma reference: neutral off-white paper (owner asked for no warm/brown tint), black ink, one crimson accent;
    heavy serif headlines, typewriter-mono for everything that is metadata (dates, bylines, labels, nav). */
 :root{
-  --paper:#F2EDE3;--paper-2:#E7E0D3;--ink:#1A1714;--ink-2:#4B463F;--ink-3:#7A7369;--rule:#D3CBBC;
+  --paper:#F7F7F4;--paper-2:#ECEDE8;--ink:#161714;--ink-2:#45473F;--ink-3:#6F7268;--rule:#D8D9D2;
   --red:#B3182B;--red-solid:#B3182B;--night:#151613;--night-ink:#ECEDE5;--night-2:#A3A79B;
   --display:"Playfair Display",Georgia,"Times New Roman",serif;
   --body:"Source Serif 4","Iowan Old Style",Georgia,serif;

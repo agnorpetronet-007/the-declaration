@@ -62,7 +62,7 @@ Everything Claude needs to carry on is in these two files. The site's code and s
 
 ## Design
 
-- Owner's logo; look based on their Figma Make reference. Light mode uses cream paper, a crimson accent, Playfair Display headlines and IBM Plex Mono metadata.
+- Owner's logo; look based on their Figma Make reference. Light mode uses neutral off-white paper (#F7F7F4; the owner asked on 1 Nov for no warm or brown tint), a crimson accent, Playfair Display headlines and IBM Plex Mono metadata.
 - **Dark mode is neutral black**. Never brown. Tokens: paper #121310, paper-2 #1B1D19, ink #ECEDE5, ink-2 #B9BCB0, ink-3 #8A8E82, rule #2E312B, red #E0566A; night #0B0C0A.
 - **Phone layout** (≤700px):
   - compact masthead

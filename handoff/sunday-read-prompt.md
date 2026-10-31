@@ -54,7 +54,7 @@ Do NOT change any other story file, including other stories' lead or breaking fl
 ## 5. Picture (usually worth one for a long read, but only if it explains something)
 - One original graphic is encouraged when it genuinely helps: a chart of the key trend, a dated timeline, or a schematic diagram. Set "hero": true when it explains the subject at a glance; it then also appears beside the headline in the Sunday Read slot on the front page.
 - Never use photos from news sites, agencies, stock sites or social media. Never depict identifiable people. Never draw maps with international or state borders; use schematic diagrams instead.
-- House style: 1600×900, background #F2EDE3, ink #1A1714, crimson #B3182B, blue #2E5A86. Playfair Display 700/800 for headlines, IBM Plex Mono for labels, Source Serif 4 for text. Load the fonts from node_modules/@fontsource (latin .woff2) via @font-face. No text smaller than about 22px.
+- House style: 1600×900, background #F7F7F4, ink #1A1714, crimson #B3182B, blue #2E5A86. Playfair Display 700/800 for headlines, IBM Plex Mono for labels, Source Serif 4 for text. Load the fonts from node_modules/@fontsource (latin .woff2) via @font-face. No text smaller than about 22px.
 - Render the graphic as HTML with Playwright (`require('playwright')`, viewport 1600×900, wait for document.fonts.ready), saved as JPEG (quality about 88) to content/images/<slug>.jpg. Include a kicker such as "THE SUNDAY READ · WATER", a title, a source footnote and "Graphic: The Declaration". Every number must come from your sources. Look at the result and fix any clipping.
 - Add to the story: "image": {"src", "alt" (a full description including the numbers), "caption", "credit": "Graphic: The Declaration", "hero"}.
 
