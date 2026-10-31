@@ -71,7 +71,7 @@ Everything Claude needs to carry on is in these two files. The site's code and s
   - LIVE and Latest bars clamped to 2 lines
   - `text-wrap: pretty` on headlines
   - one-column section index
-- **Graphics**: 1600×900. Colours #F2EDE3, #1A1714, #B3182B, #2E5A86. Fonts Playfair Display, IBM Plex Mono and Source Serif 4. Rendered with Playwright.
+- **Graphics**: 1600×900. Colours #F7F7F4 (background), #1A1714, #B3182B, #2E5A86. Fonts Playfair Display, IBM Plex Mono and Source Serif 4. Rendered with Playwright.
 
 ## Technical notes for Claude
 
