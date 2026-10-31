@@ -25,7 +25,7 @@ Source for the public news site. Every push to `main` rebuilds and publishes the
   "lead": false,
   "breaking": false,
   "body": "Paragraphs separated by a blank line.\n\n## A subheading\n\n> A pull quote\n\nLinks look like [this](https://example.com).",
-  "sources": [{ "title": "Publisher: headline", "url": "https://..." }],
+  "sources": [{ "title": "Calcutta High Court: order in ... (PDF)", "url": "https://...", "primary": true }, { "title": "Publisher: headline", "url": "https://..." }],
   "correction": ""
 }
 ```
@@ -55,3 +55,7 @@ Most stories do not need a picture. Add one only when it tells the reader someth
 3. **Wikimedia Commons files** whose licence has been checked on the file page and is Public Domain, CC0, CC BY or CC BY-SA, credited exactly as the licence requires (author, licence, link).
 
 Never use photos from news sites, agencies, Google Images or social media. Never use photos of identifiable people. Do not draw maps with international or state borders; use schematic diagrams instead.
+
+## Primary sources first
+
+Wherever possible, stories are reported from the original source: court judgments and orders, government and ministry releases (PIB, West Bengal government), regulator and agency statements (IMD, Election Commission, RBI, SEBI, police, NDRF/SDRF), stock-exchange filings, official data and reports. Mark these in `sources` with `"primary": true`; the site lists them first, labelled "Original document". Other news outlets are used to find stories and for material only they have (their own interviews or eyewitness reporting), always credited by name in the text ("told The Telegraph"). Never write "sources said" for sourcing we did not do ourselves.

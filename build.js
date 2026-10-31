@@ -273,7 +273,7 @@ function build() {
   ${figure(s, root, false)}
   <div class="prose">${prose(s.body)}</div>
   ${s.correction ? `<div class="correction"><b>Correction:</b> ${inline(s.correction)}</div>` : ""}
-  ${s.sources.length ? `<section class="sources"><h2 class="label">Sources</h2><ol>${s.sources.map((x) => `<li><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a></li>`).join("")}</ol></section>` : ""}
+  ${s.sources.length ? `<section class="sources"><h2 class="label">Sources</h2><ol>${[...s.sources.filter((x) => x.primary), ...s.sources.filter((x) => !x.primary)].map((x) => `<li>${x.primary ? '<span class="src-tag">Original document</span>' : ""}<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a></li>`).join("")}</ol></section>` : ""}
   ${tagsHtml(s, root)}
   <p class="disclosure">This story was researched and drafted with AI assistance and reviewed by an editor before publication. Spotted an error? <a href="${root}about/#contact">Tell us</a>. <a href="${root}corrections/">Corrections log</a>.</p>
 </article>

@@ -307,3 +307,5 @@ footer .mini{display:block;margin:0 auto;width:min(300px,70%);aspect-ratio:1000/
 @media (max-width:560px){.latest-bar .ticker a{white-space:normal}}
 
 [hidden]{display:none!important}
+
+.src-tag{display:inline-block;font:600 10px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--red);border:1px solid currentColor;padding:1px 6px;margin-right:8px;vertical-align:1px}
