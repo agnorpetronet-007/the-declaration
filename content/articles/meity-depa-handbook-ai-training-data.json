@@ -1,0 +1,28 @@
+{
+  "author": "Declaration Desk",
+  "publishedAt": "2026-10-31T13:55:00.000Z",
+  "updatedAt": "2026-10-31T13:55:00.000Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "correction": "",
+  "title": "Government sets out rules for sharing data to train AI without handing it over",
+  "dek": "MeitY's new handbook applies India's DEPA data-sharing framework to AI. The idea: the model goes to the data, not the other way round.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Artificial intelligence",
+    "Data protection"
+  ],
+  "body": "The Ministry of Electronics and Information Technology (MeitY) has published a handbook on using India's Data Empowerment and Protection Architecture (DEPA) to train artificial intelligence models. The aim is to let hospitals, banks, government departments and other institutions share data for AI training without giving up control of it.\n\nMeitY Secretary S. Krishnan released the handbook on Saturday, October 31, at a roundtable in Bengaluru held with the iSPIRT Foundation, a technology think-tank, news agency ANI reported.\n\n## How it is meant to work\n\nThe framework combines four elements: contractual permissions that set out what the data may be used for; controlled computing environments in which training takes place; privacy-enhancing safeguards; and provenance tracking, which records where data came from, what permissions apply to it, and how it is used during training.\n\n> \"Under DEPA, the model travels to the data, rather than the data travelling to the model.\"\n\nThat was how Ajay Kumar Sood, the Principal Scientific Adviser to the Government of India, described it at the launch, according to ANI. In practice, an AI developer would not receive a copy of, say, a hospital's patient records. Training would instead run inside an environment the data holder controls, under agreed terms. Sood said this could make it easier for several institutions, including ones in different countries, to collaborate.\n\n## Why it matters\n\nBuilding AI systems for Indian languages, healthcare or agriculture needs large amounts of Indian data, much of it sensitive and held by institutions that are wary of sharing it. Krishnan said India's AI ambitions had to be matched by the ability to use data responsibly and securely.\n\nThe handbook also arrives as organisations adjust to India's Digital Personal Data Protection Act, 2023, which sets out how personal data may be collected and processed. DEPA was developed with iSPIRT and already underpins India's Account Aggregator system for sharing financial data with consent.\n\n## What happens next\n\nThe handbook is guidance, not a new law. Whether it is widely used will depend on data holders and AI developers adopting it, and on how it works alongside the data protection rules. The launch reports did not include a link to the handbook; we will add one once MeitY publishes it.",
+  "sources": [
+    {
+      "title": "ANI: MeitY launches DEPA handbook to enable secure data sharing for AI training",
+      "url": "https://aninews.in/news/business/meity-launches-depa-handbook-to-enable-secure-data-sharing-for-ai-training20261031142428/"
+    },
+    {
+      "title": "Daily Prabhat (ANI): MeitY launches DEPA handbook for AI training",
+      "url": "https://www.dailyprabhat.com/meity-launches-depa-handbook-to-enable-secure-data-sharing-for-ai-training/"
+    }
+  ]
+}
