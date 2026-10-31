@@ -202,6 +202,9 @@ main{padding-block:32px 56px}
 .prose p{margin:0 0 1.15em}
 .prose>p:first-child::first-letter{font-family:var(--display);font-weight:800;float:left;font-size:3.7em;line-height:.8;padding:6px 10px 0 0}
 .prose h2{font:700 25px var(--display);margin:1.6em 0 .5em}
+.prose ul{margin:-.4em 0 1.3em;padding:0;list-style:none}
+.prose li{position:relative;padding-left:22px;margin:0 0 .55em}
+.prose li::before{content:"";position:absolute;left:2px;top:.72em;width:8px;height:2px;background:var(--red)}
 .prose blockquote{margin:1.5em 0;padding:4px 0 4px 22px;border-left:2px solid var(--red);font:italic 600 23px/1.45 var(--display);color:var(--ink)}
 .prose a{color:var(--red);text-underline-offset:3px}
 .sources{margin-top:36px;padding-top:16px;border-top:1px solid var(--rule)}

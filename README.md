@@ -63,3 +63,7 @@ Wherever possible, stories are reported from the original source: court judgment
 ## The Sunday Read
 
 Every Sunday the desk publishes one long read (`"format": "longread"`, 1,800-2,800 words). It covers a development that is in the news, or one missing the limelight, that has the potential to shape future events. The build tags it "The Sunday Read" automatically, so all of them are collected at /topic/the-sunday-read/. The newest one also gets its own slot on the front page for 7 days, between the top stories and "More news". It does not take the lead slot.
+
+## Lists in story text
+
+A paragraph whose lines start with "- " is shown as a bulleted list. Any lines before the first "- " line stay as a normal paragraph introducing the list. Use lists for "What to watch", "Key numbers", timelines and similar short lines.

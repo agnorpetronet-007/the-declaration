@@ -62,10 +62,17 @@ function prose(text) {
   return text.split(/\n\s*\n/).map((p) => p.trim()).filter(Boolean).map((p) => {
     if (p.startsWith("## ")) return `<h2>${inline(p.slice(3))}</h2>`;
     if (p.startsWith("> ")) return `<blockquote>${inline(p.replace(/^>\s?/gm, ""))}</blockquote>`;
+    // Lists: lines starting with "- " become a bulleted list; any lines before them stay a paragraph.
+    const lines = p.split("\n").map((l) => l.trim()).filter(Boolean);
+    const first = lines.findIndex((l) => l.startsWith("- "));
+    if (first !== -1 && lines.slice(first).every((l) => l.startsWith("- "))) {
+      const lead = lines.slice(0, first).join(" ");
+      return `${lead ? `<p>${inline(lead)}</p>` : ""}<ul>${lines.slice(first).map((l) => `<li>${inline(l.slice(2))}</li>`).join("")}</ul>`;
+    }
     return `<p>${inline(p)}</p>`;
   }).join("\n");
 }
-const firstPara = (s) => (s.body.split(/\n\s*\n/).find((p) => p.trim() && !/^(##|>)/.test(p.trim())) || "").trim().replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*/g, "");
+const firstPara = (s) => (s.body.split(/\n\s*\n/).find((p) => p.trim() && !/^(##|>|- )/.test(p.trim())) || "").trim().replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*/g, "");
 const clip = (t, n) => (t.length > n ? t.slice(0, t.lastIndexOf(" ", n - 20)) + "…" : t);
 
 // ---------- layout ----------
@@ -179,7 +186,7 @@ function liveBar(stories, root, now) {
 }
 const plain = (p) => p.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*/g, "");
 function excerptHtml(s, root) {
-  const paras = s.body.split(/\n\s*\n/).map((p) => p.trim()).filter((p) => p && !/^(##|>)/.test(p)).slice(0, 2).map(plain);
+  const paras = s.body.split(/\n\s*\n/).map((p) => p.trim()).filter((p) => p && !/^(##|>|- )/.test(p)).slice(0, 2).map(plain);
   if (!paras.length) return "";
   let out = [], len = 0;
   for (const p of paras) { if (len > 0 && len + p.length > 700) break; out.push(clip(p, 520)); len += p.length; }
