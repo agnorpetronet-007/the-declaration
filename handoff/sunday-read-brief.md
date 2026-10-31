@@ -1,6 +1,7 @@
 # Sunday Read brief
 
 **For the Sunday Read dated: 2026-11-01 (IST)**
+Status: written in conversation (the owner asked at 01:25 IST to read the researched draft before it is published; Claude is writing it directly).
 **Subject chosen by the owner:** China's mega-dam on the Yarlung Tsangpo (Medog / "lower reaches" hydropower project) and what it means downstream for India (Arunachal, Assam), Bangladesh and the region. This is a slow-moving, hard-to-reverse development that is missing the limelight.
 
 Research gathered on 1 Nov 2026, 01:15-01:30 IST, so the run can go deeper rather than start from zero. **Treat everything below as leads.** Verify every fact in its source (ideally a primary one) before using it. Several items are flagged as unresolved.
