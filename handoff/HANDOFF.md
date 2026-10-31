@@ -39,6 +39,7 @@ Everything Claude needs to carry on is in these two files. The site's code and s
 
 - **Never cover**: celebrity gossip, horoscopes or astrology, unverified viral claims.
 - **Bengal** is the priority region and has its own section.
+- **Geopolitics is a very major part of every edition** (owner, 1 Nov 2026). Each edition has at least 2 geopolitics stories, out of 4-7 stories in total. A geopolitics story leads, in depth, whenever it's the biggest news. The desk sweeps India's neighbourhood (especially Bangladesh), India's foreign policy, wars, great-power relations, energy and shipping, and the UN and international law. Claims in conflicts are always attributed to whoever makes them. Every story explains what it means for India and for Bengal. Stories are tagged "Geopolitics".
 - **Sections**: India, Bengal, World, Politics, Business, Technology, Science, Sport, Culture, Opinion.
 - **Primary sources first.** Use outlets to discover stories, then report from the original document. Primary sources are flagged `"primary": true` and shown first, labelled "Original document". Outlet reporting is credited by name and is never hidden.
 - **Story lengths** (`format`):
