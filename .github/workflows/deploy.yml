@@ -3,6 +3,8 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"   # hourly rebuild so time-based things (breaking bar, lead expiry, "x min ago") stay current
 permissions:
   contents: read
   pages: write

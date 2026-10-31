@@ -20,7 +20,7 @@ const logo = "data:image/png;base64," + fs.readFileSync(path.join(ROOT, "assets/
 function html(s, id) {
   const d = new Date(s.publishedAt);
   const date = new Intl.DateTimeFormat("en-IN", { timeZone: TZ, day: "numeric", month: "long", year: "numeric" }).format(d);
-  const live = s.breaking && Date.now() - d < 36 * 3600e3;
+  const live = s.breaking && Date.now() - new Date(s.updatedAt || s.publishedAt) < 6 * 3600e3;
   return `<!doctype html><meta charset="utf-8"><style>
 @font-face{font-family:PF;font-weight:800;src:url(${font("playfair-display", "playfair-display-latin-800-normal.woff2")})}
 @font-face{font-family:PM;font-weight:500;src:url(${font("ibm-plex-mono", "ibm-plex-mono-latin-500-normal.woff2")})}

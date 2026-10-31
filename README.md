@@ -32,7 +32,7 @@ Source for the public news site. Every push to `main` rebuilds and publishes the
 
 - Times are in UTC; the site shows them in IST.
 - `lead: true` puts the story at the top of the front page (the newest lead wins).
-- `breaking: true` shows the red LIVE bar for 36 hours.
+- `breaking: true` shows the red LIVE bar for 6 hours after the story was published or last updated. With no live breaking story, the bar becomes a dark "Latest" ticker of the five newest headlines. The site rebuilds every hour so these expire on time.
 - `format`: `"brief"` (about 200 words), `"standard"` (500-700 words, the default) or `"indepth"` (900-1,200 words). Shown as "Brief", "N min read" or "In depth · N min read".
 - `topics`: 1-3 short tags, such as `["Cyclone Arnab", "Odisha"]`. Each topic gets its own page at `/topic/<name>/`, and related stories are chosen by shared topics. Reuse an existing topic name exactly when the story continues a running story.
 - `"status": "draft"` keeps a story off the site.

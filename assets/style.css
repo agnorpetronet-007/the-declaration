@@ -297,3 +297,13 @@ footer .mini{display:block;margin:0 auto;width:min(300px,70%);aspect-ratio:1000/
 .corr-list time{display:block;font:12px var(--mono);color:var(--ink-3)}
 .corr-list a{font:700 20px/1.3 var(--display);text-decoration:none;color:var(--ink)}
 .corr-list p{margin:.4em 0 0;font-size:16px;color:var(--ink-2)}
+
+/* Latest ticker (shown when there is no live breaking story) */
+.latest-bar{background:var(--night);color:var(--night-ink)}
+.latest-bar .tag{border-right-color:rgba(255,255,255,.25)}
+.latest-bar .ticker{min-width:0;flex:1}
+.latest-bar .ticker a{color:var(--night-ink);display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.latest-bar .tk-time{font:500 12px var(--mono);color:#E0566A;margin-right:6px}
+@media (max-width:560px){.latest-bar .ticker a{white-space:normal}}
+
+[hidden]{display:none!important}

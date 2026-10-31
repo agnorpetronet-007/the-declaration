@@ -44,6 +44,18 @@
     }, 120000);
   }
 
+  // Hide an expired breaking bar; rotate the Latest ticker
+  var lb = document.querySelector(".livebar[data-until]");
+  if (lb && Date.now() > Date.parse(lb.getAttribute("data-until"))) lb.hidden = true;
+  var tk = document.querySelectorAll(".ticker a");
+  if (tk.length > 1 && !(window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches)) {
+    var ti = 0;
+    setInterval(function () {
+      if (document.hidden) return;
+      tk[ti].hidden = true; ti = (ti + 1) % tk.length; tk[ti].hidden = false;
+    }, 5000);
+  }
+
   // Light / dark switch (remembered on this device only)
   document.querySelectorAll("[data-theme-toggle]").forEach(function (btn) {
     btn.addEventListener("click", function () {

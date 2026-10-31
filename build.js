@@ -157,10 +157,21 @@ const figure = (s, root, linked) => {
   const cap = [s.image.caption, s.image.credit].filter(Boolean).map(esc).join(" · ");
   return `<figure class="fig">${linked ? `<a href="${href(s, root)}" tabindex="-1">${img}</a>` : img}${cap ? `<figcaption>${cap}</figcaption>` : ""}</figure>`;
 };
-const isLive = (s, now) => s.breaking && now - s.publishedAt < 36 * 3600e3;
+// Breaking news stays "breaking" for 6 hours after it was published or last updated.
+const LIVE_HOURS = 6;
+const isLive = (s, now) => s.breaking && now - when(s) < LIVE_HOURS * 3600e3;
+// The red bar shows a live breaking story. With none, a dark "Latest" ticker cycles through the newest headlines,
+// so the bar always reflects the current edition. Pages are rebuilt every hour, and the page's own script
+// also hides an expired breaking bar, so nothing stays up longer than it should.
 function liveBar(stories, root, now) {
   const b = stories.find((s) => isLive(s, now));
-  return b ? `<div class="livebar"><div class="wrap"><span class="tag"><i aria-hidden="true"></i>LIVE</span><a href="${href(b, root)}">BREAKING: ${esc(b.title)}</a></div></div>` : "";
+  if (b) {
+    const until = new Date(when(b).getTime() + LIVE_HOURS * 3600e3).toISOString();
+    return `<div class="livebar" data-until="${until}"><div class="wrap"><span class="tag"><i aria-hidden="true"></i>LIVE</span><a href="${href(b, root)}">BREAKING: ${esc(b.title)}</a></div></div>`;
+  }
+  const latest = stories.slice(0, 5);
+  if (!latest.length) return "";
+  return `<div class="livebar latest-bar"><div class="wrap"><span class="tag">LATEST</span><div class="ticker" aria-live="off">${latest.map((s, i) => `<a href="${href(s, root)}"${i ? " hidden" : ""}><span class="tk-time">${stamp(s.publishedAt, now)}</span> ${esc(s.title)}</a>`).join("")}</div></div></div>`;
 }
 const plain = (p) => p.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1").replace(/\*\*/g, "");
 function excerptHtml(s, root) {
