@@ -1,0 +1,56 @@
+{
+  "title": "Hackers send false nuclear alerts through Ukrainian and Russian warning apps",
+  "dek": "Ukraine's Air Alert app warned of an incoming Oreshnik missile late on Sunday; hours later Russia's Emergencies Ministry app told users that nuclear warheads had been launched. No one has claimed either attack.",
+  "section": "World",
+  "format": "standard",
+  "topics": [
+    "Russia-Ukraine war",
+    "Geopolitics",
+    "Cybersecurity"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-02T21:56:43Z",
+  "updatedAt": "2026-11-02T21:56:43Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Hackers broke into the emergency warning apps of both Ukraine and Russia within hours of each other, sending users false alerts of nuclear attack, in a new front of the war that opened as a local truce in southern Ukraine came to an end.\n\nUkraine's Air Alert app, which tells people when to take shelter from Russian missiles and drones, was compromised late on Sunday, 1 November. Early on Monday, Russia's Emergencies Ministry said its own mobile app had been hit by \"a massive cyberattack\" that let attackers send fake warnings to the public. No group has claimed either attack, and no casualties or injuries have been reported.\n\n## What happened in Ukraine\n\nUsers of Ukraine's Air Alert app received a Russian-language notification that read, in the Kyiv Independent's translation: \"Hi! A nuclear alert is about to go off all across Ukraine! Don't worry, the Oreshnik is on its way.\" The Oreshnik is a Russian intermediate-range ballistic missile. The app also showed false warnings of chemical and radiological hazards and of street fighting in Kyiv, according to the Kyiv Post.\n\nUkraine's Air Force said on Telegram that the app \"appears to have been subjected to enemy influence\", adding: \"There is no radiation threat! Stay calm.\" The app's developers said \"unauthorized persons have interfered with the application\", and that they had turned off push notifications and suspended it. The false alerts were cleared after about an hour, the Kyiv Independent reported, and the developers said at about 2 am that the app was gradually being restored and that it stores no personal data. Ukraine's Digital Transformation Ministry said sirens and other warning channels were working normally, ABC News reported.\n\nUkraine's Centre for Strategic Communications blamed Russia, ABC and Al Jazeera reported. Regional governors in Ivano-Frankivsk and Vinnytsia called it a cyberattack and told residents not to click on links in the messages.\n\n## What happened in Russia\n\nIn the early hours of Monday, users of the Russian Emergencies Ministry's app received messages claiming that nuclear warheads had been launched across all regions of Russia and telling them to stock up on food for three weeks and shelter in basements, according to the Kyiv Independent. The Kyiv Post said similar messages appeared on regional ministry channels, with reports from St Petersburg, the Moscow region, Belgorod, Nizhny Novgorod, Sverdlovsk and Tyumen.\n\n\"The Russian Ministry of Emergency Situations' mobile app has been subjected to a massive cyberattack, allowing attackers to send fake information to the public,\" the ministry said on Telegram. It said work was under way to fix the vulnerability and urged people to \"remain calm and trust only official sources of information\". The ministry did not say who it believed was responsible. The Kremlin's spokesman, Dmitry Peskov, said on Monday that the president's website and other government agencies faced cyberattacks \"many times a day, every day\".\n\nThe Kyiv Independent suggested the Russian hack may have been a Ukrainian response; ABC said it was not immediately clear whether the two incidents were linked.\n\n## Background\n\nThe attacks came just after the end of a local humanitarian ceasefire around Oleshky, in the Russian-occupied part of Kherson region, which Al Jazeera described as the longest truce of the war so far. Ukraine says nearly 800 people were evacuated during the pause, while Kyiv and Moscow have accused each other of using it to move troops.\n\nBoth countries have also stepped up long-range strikes. Ukraine's Air Force said Russia launched 433 drones at Ukraine on Sunday and 193 more overnight into Monday, while Ukrainian drones have set fire to Russian oil refineries at Kstovo and in the Samara region.\n\n## Why it matters\n\nWarning apps are a lifeline in both countries, where people rely on them to decide when to take shelter. False alerts that cry wolf can erode trust in genuine warnings, and those that invoke nuclear weapons can cause panic. The incidents show how the war's cyber battle has moved from government websites and broadcasters to the tools ordinary people use to stay alive.\n\n## What happens next\n\nBoth apps were being restored on Monday. Neither government has published a technical account of how the systems were breached.",
+  "sources": [
+    {
+      "title": "Russia's Emergencies Ministry: Telegram statement on cyberattack on its mobile app, 2 Nov 2026",
+      "url": "https://t.me/mchs_official/35047",
+      "primary": true
+    },
+    {
+      "title": "Ukrainian Air Force: Telegram statement on the Air Alert app, 1 Nov 2026",
+      "url": "https://t.me/kpszsu/92165",
+      "primary": true
+    },
+    {
+      "title": "Air Alert app developers: Telegram statement on unauthorised interference, 1 Nov 2026",
+      "url": "https://t.me/air_alert_ua/338381",
+      "primary": true
+    },
+    {
+      "title": "Kyiv Independent: Ukraine's air raid alert system hacked, Russian system targeted hours later",
+      "url": "https://kyivindependent.com/ukraines-air-raid-alert-system-hacked-air-force-says-as-false-nuclear-chemical-warnings-sound/"
+    },
+    {
+      "title": "Kyiv Post: Ukraine, Russia hit by hackers sending fake nuclear attack alerts",
+      "url": "https://www.kyivpost.com/post/88855"
+    },
+    {
+      "title": "ABC News: Ukraine's public alert app sends false warnings after being hacked",
+      "url": "https://www.abc.net.au/news/2026-11-02/ukraine-air-force-public-air-raid-alert-app-hacked-false-warning/107336062"
+    },
+    {
+      "title": "Al Jazeera: Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
+      "url": "https://www.aljazeera.com/news/2026/11/2/ukraine-blames-russia-after-air-alert-app-sends-out-false-warnings"
+    },
+    {
+      "title": "RBC-Ukraine: Russia launches 193 drones at Ukraine overnight",
+      "url": "https://newsukraine.rbc.ua/news/russia-launches-193-drones-at-ukraine-overnight-1793602875.html"
+    }
+  ],
+  "correction": ""
+}
