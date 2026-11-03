@@ -1,0 +1,41 @@
+{
+  "title": "TRAI's draft AI rules would make telecom operators answerable for vendors' AI and report serious failures",
+  "dek": "The regulator's consultation paper proposes board-approved AI policies, risk classes and mandatory reporting of the most serious AI incidents.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Artificial intelligence",
+    "TRAI",
+    "Telecom"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-03T08:49:34Z",
+  "updatedAt": "2026-11-03T08:49:34Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The Telecom Regulatory Authority of India (TRAI) has released draft guidelines on the responsible use of artificial intelligence in telecom, proposing that licensed operators be held accountable for the outcomes of every AI system they use, including systems bought from outside vendors. The draft is a consultation paper, not a final rule, and the regulator is seeking public comments, according to reports by Business Standard, MediaNama and Indian Television.\n\n## What the draft proposes\n\nThe draft applies to licensed telecom service providers and network operators that use, or plan to use, AI in their networks or services. As reported, its main proposals are:\n\n- Board-approved AI policies at each operator, with risk classification of AI systems and human oversight.\n- Accountability for third-party AI: operators buying equipment, software or services with AI built in would have to obtain disclosures from suppliers, and supplier contracts would need audit rights and incident-management terms.\n- Incident reporting: AI incidents would be sorted into four severity levels, with mandatory reporting to the regulator for the top two, critical and high.\n- Records: a central database of AI incidents, plus a separate record of AI harm reported by consumers.\n\n## What is not yet settled\n\nReports say the draft does not define what counts as a critical or high-severity incident, and does not fix the time within which mandatory reporting must happen. It also does not create a separate penalty framework. One report puts the last date for comments at November 27; we have not been able to check that against the paper itself, so readers should treat the date as unconfirmed.\n\n## Why it matters\n\nTelecom operators already use machine-learning tools for network planning, fraud detection and customer service, and increasingly buy them as part of vendor packages. Making the operator, rather than the vendor, answerable for outcomes would shift due diligence to the companies that hold the licence and the customer relationship. The draft arrives alongside other official moves on digital security: MeitY Secretary S Krishnan said on 24 October that CERT-In had flagged about 60,000 Indian websites as potentially vulnerable, a figure we could not confirm in a CERT-In notice, and a report by Elets eGov says the Centre is weighing giving CERT-In binding powers to force government bodies to patch critical flaws.\n\n## What happens next\n\nTRAI will take comments, may hold open discussions and then issue final recommendations or directions. Operators and industry bodies are expected to argue over the definitions of severity levels and the reach of vendor accountability. A separate MeitY consultation on AI regulation was reported as expected in early November, but we have not seen it released.\n\nWe did not find the paper on TRAI's own website at the time of writing, so this report is based on outlet coverage of the draft. We will update when the document can be read directly.",
+  "sources": [
+    {
+      "title": "Business Standard: Trai proposes AI governance framework, accountability rules for telcos",
+      "url": "https://www.business-standard.com/industry/news/trai-proposes-ai-governance-framework-accountability-rules-for-telcos-126103001511_1.html"
+    },
+    {
+      "title": "MediaNama: TRAI draft AI guidelines hold telcos accountable for vendor AI",
+      "url": "https://www.medianama.com/2026/11/223-telcos-third-party-trais-anthropic/"
+    },
+    {
+      "title": "Indian Television: TRAI releases draft guidelines on responsible use of AI in telecom",
+      "url": "https://indiantelevision.com/regulators/trai-releases-draft-guidelines-on-responsible-use-of-ai-in-telecom/"
+    },
+    {
+      "title": "The420.in: TRAI proposes risk-based AI rules for telecom operators, seeks public comments",
+      "url": "https://the420.in/policy-initiative/trai-proposes-risk-based-ai-rules-for-telecom-operators-seeks-public-comments/"
+    },
+    {
+      "title": "Elets eGov: CERT-In may get binding powers to force govt patching",
+      "url": "https://egov.eletsonline.com/2026/11/cert-in-enforcement-powers-patching/"
+    }
+  ],
+  "correction": ""
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Half of India's heatwave days in the past decade were due to climate change, Lancet Countdown finds",
+  "dek": "The 10th Lancet Countdown report puts the average yearly loss from heat at 193 billion potential labour hours; a separate scorecard rates India's climate plan poorly on health.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "Climate and health",
+    "Lancet Countdown"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-03T08:49:34Z",
+  "updatedAt": "2026-11-03T08:49:34Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Half of the heatwave days people in India experienced between 2016 and 2025 can be attributed to climate change, according to the 10th edition of the Lancet Countdown on Health and Climate Change, released on 27 October and reported in the Indian press over the past week. The report tracks dozens of indicators of how a warming climate affects health, and publishes country-level data through an online explorer.\n\n## What the report says about India\n\nAccording to coverage by The Wire and other outlets, heat exposure cost India an average of 193 billion potential labour hours a year over 2016-2025, which is 75% higher than the yearly average in the 1990s. One outlet reports that people in India faced more than 2,600 hours a year in which temperatures posed a moderate or higher heat-stress risk during moderate outdoor activity, and lost an estimated 64 hours of sleep a year in 2021-2025 because of hotter nights. We could not confirm those two figures in a primary Lancet Countdown document, so they are attributed to the outlet.\n\n\"Potential labour hours\" is a modelled measure: it estimates the working time lost or made unsafe by heat, mainly in outdoor sectors such as farming and construction. It is not a count of hours actually not worked, and the 2016-2025 average should not be compared directly with the single-year figure of 247 billion hours for 2024 given in the previous edition.\n\n## A separate scorecard\n\nA different assessment, the Global Healthy NDC Scorecard from the Global Climate and Health Alliance, scored India zero on six of eight parameters, according to reports by ThePrint and Down To Earth. The main gaps it named were that India's climate commitments do not quantify climate-related health impacts and do not address health in adaptation policy. The scorecard looks at national climate plans (nationally determined contributions) and not at what is happening on the ground.\n\n## Why it matters for readers\n\nIndia's heat action plans, run largely by states and cities, mostly target heatwave days and deaths. The Lancet Countdown measures lost working time and heat stress across the year, which affects incomes of daily-wage workers.\n\n## What to watch\n\nWhether India updates its climate commitments to include health indicators is not yet known; we found no official response from the Union Health or Environment ministries to the report or the scorecard.\n\nFigures here are as reported by the outlets named; readers should check the Lancet Countdown data explorer for the underlying series.",
+  "sources": [
+    {
+      "title": "The Wire: India's climate crisis is killing, sickening and costing people their livelihoods: Lancet Countdown",
+      "url": "https://m.thewire.in/article/environment/indias-climate-crisis-is-killing-sickening-and-costing-people-their-livelihoods-lancet-countdown"
+    },
+    {
+      "title": "Lancet Countdown 2026: Data Explorer",
+      "url": "https://data.lancetcountdown.org/data-explorer"
+    },
+    {
+      "title": "Down To Earth: India's climate action plan fails to prioritise health, global scorecard finds",
+      "url": "https://www.downtoearth.org.in/climate-change/indias-climate-action-plan-fails-to-prioritise-health-global-scorecard-finds"
+    },
+    {
+      "title": "ThePrint: India scores zero on six parameters in global climate and health scorecard",
+      "url": "https://theprint.in/feature/india-global-climate-and-health-scorecard/3072868/"
+    }
+  ],
+  "correction": ""
+}
