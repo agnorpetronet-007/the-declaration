@@ -1,7 +1,7 @@
 {
   "author": "Declaration Desk",
   "publishedAt": "2026-11-03T09:02:33Z",
-  "updatedAt": "2026-11-03T09:02:33Z",
+  "updatedAt": "2026-11-03T09:43:03Z",
   "lead": false,
   "breaking": false,
   "status": "published",
@@ -9,14 +9,19 @@
   "title": "Aditya-L1 data show a 2024 solar eruption expanded unevenly, not as a symmetric bubble",
   "dek": "Indian Institute of Astrophysics scientists combined the coronagraph's readings with NASA imagery; the finding bears on space-weather forecasting.",
   "section": "Science",
-  "format": "brief",
+  "format": "standard",
   "topics": [
     "Aditya-L1",
     "Space weather",
     "ISRO"
   ],
-  "body": "Scientists at the Indian Institute of Astrophysics (IIA), Bengaluru, have reported that a coronal mass ejection (CME) seen on 5 August 2024 expanded unevenly rather than as a symmetric bubble, using data from India's Aditya-L1 solar mission. The study was published in The Astrophysical Journal Letters on 3 November 2026, according to GKToday's summary; we have not read the paper itself.\n\nThe team combined readings from Aditya-L1's Visible Emission Line Coronagraph (VELC) with images from NASA's Solar Dynamics Observatory and three-dimensional modelling. VELC's spectroscopy of the Fe XIV 5303 Å coronal line measured line-of-sight plasma velocities of up to 218 km/s, a projected radial speed of 1,135 km/s and a lateral speed in the plane of the sky of 692 km/s, GKToday reported.\n\nWhy it matters: how a CME expands can change its speed and its path towards Earth, and so how it affects satellites and power grids. Models that assume a symmetric bubble may therefore misjudge arrival and impact. GKToday said earlier VELC results this month included a joint analysis with the European Proba-3 mission, published on 15 October.",
+  "body": "Indian scientists using the Visible Emission Line Coronagraph (VELC) on the Aditya-L1 solar mission have found that a coronal mass ejection (CME) seen on 5 August 2024 did not expand as a symmetric bubble. The paper, by Saurabh Tripathi, Tanmoy Samanta and Jayant Joshi, is published in The Astrophysical Journal Letters (volume 1009, L24), according to its arXiv record. GKToday dates the publication to 3 November 2026; we read the paper's abstract on arXiv, not the full text.\n\n## What the paper reports\n\nThe team studied the eruption using VELC's spectra of the Fe XIV 5303 Å coronal line together with images from the Atmospheric Imaging Assembly on NASA's Solar Dynamics Observatory. VELC caught the erupting CME as it crossed its western slit. The abstract says the spectra show coronal dimming and enhanced Doppler velocities during the eruption, and \"strongly Doppler-shifted secondary components\" tied to the CME front. These appear as two separate emission branches on opposite sides of the line's rest wavelength, a split spectral shape that the authors call bifurcated.\n\nThe key measurements, as given in the abstract:\n\n- line-of-sight plasma velocities of up to 218 km/s, \"likely a lower limit\" because the secondary component reaches the edge of the spectral window;\n- a projected radial speed of 1,135 km/s from the imaging data; and\n- a sideways speed in the plane of the sky of 692 km/s along the slit, which is lower than the radial speed.\n\n## How they interpreted it\n\nTo explain the pattern the authors built a simplified three-dimensional model of an expanding, tilted CME shell. Their synthetic spectra show that an inclined CME expanding unevenly sideways can produce a split spectral shape like the one observed, with velocity components along the radial, sideways and line-of-sight directions. They conclude that combining spectroscopy with ultraviolet imaging constrains different parts of a CME's motion during its early stage.\n\n## Why it matters\n\nCMEs are clouds of plasma thrown from the Sun that can disturb satellites and power systems if they reach Earth. How a CME grows in the lower corona helps determine its speed and direction, so forecasting models that assume a symmetric bubble may misjudge it. The paper is a single-event study, based on one eruption, and it describes a simplified model; it does not itself present a new forecasting method.\n\n## Background\n\nThe earlier Aditya-L1 results this season include a separate VELC study of CME-linked broadening of the same coronal line, available on arXiv, and, GKToday reported, a joint analysis with Europe's Proba-3 mission published on 15 October. Aditya-L1 operates around the Sun-Earth L1 region.\n\nCoverage of the paper is thin, so the abstract is the main record of its claims. The authors' model is deliberately simplified: it treats the CME as an expanding, tilted shell, and the match with the observed spectra shows the pattern is possible, not that the model is the only explanation.\n\n## What to watch\n\nThe authors note that the line-of-sight velocity may be underestimated. Further events observed by VELC, and comparison with other coronagraphs, would show whether uneven expansion is common.",
   "sources": [
+    {
+      "title": "arXiv: Tripathi, Samanta & Joshi, 'Spectroscopic Signatures of Nonuniform Lateral Expansion of a Coronal Mass Ejection in the Low Corona with ADITYA-L1/VELC' (arXiv:2609.31894; ApJL 1009, L24)",
+      "url": "https://arxiv.org/abs/2609.31894",
+      "primary": true
+    },
     {
       "title": "GKToday: Aditya-L1 Detects Asymmetric Expansion of Solar Eruption",
       "url": "https://www.gktoday.in/aditya-l1-detects-asymmetric-expansion-of-solar-eruption/"
