@@ -1,0 +1,25 @@
+{
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-03T09:02:33Z",
+  "updatedAt": "2026-11-03T09:02:33Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "correction": "",
+  "title": "Centre weighs binding powers for CERT-In to force government bodies to patch flaws",
+  "dek": "Officials told Elets the framework could begin with government organisations and fixed patching deadlines.",
+  "section": "Technology",
+  "format": "brief",
+  "topics": [
+    "CERT-In",
+    "Cybersecurity",
+    "MeitY"
+  ],
+  "body": "The Centre is considering giving the Indian Computer Emergency Response Team (CERT-In) powers to legally require government organisations to patch critical software vulnerabilities within fixed deadlines, Elets eGov reported on Tuesday, citing officials. CERT-In's advisories are not mandatory at present, although the IT Act's Section 70B(6) allows it to issue binding directions, a power the report said has rarely been used.\n\nAccording to Elets, the framework could start with government bodies. The report said CERT-In had flagged 303 government and critical-sector websites as potentially exposed to a set of PHP-related flaws, and that MeitY Secretary S Krishnan said on 24 October that about 60,000 Indian websites had been flagged as potentially vulnerable. Officials also said continuous vulnerability-disclosure programmes are being considered, because one-time audits before launch can miss flaws found later by AI tools.\n\nThe proposal has not been notified and no draft has been published. Elets said further discussion is expected after MeitY releases its consultation paper on AI regulation. Separately, the Digital Personal Data Protection Rules already require a detailed breach report to the Data Protection Board within 72 hours.",
+  "sources": [
+    {
+      "title": "Elets eGov: CERT-In May Get Binding Powers to Force Govt Patching",
+      "url": "https://egov.eletsonline.com/2026/11/cert-in-enforcement-powers-patching/"
+    }
+  ]
+}

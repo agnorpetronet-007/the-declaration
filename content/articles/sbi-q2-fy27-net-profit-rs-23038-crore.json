@@ -1,0 +1,33 @@
+{
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-03T09:02:33Z",
+  "updatedAt": "2026-11-03T09:02:33Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "correction": "",
+  "title": "SBI's September-quarter profit rises 14.3% to Rs 23,038 crore on lower provisions",
+  "dek": "The bank's operating profit slipped and other income fell; a Rs 7,288 crore stake-sale gain boosted the half-year.",
+  "section": "Business",
+  "format": "standard",
+  "topics": [
+    "SBI",
+    "Company results",
+    "Banking"
+  ],
+  "body": "State Bank of India reported a standalone net profit of Rs 23,037.95 crore for the quarter ended 30 September 2026, up 14.3% from Rs 20,159.67 crore a year earlier, in unaudited results approved by its board on Tuesday. The rise came from lower provisions, not from stronger core earnings: operating profit before provisions slipped slightly.\n\nThe figures below are from the bank's results as summarised by InvestyWise and the Dalal Street Investment Journal (DSIJ); we could not retrieve the filing itself.\n\n## Key numbers (standalone)\n\n- Net profit: Rs 23,037.95 crore, against Rs 20,159.67 crore a year earlier.\n- Total income: Rs 1,43,796.01 crore, against Rs 1,34,979.47 crore. Interest income rose 10.5% to Rs 1,32,018.55 crore.\n- Operating profit before provisions: Rs 26,917.24 crore, against Rs 27,310.92 crore.\n- Other income: Rs 11,777.46 crore, against Rs 15,462.60 crore. Operating expenses rose 9.6% to Rs 33,983.07 crore.\n- Provisions: Rs 4,216.86 crore, against Rs 5,400.12 crore; provisions for bad loans fell to Rs 2,759.10 crore from Rs 4,132.34 crore.\n- Deposits: Rs 62.78 lakh crore, up 12.3%. Advances: Rs 51.54 lakh crore, up 18.2%.\n\n## Asset quality and capital\n\nGross non-performing assets were Rs 72,529.08 crore, or 1.39% of advances, and net NPAs were 0.36%. The provision coverage ratio was 74.43%. The Basel III capital adequacy ratio was 16.09%, including a common equity tier-1 ratio of 13.34%, according to DSIJ.\n\n## Consolidated profit: reports differ\n\nOn a consolidated basis, InvestyWise reports net profit of Rs 25,741.47 crore and total income of Rs 1,87,756.19 crore. DSIJ gives consolidated net profit as Rs 25,351.16 crore, up 19.9%. The two figures conflict, and we have not been able to check which matches the filing, so treat the consolidated number as unconfirmed.\n\n## The stake-sale gain\n\nDSIJ reported that the half-year numbers include a pre-tax exceptional profit of Rs 7,288.47 crore from the sale of a 6.30% stake in SBI Funds Management through a pre-IPO transaction and an offer for sale, which cut SBI's holding in the asset manager to 55.56% at 30 September. It added that gains from stake sales in the National Stock Exchange and ARCIL were credited to capital reserve under revised Reserve Bank of India investment-portfolio rules and did not pass through the profit and loss account.\n\n## Market reaction\n\nAt 1.51 pm on 3 November, SBI shares traded at Rs 992.00, up 0.51% from the previous close and about 19% below the 52-week high of Rs 1,227.80, DSIJ reported. Pre-results estimates cited by Upstox's live blog had put profit at around Rs 22,619 crore, so the reported figure was higher than expected.\n\nPre-results estimates cited by Upstox's live blog had put profit at around Rs 22,619 crore.\n\n## What to watch\n\nThe mix of lower provisions and a fall in other income is the main point for investors: profit growth of 14% sits alongside flat-to-lower operating profit. Loan growth of 18.2% against deposit growth of 12.3% also means the bank is lending faster than it is raising deposits.",
+  "sources": [
+    {
+      "title": "InvestyWise: SBI reports 74.43% provision coverage ratio for Q2 FY27 (summary of exchange filing)",
+      "url": "https://www.investywise.com/sbi-outcome-of-board-meeting-unaudited-financial-results"
+    },
+    {
+      "title": "DSIJ: SBI Q2 Profit Rises as Lower Provisions Offset Softer Core Operating Profit",
+      "url": "https://insights.dsij.in/dsijarticledetail/sbi-q2-profit-rises-as-lower-provisions-offset-softer-core-operating-profit-60289"
+    },
+    {
+      "title": "Upstox: Q2 Results Live Updates, 3 November",
+      "url": "https://upstox.com/news/market-news/earnings/q2-results-live-updates-nse-sbi-mcx-lupin-bajaj-finserv-solar-industries-others-to-report-earnings/liveblog-202868/"
+    }
+  ]
+}

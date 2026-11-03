@@ -1,0 +1,25 @@
+{
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-03T09:02:33Z",
+  "updatedAt": "2026-11-03T09:02:33Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "correction": "",
+  "title": "Aditya-L1 data show a 2024 solar eruption expanded unevenly, not as a symmetric bubble",
+  "dek": "Indian Institute of Astrophysics scientists combined the coronagraph's readings with NASA imagery; the finding bears on space-weather forecasting.",
+  "section": "Science",
+  "format": "brief",
+  "topics": [
+    "Aditya-L1",
+    "Space weather",
+    "ISRO"
+  ],
+  "body": "Scientists at the Indian Institute of Astrophysics (IIA), Bengaluru, have reported that a coronal mass ejection (CME) seen on 5 August 2024 expanded unevenly rather than as a symmetric bubble, using data from India's Aditya-L1 solar mission. The study was published in The Astrophysical Journal Letters on 3 November 2026, according to GKToday's summary; we have not read the paper itself.\n\nThe team combined readings from Aditya-L1's Visible Emission Line Coronagraph (VELC) with images from NASA's Solar Dynamics Observatory and three-dimensional modelling. VELC's spectroscopy of the Fe XIV 5303 Å coronal line measured line-of-sight plasma velocities of up to 218 km/s, a projected radial speed of 1,135 km/s and a lateral speed in the plane of the sky of 692 km/s, GKToday reported.\n\nWhy it matters: how a CME expands can change its speed and its path towards Earth, and so how it affects satellites and power grids. Models that assume a symmetric bubble may therefore misjudge arrival and impact. GKToday said earlier VELC results this month included a joint analysis with the European Proba-3 mission, published on 15 October.",
+  "sources": [
+    {
+      "title": "GKToday: Aditya-L1 Detects Asymmetric Expansion of Solar Eruption",
+      "url": "https://www.gktoday.in/aditya-l1-detects-asymmetric-expansion-of-solar-eruption/"
+    }
+  ]
+}
