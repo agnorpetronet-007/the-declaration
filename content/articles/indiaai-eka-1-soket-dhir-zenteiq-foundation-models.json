@@ -1,0 +1,38 @@
+{
+  "title": "IndiaAI releases first models from two start-ups: Soket's EKA-1 and ZenteiQ's Dhir",
+  "dek": "Soket Labs' 26.3-billion-parameter EKA-1 covers all 22 scheduled languages; ZenteiQ's smaller Dhir models are built to run offline, even on phones. The government released no benchmark results.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "IndiaAI Mission",
+    "Artificial intelligence",
+    "MeitY"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-03T20:53:34Z",
+  "updatedAt": "2026-11-03T20:53:34Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The government's IndiaAI Mission on Tuesday released three home-grown artificial intelligence models built by two start-ups it funds: EKA-1, from Soket Labs, and Dhir 2B and Dhir 5B, from ZenteiQ AiTech Innovations. The Ministry of Electronics and Information Technology (MeitY) said the models were developed with subsidised access to the national AI computing infrastructure.\n\nEKA-1 is a 26.3-billion-parameter model trained on about 7.5 trillion tokens of text across all 22 languages in the Eighth Schedule of the Constitution and English, according to the ministry's release, issued through the Press Information Bureau at 10.02 pm. The two Dhir models are much smaller, as their names indicate (about two billion and five billion parameters), and handle English and 10 Indian languages.\n\n## What the models are for\n\nThe ministry described EKA-1 as an open \"sparse hybrid\" language model aimed at mathematics, coding, reasoning and \"agentic\" tasks, in which software carries out multi-step jobs on a user's behalf. Soket's chief executive, Abhishek Upperwal, said the model was tailored to India's \"banking, financial services and cybersecurity landscape\".\n\nThe Dhir models are open-source assistants designed to run on an organisation's own servers, without an internet connection, including on mobile devices, the release said. That matters for government departments, hospitals and banks that cannot send sensitive data to foreign cloud services. ZenteiQ's chief executive, Prof. Sashikumar, said the models were aimed at \"enhancing privacy, security and accessibility\". The release said Dhir can run on both GPUs and TPUs, the two main kinds of AI chips.\n\nMeitY Secretary S. Krishnan, who attended the launch in New Delhi, said the release \"strengthens India's technological and strategic autonomy in Artificial Intelligence\". IndiaAI's chief operating officer, Sudeep Shrivastava, said the aim was to make AI \"more accessible and tailored to India's unique landscape\".\n\n## What the release does not say\n\nThe ministry did not publish benchmark scores comparing the models with others, did not say how much public money or computing time each start-up received, and did not describe the sources of EKA-1's training data. It also did not say where the models can be downloaded or under what licence. Without benchmark results, it is not yet possible to judge how the models perform against open models from abroad or against other Indian models.\n\n## Background\n\nSoket and ZenteiQ are among 12 organisations selected under the Foundation Models pillar of the IndiaAI Mission to build Indian \"sovereign\" models, according to a MeitY reply in the Lok Sabha reported by MediaNama in April. The largest allocation in that list went to BharatGen, a consortium led by IIT Bombay, at Rs 1,058.52 crore. Sarvam AI, BharatGen and Gnani unveiled models at the India AI Impact Summit in February.\n\nThe release comes as the government leans more heavily on AI for security work. Deccan Herald reported on Tuesday that CERT-In, the national cyber-security agency, has secured access to test Anthropic's Mythos model for cyber defence, in what IT ministry sources described to the paper as limited and calibrated use.\n\n## What happens next\n\nThe ministry said the models were released under the IndiaAI Innovation Centre pillar, which funds further work by the selected companies. Independent testing by researchers, once the models are publicly available, will be the first real measure of how they compare.",
+  "sources": [
+    {
+      "title": "PIB: MeitY release on IndiaAI Mission's indigenous foundation models EKA-1 (Soket) and Dhir 2B and Dhir 5B (ZenteiQ), 3 November 2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2332315",
+      "primary": true
+    },
+    {
+      "title": "Technology For You: IndiaAI Mission released indigenous foundation models EKA-1 by Soket and Dhir 2B and Dhir 5B by ZenteiQ (PIB text)",
+      "url": "https://www.technologyforyou.org/indiaai-mission-released-indigenous-foundation-models-eka-1-by-soket-and-dhir-2b-dhir-5b-by-zenteiq-under-the-indiaai-innovation-centre-pillar/"
+    },
+    {
+      "title": "MediaNama: Centre funds 12 AI projects for sovereign models; BharatGen gets Rs 1,000 crore-plus",
+      "url": "https://www.medianama.com/2026/04/223-centre-funds-12-ai-projects-sovereign-models-bharatgen-4x-next-highest-allocation-rs-1000-crore/"
+    },
+    {
+      "title": "Deccan Herald: India's CERT-In secures access to test Anthropic's Mythos AI model for cybersecurity",
+      "url": "https://www.deccanherald.com/india/indias-cert-in-secures-access-to-test-anthropics-mythos-ai-model-for-cybersecurity-4206447"
+    }
+  ],
+  "correction": ""
+}

@@ -1,0 +1,31 @@
+{
+  "title": "IMD: 'very strong' El Nino under way, November likely warmer and drier than normal",
+  "dek": "The weather office expects below-normal rain over the country and the southern peninsula this month and above-normal temperatures over most of India. NOAA puts the odds of a strong-to-very-strong El Nino lasting into early 2027 above 83%.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "El Nino",
+    "IMD",
+    "Weather"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-03T20:53:34Z",
+  "updatedAt": "2026-11-03T20:53:34Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Very strong El Nino conditions have developed in the equatorial Pacific Ocean and are likely to persist through November and December, the India Meteorological Department (IMD) has said, as it forecast a warmer and drier than normal November for most of the country.\n\nIn its monthly outlook for November, issued on 31 October, IMD said rainfall over the country as a whole, and over the five southern subdivisions that depend on the north-east monsoon, is most likely to be below normal, meaning less than 77% of the long-period average. Above-normal day and night temperatures are likely over most parts of India.\n\n## What IMD forecasts\n\nThe five subdivisions are Tamil Nadu, Puducherry and Karaikal; coastal Andhra Pradesh and Yanam; Rayalaseema; Kerala and Mahe; and south interior Karnataka. They receive a large share of their annual rain between October and December. Their long-period average for November, based on 1971-2020 data, is about 118.7 mm; for India as a whole it is about 29.7 mm, IMD said.\n\nBelow-normal rain is likely over most of the country, IMD said, except for some areas in central, north-west and north-east India, where normal to above-normal rain is likely. (The body of the release also lists parts of east India in that group, while its summary does not.)\n\nMaximum temperatures are likely to be above normal over most of India except some regions along the Himalayan foothills. Minimum, or night-time, temperatures are also likely to be above normal over most of the country, except in many parts of central and eastern India, where IMD expects normal to below-normal minimums. That suggests nights in Bengal and its neighbours may be about as cool as usual, or cooler, even as much of the country stays warm.\n\n## The El Nino signal\n\nEl Nino is the periodic warming of the central and eastern tropical Pacific. It shifts winds and rainfall around the world, and in India it is often associated with weaker monsoons and warmer winters. IMD said its own Monsoon Mission coupled forecast model and other global models indicate that \"very strong El Nino conditions are likely during November - December 2026\".\n\nThe US National Oceanic and Atmospheric Administration (NOAA) reported in its 8 October ENSO discussion that most Pacific El Nino indices rose over the previous month, reaching +2.1C in the Nino-3.4 region, and kept its El Nino advisory in place. NOAA gave a greater than 83% chance of a strong to very strong event continuing through January-March 2027. Its next update is due on 12 November.\n\nOn the Indian Ocean side, IMD said the Indian Ocean Dipole, the temperature difference between the western and eastern Indian Ocean, has crossed the positive threshold of +0.4C but needs to stay above it before an event is declared. Its models indicate neutral conditions are likely to continue until December.\n\n## Why it matters\n\nA dry, warm November matters for sowing of rabi crops, including wheat in the north and pulses and oilseeds elsewhere, and for reservoir levels in the south, which depend on north-east monsoon rain. Warm conditions can also affect how early winter sets in across the plains, and stagnant air is one reason pollution builds up in northern cities at this time of year.\n\nA strong El Nino in winter does not by itself determine the 2027 monsoon, which depends on how quickly the Pacific cools by next summer.\n\n## What happens next\n\nIMD issues extended-range forecasts every Thursday. It said it would release its seasonal outlook for December to February, and the monthly forecast for December, at the end of November.",
+  "sources": [
+    {
+      "title": "IMD: Monthly outlook for rainfall and temperature for November 2026, press release, 31 October 2026 (PDF)",
+      "url": "https://internal.imd.gov.in/press_release/20261031_pr_5452.pdf",
+      "primary": true
+    },
+    {
+      "title": "NOAA Climate Prediction Center: ENSO diagnostic discussion, 8 October 2026",
+      "url": "https://www.cpc.ncep.noaa.gov/products/analysis_monitoring/enso_advisory/ensodisc.shtml",
+      "primary": true
+    }
+  ],
+  "correction": ""
+}
