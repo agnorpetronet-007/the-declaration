@@ -1,0 +1,37 @@
+{
+  "title": "Why US presidents usually lose the midterms: a short history",
+  "dek": "Since 1934 the president's party has gained House seats in only three of 23 midterm elections. This week's Democratic wave follows a pattern almost as old as the elections themselves.",
+  "section": "World",
+  "topics": ["US midterms"],
+  "author": "Declaration Desk",
+  "format": "standard",
+  "publishedAt": "2026-11-04T10:52:43Z",
+  "updatedAt": "2026-11-04T10:52:43Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The Democrats' capture of both houses of Congress on 3 November fits a long pattern in American politics: voters use the midterm election, held halfway through a president's four-year term, to check the party in the White House.\n\nIn a midterm, all 435 seats in the House of Representatives are on the ballot, along with about a third of the 100 Senate seats. The president is not. That makes the vote a referendum on the president without the president's name on the ballot.\n\n## The pattern in numbers\n\nThe American Presidency Project at the University of California, Santa Barbara, keeps a record of every midterm since 1934 ([American Presidency Project](https://www.presidency.ucsb.edu/statistics/data/seats-congress-gainedlost-the-presidents-party-mid-term-elections)). Across the 23 midterms from 1934 to 2022:\n\n- The president's party lost House seats 20 times and gained them only three times: in 1934 under Franklin D. Roosevelt, 1998 under Bill Clinton and 2002 under George W. Bush.\n- The average change was a loss of about 27 House seats and three Senate seats, by The Declaration's calculation from the project's table.\n- The Senate is less predictable, because only a third of seats are contested. The president's party gained Senate seats seven times, most recently in 2018 and 2022.\n\nThe project's own analysis points to two main drivers: how many seats the president's party has to defend, and how popular the president is ([American Presidency Project](https://www.presidency.ucsb.edu/analyses/the-2022-midterm-elections-what-the-historical-data-suggest)). The three exceptions came at unusual moments: the Depression-era New Deal in 1934, a Republican drive to impeach Clinton in 1998 that proved unpopular, and the year after the 11 September attacks in 2002.\n\n## The biggest defeats\n\n- **1894:** The largest swing on record. Under Grover Cleveland, during a severe economic depression, House Democrats fell from 218 seats to 93, according to the House's official party-division records ([US House History](https://history.house.gov/Institution/Party-Divisions/Party-Divisions/)).\n- **1938:** Roosevelt's Democrats lost 72 House seats and seven Senate seats after a sharp recession.\n- **1946:** Harry Truman's Democrats lost 56 House seats and 12 Senate seats, and with them both chambers.\n- **1958:** Dwight Eisenhower's Republicans lost 13 Senate seats, the largest Senate loss in the table.\n- **1974:** Three months after Richard Nixon resigned over Watergate, Republicans under Gerald Ford lost 48 House seats.\n- **1994:** Clinton's Democrats lost 54 House seats and eight Senate seats, ending 40 years of Democratic control of the House.\n- **2010:** Barack Obama's Democrats lost 63 House seats, a defeat he called a \"shellacking\".\n\n## Donald Trump's two midterms\n\nThis is Mr Trump's second midterm as president. In 2018, his Republicans lost 41 House seats and the House majority, but gained two Senate seats. His Gallup approval rating that autumn was between 39% and 44%; in August this year it was 33% to 35%, according to the project's table.\n\nThe 2026 result is larger in the Senate. By early Wednesday, Democrats had flipped seven Republican-held Senate seats, according to Associated Press race calls. That would match Roosevelt's 1938 Senate loss, though it is short of 1946 and 1958. The final House figure is not yet known; about 75 races were still uncalled on Wednesday morning. For the legal fights that may follow, see our in-depth report ([The Declaration](https://thedeclaration.in/story/us-midterms-legal-aftermath/)).\n\n## What history suggests next\n\nPresidents who lost Congress at a midterm have often still won re-election: Truman in 1948, Clinton in 1996 and Obama in 2012 all did. Mr Trump is barred by the Constitution's 22nd Amendment from seeking a third term, so the 2028 election will be fought without him on the ballot. For India, the more immediate effect is a Congress with more say over trade and the Iran war during the president's final two years.",
+  "sources": [
+    {
+      "title": "American Presidency Project (UC Santa Barbara): Seats in Congress gained/lost by the president's party in mid-term elections",
+      "url": "https://www.presidency.ucsb.edu/statistics/data/seats-congress-gainedlost-the-presidents-party-mid-term-elections",
+      "primary": true
+    },
+    {
+      "title": "US House of Representatives, History, Art & Archives: Party divisions of the House",
+      "url": "https://history.house.gov/Institution/Party-Divisions/Party-Divisions/",
+      "primary": true
+    },
+    {
+      "title": "American Presidency Project: The 2022 midterm elections, what the historical data suggest",
+      "url": "https://www.presidency.ucsb.edu/analyses/the-2022-midterm-elections-what-the-historical-data-suggest",
+      "primary": false
+    },
+    {
+      "title": "Spectrum News/AP: Balance of power in Congress",
+      "url": "https://spectrumlocalnews.com/nys/buffalo/politics/2026/11/03/balance-of-power-congress-2026-midterm-elections",
+      "primary": false
+    }
+  ],
+  "correction": ""
+}
