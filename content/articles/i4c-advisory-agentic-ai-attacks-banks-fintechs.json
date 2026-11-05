@@ -1,0 +1,33 @@
+{
+  "title": "Cybercrime centre warns banks and fintechs that AI agents are being used to steal crores",
+  "dek": "The Home Ministry's I4C says attackers are using AI agents to break into payment systems at 'machine speed'. It has told banks, NBFCs and fintechs to apply CERT-In's urgent fixes and report incidents within six hours.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Cybersecurity",
+    "Artificial intelligence",
+    "Banking"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-04T20:51:50Z",
+  "updatedAt": "2026-11-04T20:51:50Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "India's national cybercrime agency has warned banks, non-bank lenders and fintech firms that criminals are using artificial intelligence (AI) agents to break into their systems and move money out faster than people can react.\n\nThe advisory comes from the National Cybercrime Threat Analysis Unit of the Indian Cyber Crime Coordination Centre (I4C), which is part of the Union Home Ministry. It was issued on Tuesday, according to Inc42, and made public on Wednesday, Reuters reported. The attacks \"are financially motivated and are being carried out with the help of Artificial Intelligence (AI) agents leading to machine speed compromise\", Reuters quoted it as saying.\n\n## What the agency found\n\nAI agents are programs that can carry out a series of tasks by themselves once given a goal. According to Inc42's account of the advisory, I4C found several cases in which malicious AI agents exploited compromised financial systems to make unauthorised transactions \"running into crores of Rupees\". It did not say how many cases there were or name the institutions involved.\n\nAs described by Inc42, the attackers:\n\n- broke in through unpatched software and wrongly configured servers that face the internet\n- used customer complaint portals as a way in\n- targeted automated fund-disbursement systems and payment and transfer APIs, the software links that let one system instruct another to move money\n- sent stolen money through mule accounts at several banks and withdrew it quickly over IMPS and NEFT\n- deleted records to cover their tracks\n\n## What firms have been told to do\n\nThe advisory asks financial institutions to:\n\n- urgently apply the Indian Computer Emergency Response Team's (CERT-In) critical advisories to their payment and disbursement APIs and their AI agents\n- report cyber incidents to CERT-In within six hours, and, for banks and NBFCs, to the Reserve Bank of India\n- set transaction limits, verify beneficiaries, and watch for sudden changes in the speed, volume or pattern of transfers\n- finish KYC and approval checks before releasing funds\n- run authorised \"red team\" exercises that test how quickly staff can respond to automated attacks\n\nThe six-hour reporting deadline is not new. CERT-In's 2022 directions already require it for a wide range of incidents. The advisory reminds institutions of that obligation.\n\n## Background\n\nCERT-In issued a critical advisory last month warning that publicly available AI agent tools were being used for financially motivated intrusions, Inc42 reported. The new warning follows disclosures by AI companies, including OpenAI and Anthropic, that their own agents took unauthorised actions during internal security tests.\n\nOfficials have been pressing the financial sector on cybersecurity for weeks. At the Global Fintech Fest in September, Prime Minister Narendra Modi and RBI Governor Sanjay Malhotra urged fintech firms to strengthen security and protect consumer trust. Earlier this week the government said it was considering binding powers for CERT-In to make government bodies patch flaws within set deadlines.\n\n## What it means for customers\n\nThe advisory is aimed at institutions, not account holders, and it does not report losses from individual customers' accounts. But the weak points it lists, such as payment links and complaint portals, sit inside the systems people use for UPI, loan disbursals and refunds.\n\nThe advisory itself has not been published, and The Declaration has not seen its full text. The quotes above come from Reuters and Inc42.",
+  "sources": [
+    {
+      "title": "Reuters (via Arab News): India cybercrime agency warns financial firms on AI attacks",
+      "url": "https://www.arabnews.com/world/india-cybercrime-agency-warns-financial-firms-on-ai-attacks-3009782"
+    },
+    {
+      "title": "Inc42: I4C warns banks and fintechs against agentic AI cyberattacks",
+      "url": "https://inc42.com/buzz/cybersecurity-agency-i4c-warns-banks-fintechs-against-ai-led-cyberattacks/"
+    },
+    {
+      "title": "Digit: I4C and CERT-In warn of AI-powered cyberattacks on banks",
+      "url": "https://www.digit.in/news/general/millions-of-bank-users-at-risk-i4c-and-cert-in-warns-of-ai-powered-cyberattacks-check-details.html"
+    }
+  ],
+  "correction": ""
+}
