@@ -1,0 +1,37 @@
+{
+  "title": "North Korea fires missiles as Kim Yo Jong rejects FBI's Binance hack charge and US talks",
+  "dek": "South Korea's military says several missiles flew less than 300 km into the sea, possibly the third ballistic launch in about a week. Pyongyang says it has 'no need' to sit down with Washington.",
+  "section": "World",
+  "format": "standard",
+  "topics": [
+    "North Korea",
+    "Binance hack",
+    "Geopolitics"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-04T17:49:34Z",
+  "updatedAt": "2026-11-04T17:49:34Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "North Korea fired several missiles into the sea off its east coast early on Wednesday, South Korea's Joint Chiefs of Staff (JCS) said, hours after leader Kim Jong Un's sister said Pyongyang saw no need to talk to the United States while Washington accused it of the record theft of cryptocurrency from the exchange Binance.\n\nThe JCS said the missiles were launched from the Sondok area of South Hamgyong province and are believed to have flown less than 300 km, The Korea Times reported. It did not give a number or say what type of missile was fired; South Korean and US officials were analysing the data. The South Korean military was \"monitoring the North's various movements under a robust South Korea-U.S. combined defense posture\" and was ready to respond to any provocation, the JCS said.\n\n## A run of tests\n\nIf the missiles are confirmed as ballistic, it would be North Korea's third such launch in about a week, The Korea Times reported. Last Thursday, 29 October, the North fired nearly a dozen short-range ballistic missiles from the Wonsan area, less than a week after Seoul proposed military talks on their tense border. North Korean state media said Pyongyang tested a cluster warhead for tactical ballistic missiles on Saturday, a test Seoul did not say it had detected. Shin Jong-woo of the Korea Defense and Security Forum told The Korea Times that Wednesday's weapon appeared to be a version of the Hwasong-11 short-range ballistic missile. The JCS has not confirmed that.\n\nThe official KCNA news agency on Wednesday also released a photograph of a warship under construction at the Nampho shipyard, which it said was \"incomparably huge\" compared with the North's 5,000-tonne destroyers, AP reported. Kim has said he wants a 10,000-tonne guided-missile cruiser.\n\n## The Binance dispute\n\nThe launch followed a second statement in two days from Kim Yo Jong, a senior ruling-party official, rejecting the FBI's finding that the North Korean hacking group it calls TraderTraitor stole about $6 billion in crypto assets from Binance in a breach that began late on 29 October, the largest such theft on record. She called the accusation \"an extension of Washington's invariable hostile policy\", AP reported.\n\n\"It is our clear stand that we have no need to sit face to face with such unreliable and hostile persons,\" she said. \"The choice for peace includes dialogue of course, but this is not surely equated with national interests for us.\" On Tuesday she had called the FBI announcement \"a trite provocation\".\n\nThe FBI has published hundreds of crypto addresses it links to the theft and asked exchanges and other businesses to block transactions involving them.\n\n## Why it matters\n\nUS President Donald Trump has said he wants to restore ties with Kim, and analysts quoted by AP said Pyongyang is likely using weapons tests to press Washington for concessions. The launches came as votes were being counted in the US midterm elections, in which Trump's Republicans lost control of both houses of Congress. Relations between the two Koreas have also worsened since mine blasts at their border in September wounded three South Korean soldiers; Seoul says the North planted the mines, and Pyongyang denies it.\n\nFor India, the launches add to instability in a region that matters to its Act East policy and its partnerships with Japan and South Korea, while the Binance case shows how far state-linked hacking now reaches into global financial markets that Indian investors also use. The FBI has said the stolen assets will be laundered in stages, which means exchanges anywhere that receive them may be asked to freeze them.",
+  "sources": [
+    {
+      "title": "The Korea Times (Yonhap): N. Korea fires multiple missiles toward East Sea: JCS",
+      "url": "https://www.koreatimes.co.kr/foreignaffairs/northkorea/20261104/n-korea-fires-multiple-missiles-toward-east-sea-jcs"
+    },
+    {
+      "title": "The Hindu (AP): North Korea fires missiles after rejecting U.S. claims over Binance hack",
+      "url": "https://www.thehindu.com/news/international/north-korea-fires-missiles-after-rejecting-us-claims-over-binance-hack/article71667113.ece"
+    },
+    {
+      "title": "SBS News: After mentioning 'dialogue option', North Korea provokes with missile launches on US election day",
+      "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008830231"
+    },
+    {
+      "title": "CoinDesk: FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block addresses",
+      "url": "https://www.coindesk.com/policy/2026/10/31/fbi-confirms-north-korea-s-role-in-usd6-billion-binance-hack-asks-defi-community-to-block-btc-eth-sol-addresses"
+    }
+  ],
+  "correction": ""
+}
