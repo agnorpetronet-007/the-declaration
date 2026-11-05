@@ -1,0 +1,38 @@
+{
+  "title": "Climate change made Cyclone Arnab's damage a third worse, Imperial College study finds",
+  "dek": "A rapid study by Imperial College London's Grantham Institute estimates that warming raised the storm's peak winds by 5% and its eyewall rainfall by 11%, and that about a quarter of the damage can be attributed to climate change.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "Cyclone Arnab",
+    "Climate change"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-05T20:54:10Z",
+  "updatedAt": "2026-11-05T20:54:10Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Climate change increased the damage done by Cyclone Arnab, which struck the Andhra Pradesh coast on 28 October, by about 33%, according to a rapid study by researchers at Imperial College London published on Thursday.\n\nThe study, by the college's Grantham Institute, estimates that warming made the storm's maximum wind speed about 5% higher and its rainfall around the eye about 11% heavier at landfall than they would have been in a world without human-caused warming. About 25% of the economic damage can be attributed to climate change, it says.\n\n## What the study found\n\nArnab was a Category 4 storm with lifetime maximum winds of 220 km/h over the Bay of Bengal, according to the US agency figures the study uses, and a Category 3 storm with winds of 202 km/h when it crossed the coast. It was \"one the most powerful tropical cyclones near India in several decades\", the study says.\n\nThe researchers used the Imperial College Storm Model (IRIS) to compare the storm in today's climate, about 1.3°C warmer than pre-industrial times, with a simulated climate without that warming. Their main estimates:\n\n- Peak wind speed at landfall: up 9.3 km/h, or about 5%. A storm of this type is about 19% more likely than in pre-industrial times.\n- Rainfall rate in the eyewall at landfall: up 1.1 mm an hour, or about 11%, against an observed 11.3 mm an hour. Such an event now has a return period of about 14.2 years, down from 16.7.\n- Direct damage to physical assets: about 33% higher than in the pre-industrial climate.\n\nIn a world 2.6°C warmer than pre-industrial times, the model estimates that winds would be 8% stronger, eyewall rainfall 22% heavier and damage 56% greater than in pre-industrial conditions.\n\n\"The costs of climate change are not hypothetical future projections — they are hitting coastal communities in eastern India today,\" Nathan Sparks, a researcher in Imperial's Department of Physics, said in a statement quoted by The Hindu.\n\n## How the estimate was made\n\nThe damage estimate uses wind as a stand-in for all the storm's hazards, including storm surge and flooding, and combines the storm's wind field with an estimate of the value of buildings and infrastructure in its path. The researchers ran thousands of simulations, varying the wind speed and asset values, to estimate the uncertainty. The pre-industrial comparison keeps today's buildings and population fixed and changes only the wind speed.\n\nThe study is a rapid attribution analysis posted on the institute's website rather than a peer-reviewed paper, though the IRIS model itself has been described in peer-reviewed journals. The Hindu reported that the extra losses amount to tens of millions of dollars.\n\n## Background\n\nArnab killed at least seven people in Andhra Pradesh and caused damage the state put at Rs 4,600 crore, the Daily Pioneer reported, and its remnants caused floods and landslides in southern Odisha. Andhra Pradesh Chief Minister N. Chandrababu Naidu has sought Rs 4,600 crore in central relief, and inter-ministerial central teams have toured the worst-hit districts.\n\nThe study's method rests on a measure called potential intensity, the upper limit on a storm's strength set by sea and air temperatures; it estimates that this limit over the Bay of Bengal in October is now about 18 km/h higher than in pre-industrial times. The bay borders Odisha, Andhra Pradesh and West Bengal, where the Sundarbans and coastal districts are regularly in the path of its cyclones.",
+  "sources": [
+    {
+      "title": "Imperial College London, Grantham Institute: Tropical Cyclone Arnab rapid attribution study (Nov 2026)",
+      "url": "https://www.imperial.ac.uk/grantham/research/climate-science/modelling-tropical-cyclones/tropical-cyclone-arnab/",
+      "primary": true
+    },
+    {
+      "title": "The Hindu: Climate change increased tropical Cyclone Arnab's damage by 33%: Study",
+      "url": "https://www.thehindu.com/sci-tech/energy-and-environment/climate-change-increased-tropical-cyclone-arnabs-damage-by-33-study/article71669447.ece"
+    },
+    {
+      "title": "Scientific Data: The Imperial College Storm Model (IRIS) Dataset (Sparks and Toumi, 2024)",
+      "url": "https://doi.org/10.1038/s41597-024-03250-y",
+      "primary": true
+    },
+    {
+      "title": "Daily Pioneer: Cyclone Arnab leaves 7 dead, causes Rs 4,600 crore loss in Andhra Pradesh",
+      "url": "https://dailypioneer.com/india/cyclone-arnab-leaves-7-dead-causes-rs-4600-crore-loss-in-andhra-pradesh-345-lakh-farmers-affected"
+    }
+  ],
+  "correction": ""
+}
