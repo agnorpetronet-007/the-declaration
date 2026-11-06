@@ -1,6 +1,6 @@
 # The Declaration: handoff to a new Claude account
 
-Updated 3 Nov 2026.
+Updated 6 Nov 2026.
 
 In the new Claude account, start a conversation and attach these three files from this folder:
 - `HANDOFF.md`
@@ -23,22 +23,24 @@ The site's code and every story live in GitHub, not in Claude. These three files
 | Domain and DNS | GoDaddy | Nothing. |
 | Hosting | GitHub Pages | Nothing. |
 | Decisions, rules, settings | This file | Attach it in the new account and upload it to a Project there. |
-| News desk (every 3 hours) | Scheduled task in the OLD account (`trig_01Jq1U42wHgZGrm4htfaZrH8`) | Recreate from `desk-prompt.md`, then delete the old one. |
-| The Sunday Read (Sundays 4:23 am IST) | Scheduled task in the OLD account (`trig_013WtDrA2ENk2DXBBHCQyWaq`) | Recreate from `sunday-read-prompt.md`, then delete the old one. |
-| Old chat history | Old Claude account | Can't be moved, and isn't needed. |
+| News desk (every 3 hours) | Scheduled task in Claude Code (claude.ai/code/scheduled) in the current account | Recreate from `desk-prompt.md`, then delete the old one. |
+| The Sunday Read (Sundays 4:23 am IST) | Scheduled task in Claude Code in the current account | Recreate from `sunday-read-prompt.md`, then delete the old one. |
+| Old chat history, Project memory | Old Claude account | Can't be moved. Everything needed is in this file. |
 
 ## Steps in the new account
 
-1. **Connect GitHub** with the same GitHub user (`agnorpetronet-007`). The Claude GitHub App is already installed on the repo. If Claude can't push, check github.com/settings/installations and make sure the Claude app has access to `the-declaration`.
-2. **Create a Project** (for example "AARYAN") and upload this file to it, so every chat there knows the setup.
-3. **Recreate the news desk.** Say: "Create a scheduled task named 'The Declaration: draft news edition', cron `44 */3 * * *` (UTC), cloud, push notifications only, no email, using desk-prompt.md word for word."
-4. **Recreate the Sunday Read.** Say: "Create a scheduled task named 'The Declaration: The Sunday Read', cron `CRON_TZ=Asia/Kolkata 23 4 * * 0`, cloud, push notifications only, no email, using sunday-read-prompt.md word for word."
-5. **Delete both old tasks** in the old account once the new desk has opened its first pull request. Otherwise you'll get two editions every 3 hours.
-6. Keep merging the "Edition: …" pull requests on GitHub as usual.
+1. **Connect GitHub** at claude.ai/code, signed in to the new Claude account, with the same GitHub user (`agnorpetronet-007`). Follow the prompt to install the Claude GitHub App. Then open github.com/settings/installations, click Configure next to Claude, and make sure `the-declaration` is included. A regular chat's "Add from GitHub" only reads files and cannot push or open PRs, so the desk needs Claude Code.
+2. **Create a Project** (for example "AARYAN") and upload this file to it, so every chat there knows the setup. Use that Project for editorial work (shortlists, drafts, opinion copy-edits); anything that must reach the repo is pushed from a Claude Code session.
+3. **Recreate the news desk** at claude.ai/code/scheduled → New scheduled task: name "The Declaration: draft news edition", repo `agnorpetronet-007/the-declaration`, cron `44 */3 * * *` (UTC; or `14 0-21/3 * * *` if the form uses IST), prompt = desk-prompt.md word for word, push notifications only, no email. Check the run times read 00:14, 03:14, 06:14, 09:14, 12:14, 15:14, 18:14 and 21:14 IST: the 21:14 run closes the daily section quota and the 00:14 run starts the new day.
+4. **Recreate the Sunday Read** the same way: name "The Declaration: The Sunday Read", Sundays 04:23 IST (`23 4 * * 0` in Asia/Kolkata, or `53 22 * * 6` in UTC, i.e. Saturday 22:53 UTC), prompt = sunday-read-prompt.md word for word, push notifications only, no email.
+5. **Allow branch pushes.** By default Claude Code tasks can only push to branches starting `claude/`. Both tasks push `edition-…` and `sunday-read-…` branches, so allow pushes to other branches in each task's repository settings, or every run fails at the push.
+6. **Push these three files** to `handoff/` on main from a Claude Code session, so the repo copy matches.
+7. **Delete both old tasks** in the old account once the new desk has opened its first pull request. Otherwise you'll get two editions every 3 hours. Once no Claude account uses it, the old account's GitHub link can be removed.
+8. Keep merging the "Edition: …" pull requests on GitHub as usual.
 
 ---
 
-## Current state (3 Nov 2026)
+## Current state (6 Nov 2026)
 
 - **Live** at https://thedeclaration.in (GitHub Pages, custom domain, HTTPS enforced).
 - **Code**: https://github.com/agnorpetronet-007/the-declaration. Every push to `main` deploys via the "Publish site" workflow, which also rebuilds hourly at :17. Run `git pull --rebase` before pushing to main. Deleting remote branches is refused (403), so leave them.
@@ -56,10 +58,12 @@ The site's code and every story live in GitHub, not in Claude. These three files
   - PR bodies show "Today's coverage".
 - **Geopolitics is a very major part of every edition (1 Nov)**:
   - At least 2 geopolitics stories per edition, and 4-7 stories in total.
-  - Bangladesh comes first among the neighbours.
+  - China coverage (3 Nov): the owner wants strongly critical China coverage and chose sourced accountability reporting in news stories, not slanted news or a labelled view section.
+  - Neighbourhood priority (3 Nov): China, Bangladesh, Nepal, Myanmar, Sri Lanka, then South-East Asia. Pakistan, Bhutan, the Maldives and Afghanistan when there is significant news.
+  - China accountability reporting (3 Nov): every run looks for China stories that matter to India and Bengal (Brahmaputra dam and river data, LAC, Chinese loans and projects in the neighbourhood, trade dependence, cyber, South China Sea and Taiwan), reported from primary documents, spelling out the risks for India, with Beijing's position attributed and checked against the record. No editorialising in news stories.
   - Conflict claims are always attributed, and each story says what it means for India and Bengal.
   - Topic tag "Geopolitics".
-- **Primary sources first**: report from original documents, flagged `"primary": true` and shown as "Original document". Outlets are credited.
+- **Primary sources first**: report from original documents, flagged `"primary": true` and shown as "Original document". Outlets are credited in the sources list only; the story text never names an outlet or agency ("according to reports") (6 Nov). The owner wants the whole archive rectified to match. On 6 Nov, about 157 non-opinion stories on main still appeared to name outlets in the text (a rough automated count; some matches, such as "AP", may be false positives). Check open PRs before starting the clean-up.
 - **Story lengths**: brief 150-250 words, standard 500-700, indepth 900-1,200, longread (Sunday Read) 1,800-2,800. Each edition has at least one in-depth story and at most two briefs.
 - **Timestamps**: the exact real time from `date -u`, never rounded up.
 - **Pictures**: very limited, original graphics only, decided story by story. Never decorative, never on political, crime or court stories, never identifiable people, never maps with borders.
@@ -70,9 +74,9 @@ The site's code and every story live in GitHub, not in Claude. These three files
   - It gets its own front-page band for 7 days and is collected at /topic/the-sunday-read/.
   - The owner likes to shortlist on Saturday night and read the draft before publishing.
   - If `handoff/sunday-read-brief.md` is dated for that Sunday, the task writes on that subject. If the brief also contains "Status: written in conversation", the task skips that week.
-  - First one (1 Nov): "The dam India cannot see: China's Brahmaputra mega-project and the missing river data". At the owner's request it ends with a labelled section "Why India needs the Siang dam" ("This section sets out The Declaration's view"), and names no outlets in the text ("according to reports"), with sources listed. Not yet decided whether these apply to every Sunday Read.
+  - First one (1 Nov): "The dam India cannot see: China's Brahmaputra mega-project and the missing river data". At the owner's request it ends with a labelled section "Why India needs the Siang dam" ("This section sets out The Declaration's view"), and names no outlets in the text ("according to reports"), with sources listed. From 6 Nov the no-outlet-names rule applies to every story; whether the view section applies to every Sunday Read is not yet decided.
   - Unused ideas: the Ganges Waters Treaty (expires 12 Dec 2026), India's crude import cost, Rakhine and the Kaladan corridor.
-- **Opinion**: columns by **Rohit Kumar Singh**, "The Red Sky Phenomenon" (1 Nov) and "The Containment Problem" (3 Nov).
+- **Opinion**: columns by **Rohit Kumar Singh**, "The Red Sky Phenomenon" (1 Nov), "The Containment Problem" (3 Nov) and "Uniformity vs Commonality" (Nov).
   - Light copy-edit only (paragraphs, subheads, punctuation, Indian/British spelling). Claude writes the dek and fact-checks claims, flagging rather than changing the author's views.
   - The desk never writes or edits opinion pieces.
 - **Notifications**: push only, no email.
@@ -85,7 +89,7 @@ The site's code and every story live in GitHub, not in Claude. These three files
   - Dark: paper #121310, paper-2 #1B1D19, ink #ECEDE5, rule #2E312B, red #E0566A.
 - Crimson accent #B3182B; Playfair Display headlines; IBM Plex Mono metadata; Source Serif 4 text.
 - Phone layout (≤700px): compact masthead, search icon, one scrollable section row, two-line LIVE/Latest bar.
-- Graphics: 1600×900, background #F7F7F4, rendered with Playwright.
+- Graphics: 1600×900, background #F7F7F4, ink #161714 (not the warm #1A1714), rendered with Playwright.
 
 ## Technical notes for Claude
 
@@ -96,6 +100,8 @@ The site's code and every story live in GitHub, not in Claude. These three files
   - `content/articles/<id>.json`, `content/images/`, `content/cards/` (`node tools/cards.js`)
   - `site.json`, `build.js`, `assets/`, `.github/workflows/deploy.yml`
   - `handoff/` (not published)
+- Graphics ink is #161714 (changed 6 Nov from the warm #1A1714 in both prompts). `tools/cards.js` still uses #1A1714 for share images; changing it is a site change awaiting the owner's approval.
+- On 6 Nov the repo's `handoff/` copies were older than these files (missing the 3 Nov and 6 Nov rules). Always recreate tasks from the newest copies and keep `handoff/` in sync.
 
 ## DNS at GoDaddy (done)
 
