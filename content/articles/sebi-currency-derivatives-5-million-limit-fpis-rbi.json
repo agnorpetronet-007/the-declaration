@@ -1,0 +1,34 @@
+{
+  "title": "SEBI cuts no-questions-asked rupee derivatives limit to $5 million from $100 million",
+  "dek": "Traders and foreign investors must now show a real currency exposure for exchange-traded rupee positions above $5 million, matching an RBI tightening in October.",
+  "section": "Business",
+  "format": "brief",
+  "topics": [
+    "SEBI",
+    "Rupee",
+    "Markets"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-05T15:36:51Z",
+  "updatedAt": "2026-11-05T15:36:51Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Market regulator SEBI on Thursday cut the size of rupee currency-derivative positions that traders can hold on stock exchanges without proving a real foreign-exchange exposure, to $5 million from $100 million, bringing exchange rules in line with a tightening by the Reserve Bank of India last month.\n\nUnder the circular, domestic clients and foreign portfolio investors (FPIs) may take long or short positions in exchange-traded currency futures and options involving the rupee \"up to a single limit of USD 5 million equivalent of notional value (outstanding at any point)\". The limit applies across all rupee pairs and all exchanges combined. FPIs' short positions in foreign currency-rupee contracts may not exceed $5 million in total.\n\nTo go long beyond that, an FPI must hold underlying investments in Indian debt or equity, including mutual fund units. Domestic clients can exceed the limit only under conditions in the RBI's rules on risk management and inter-bank dealings, as amended by its circular of 10 October 2026, which also tightened the cancellation and rebooking of currency hedges.\n\nThe RBI's October circular reduced the threshold from $100 million, according to summaries of it published by TaxGuru and others. The lower threshold means traders without a genuine currency exposure to hedge can take only much smaller positions on the rupee through exchanges. Exchanges and clearing corporations have been told to change their bye-laws and systems; the circular gives no separate start date.",
+  "sources": [
+    {
+      "title": "SEBI: Circular HO/(561)2026-MRD-POD2/I/25177/2026, Revision of limits relating to requirement of underlying exposure for currency derivatives contracts, 5 Nov 2026 (PDF)",
+      "url": "https://www.sebi.gov.in/sebi_data/attachdocs/nov-2026/1793872119320.pdf",
+      "primary": true
+    },
+    {
+      "title": "TaxGuru: RBI tightens INR forex derivative rebooking rules, cuts unhedged position threshold to USD 5 million",
+      "url": "https://taxguru.in/rbi/rbi-tightens-inr-forex-derivative-rebooking-rules-cuts-unhedged-position-threshold-usd-5-million.html"
+    },
+    {
+      "title": "Millennium Post (PTI): Sebi revises currency derivative norms for domestic investors, FPIs; allows to trade up to USD 5 mn",
+      "url": "https://www.millenniumpost.in/business/sebi-revises-currency-derivative-norms-for-domestic-investors-fpis-allows-to-trade-up-to-usd-5-mn-682273"
+    }
+  ],
+  "correction": ""
+}
