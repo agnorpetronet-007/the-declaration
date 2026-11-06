@@ -74,7 +74,7 @@ The site's code and every story live in GitHub, not in Claude. These three files
   - It gets its own front-page band for 7 days and is collected at /topic/the-sunday-read/.
   - The owner likes to shortlist on Saturday night and read the draft before publishing.
   - If `handoff/sunday-read-brief.md` is dated for that Sunday, the task writes on that subject. If the brief also contains "Status: written in conversation", the task skips that week.
-  - First one (1 Nov): "The dam India cannot see: China's Brahmaputra mega-project and the missing river data". At the owner's request it ends with a labelled section "Why India needs the Siang dam" ("This section sets out The Declaration's view"), and names no outlets in the text ("according to reports"), with sources listed. From 6 Nov the no-outlet-names rule applies to every story; whether the view section applies to every Sunday Read is not yet decided.
+  - First one (1 Nov): "The dam India cannot see: China's Brahmaputra mega-project and the missing river data". At the owner's request it ends with a labelled section "Why India needs the Siang dam" ("This section sets out The Declaration's view"), and names no outlets in the text ("according to reports"), with sources listed. From 6 Nov the no-outlet-names rule applies to every story, and every Sunday Read ends with a labelled "The Declaration's view" section arguing India's interest (owner, 6 Nov).
   - Unused ideas: the Ganges Waters Treaty (expires 12 Dec 2026), India's crude import cost, Rakhine and the Kaladan corridor.
 - **Opinion**: columns by **Rohit Kumar Singh**, "The Red Sky Phenomenon" (1 Nov), "The Containment Problem" (3 Nov) and "Uniformity vs Commonality" (Nov).
   - Light copy-edit only (paragraphs, subheads, punctuation, Indian/British spelling). Claude writes the dek and fact-checks claims, flagging rather than changing the author's views.
@@ -100,7 +100,7 @@ The site's code and every story live in GitHub, not in Claude. These three files
   - `content/articles/<id>.json`, `content/images/`, `content/cards/` (`node tools/cards.js`)
   - `site.json`, `build.js`, `assets/`, `.github/workflows/deploy.yml`
   - `handoff/` (not published)
-- Graphics ink is #161714 (changed 6 Nov from the warm #1A1714 in both prompts). `tools/cards.js` still uses #1A1714 for share images; changing it is a site change awaiting the owner's approval.
+- Graphics ink is #161714 (changed 6 Nov from the warm #1A1714 in both prompts). Share images (`tools/cards.js`) switched to the neutral palette on 6 Nov with the owner's approval; all were regenerated.
 - On 6 Nov the repo's `handoff/` copies were older than these files (missing the 3 Nov and 6 Nov rules). Always recreate tasks from the newest copies and keep `handoff/` in sync.
 
 ## DNS at GoDaddy (done)

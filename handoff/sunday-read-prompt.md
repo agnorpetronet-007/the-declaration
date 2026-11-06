@@ -49,7 +49,8 @@ Do NOT change any other story file, including other stories' lead or breaking fl
   6. "## The other side": the strongest counter-arguments, the reasons it might not matter, and the voices that disagree.
   7. "## What to watch": dated signposts, decisions, deadlines and data releases, as short lines.
   8. Optionally "## Key numbers", as short lines.
-- Style: plain, neutral English in your own words. Report every side on contested political issues, with no editorialising. Attribute claims in conflicts to whoever makes them. Quote at most one short phrase under 15 words from any news outlet; quotes from primary documents may be longer where needed. Do not name private individuals who are victims, suspects not yet charged, or any minors. Give times in IST.
+  9. ALWAYS END WITH "## The Declaration's view" (owner's instruction, 6 Nov 2026). Its first line is exactly: "This section sets out The Declaration's view." Then, in 250-450 words, argue the course of action that best serves India's interests (and Bengal's where relevant), as the first Sunday Read did with "Why India needs the Siang dam". Build the argument only on facts already reported and sourced above (no new unverified claims), make the strongest case clearly, and acknowledge the real costs and the people affected. Use a specific heading if it reads better (for example "## Why India needs the Siang dam"), but the opening line must always be the one above, so readers can tell the argument from the reporting.
+- Style: plain, neutral English in your own words. Report every side on contested political issues, with no editorialising, except in the clearly labelled closing view section. Attribute claims in conflicts to whoever makes them. Quote at most one short phrase under 15 words from any news outlet; quotes from primary documents may be longer where needed. Do not name private individuals who are victims, suspects not yet charged, or any minors. Give times in IST.
 - sources: a list of {title, url, primary}. Primary sources get "primary": true and a descriptive title naming the body and document. Outlet sources use the form "Outlet: headline".
 
 ## 5. Picture (usually worth one for a long read, but only if it explains something)
@@ -67,6 +68,7 @@ Do NOT change any other story file, including other stories' lead or breaking fl
   - why this subject was chosen, and the 2-3 runner-up subjects you considered
   - the primary sources
   - the scenarios in one line each
+  - the position taken in the closing view section, in one line
   - anything the editor should double-check
   End the body with "Merge to publish. Close to reject."
 - Finish with a short summary for the owner's phone notification. The first line is the pull request link, followed by the headline and one line on why it matters.
