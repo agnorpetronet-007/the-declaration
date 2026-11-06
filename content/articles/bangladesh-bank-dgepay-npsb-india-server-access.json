@@ -1,0 +1,33 @@
+{
+  "title": "Bangladesh's central bank cuts off payment firm over system access from India",
+  "dek": "Bangladesh Bank disconnected DGePay from the national payment switch, saying the company was running its service through an Indian vendor. The firm says there has been no breach.",
+  "section": "World",
+  "format": "brief",
+  "topics": [
+    "India-Bangladesh",
+    "Cybersecurity",
+    "Geopolitics"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-06T05:55:04Z",
+  "updatedAt": "2026-11-06T05:55:04Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Bangladesh Bank has disconnected the payment gateway DGePay from the National Payment Switch Bangladesh (NPSB), which links the country's banks, after finding that the company's systems were being run with access from India. Bank officials told The Daily Star it was the first such allegation against a licensed payment operator.\n\n\"We found that the company was providing its services from India,\" the central bank's spokesperson, Arief Hossain Khan, told The Business Standard (TBS). He said the licence had not been cancelled and that further action would follow an investigation. TBS reported that the link was cut at 8 pm on 29 October. A senior official said the main risk was that the Indian vendor could reach the system while it was operated from outside Bangladesh.\n\nDGePay's chief executive, Rashed Mahmud, said its systems were built by an India-based development team that has access only for development work, and that there had been no breach. He said the move came without notice and affected only transactions routed through the NPSB. The company serves between 600 and 1,000 merchants, and is part of Dipon Group, five of whose 17 concerns are based in India, The Daily Star reported. Mahmud said the company would now try to develop its system locally.\n\nThe case comes at a time of strain between Dhaka and New Delhi, including over Dhaka's demand that India extradite former prime minister Sheikh Hasina.",
+  "sources": [
+    {
+      "title": "The Daily Star: BB severs DGePay, NPSB ties over access from India",
+      "url": "https://www.thedailystar.net/news/bangladesh/news/bb-severs-dgepay-npsb-ties-over-access-india-4316051"
+    },
+    {
+      "title": "The Business Standard: Bangladesh Bank disconnects DGePay from NPSB over data security concerns",
+      "url": "https://www.tbsnews.net/economy/bangladesh-bank-disconnects-dgepay-npsb-over-data-security-concerns-1593011"
+    },
+    {
+      "title": "UNB: BB disconnects DGePay from NPSB over security concerns",
+      "url": "https://unb.com.bd/category/Business/bb-disconnects-dgepay-from-npsb-over-security-concerns/199551"
+    }
+  ],
+  "correction": ""
+}
