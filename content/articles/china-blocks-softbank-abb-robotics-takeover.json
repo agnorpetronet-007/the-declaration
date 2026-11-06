@@ -1,0 +1,37 @@
+{
+  "title": "China blocks SoftBank's $5.4 billion purchase of ABB's robotics business",
+  "dek": "Beijing's foreign-investment security review prohibited the sale of ABB's robotics operations in China, reportedly over fears that factory data could leave the country.",
+  "section": "Business",
+  "format": "standard",
+  "topics": [
+    "China",
+    "Robotics",
+    "Foreign investment"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-06T15:55:21Z",
+  "updatedAt": "2026-11-06T15:55:21Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "China has blocked the Japanese group SoftBank's purchase of the Swiss engineering company ABB's robotics business in China, a decision that puts the $5.4 billion deal for the whole division in doubt.\n\nABB said in a statement on Thursday that it had been informed by SoftBank that \"the Office of the Working Mechanism for Foreign Investment Security Review in China has prohibited the acquisition of the ABB robotics business in China\". The office is China's national-security screening body for foreign investment, separate from its competition regulator, which had already cleared the deal in February, according to reports. ABB gave no reason for the decision and declined to say what it means for the rest of the sale, but said the two companies remained in close contact and were working constructively on the transaction, reports said.\n\n## Why China matters to the deal\n\nABB agreed in October 2025 to sell its robotics division to SoftBank for an enterprise value of about $5.4 billion, instead of listing it separately as it had first planned. The European Commission had approved the deal. China is the division's largest market: more than 90% of the robots ABB sells to Chinese customers are made in China, reports said, and the company has run a $150 million robot factory in Shanghai since 2022.\n\nAccording to reports citing people familiar with the review, Chinese officials were concerned that production data from the robots could be sent abroad and used to train artificial-intelligence models; SoftBank is one of the biggest investors in the US company OpenAI. Reports also said a review by China's National Development and Reform Commission had looked at ABB's Chinese supply chain and demanded that some manufacturing capacity stay in China, and that officials had examined whether intellectual property should remain in the country. Beijing has not commented publicly, and the reasons have not been confirmed by either company.\n\nThe decision came as a surprise to SoftBank, which had expected approval as recently as last week and is assessing whether a fresh attempt is possible, one report said. SoftBank has not made a public statement. It is not the first such case this year: Chinese authorities earlier blocked the US company Meta's purchase of Manus, an AI start-up with Chinese roots, reports said.\n\n## What it means for India\n\nThe case shows China using a security review not only to keep sensitive technology at home but also to keep factories, data and know-how inside the country even when a foreign company sells a business it built there. For India, which is trying to attract electronics, automotive and machinery manufacturing as companies look beyond China, it is a reminder of how hard Beijing can make it to move production, equipment and data out. Indian factories that buy industrial robots and automation equipment rely in part on suppliers with large Chinese operations.\n\nIndia has its own screening rule: since April 2020, under the rule known as Press Note 3, any investment from a country sharing a land border with India, including China, needs government approval.\n\n## What happens next\n\nABB had expected net proceeds of about $5.3 billion from the sale and has recently agreed to buy the British automation company Rotork for about $5.5 billion, reports said. It has not said whether it will try to restructure the deal, keep the Chinese business or revive the plan to list the division.",
+  "sources": [
+    {
+      "title": "Silicon Republic: China blocks SoftBank's $5.4bn ABB robotics unit acquisition",
+      "url": "https://www.siliconrepublic.com/business/china-softbank-abb-robotics-japan-data-ai-investment"
+    },
+    {
+      "title": "Swissinfo: China blocks sale of ABB robotics division to SoftBank",
+      "url": "https://www.swissinfo.ch/eng/swiss-industry/china-blocks-abbs-sale-of-its-robotics-division-to-softbank/92331115"
+    },
+    {
+      "title": "Forbes: China blocks $5.4 billion ABB robotics deal with SoftBank",
+      "url": "https://www.forbes.com/sites/iansayson/2026/11/06/china-blocks-54-billion-abb-robotics-deal-with-billionaire-mayasoshi-sons-softbank/"
+    },
+    {
+      "title": "The Japan Times: China blocks SoftBank's $5.4 billion ABB robot unit takeover",
+      "url": "https://www.japantimes.co.jp/business/2026/11/05/companies/china-block-softbank-robot-sale/"
+    }
+  ],
+  "correction": ""
+}
