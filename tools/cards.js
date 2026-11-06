@@ -26,14 +26,14 @@ function html(s, id) {
 @font-face{font-family:PM;font-weight:500;src:url(${font("ibm-plex-mono", "ibm-plex-mono-latin-500-normal.woff2")})}
 @font-face{font-family:PM;font-weight:600;src:url(${font("ibm-plex-mono", "ibm-plex-mono-latin-600-normal.woff2")})}
 *{margin:0;box-sizing:border-box}
-body{width:1200px;height:630px;background:#F2EDE3;color:#1A1714;overflow:hidden;position:relative}
+body{width:1200px;height:630px;background:#F7F7F4;color:#161714;overflow:hidden;position:relative}
 .top{position:absolute;left:72px;right:72px;top:52px;display:flex;justify-content:space-between;align-items:center}
-.logo{height:84px;width:180px;background:#1A1714;-webkit-mask:url(${logo}) left center/contain no-repeat}
+.logo{height:84px;width:180px;background:#161714;-webkit-mask:url(${logo}) left center/contain no-repeat}
 .k{font:600 21px PM;letter-spacing:.14em;text-transform:uppercase;color:#B3182B}
 .k.live{background:#B3182B;color:#fff;padding:9px 14px}
 .box{position:absolute;left:72px;right:72px;top:172px;bottom:118px;display:flex;align-items:center;border-left:6px solid #B3182B;padding-left:34px}
 h1{font:800 66px/1.1 PF;letter-spacing:-.01em}
-.foot{position:absolute;left:72px;right:72px;bottom:52px;display:flex;justify-content:space-between;font:500 20px PM;color:#4B463F;border-top:2px solid #1A1714;padding-top:18px}
+.foot{position:absolute;left:72px;right:72px;bottom:52px;display:flex;justify-content:space-between;font:500 20px PM;color:#45473F;border-top:2px solid #161714;padding-top:18px}
 </style>
 <div class="top"><div class="logo"></div><div class="k${live ? " live" : ""}">${live ? "Breaking · " : ""}${esc(s.section)}</div></div>
 <div class="box"><h1 id="h">${esc(s.title)}</h1></div>
