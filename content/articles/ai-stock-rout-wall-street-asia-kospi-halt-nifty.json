@@ -1,0 +1,69 @@
+{
+  "title": "AI stock rout spreads from Wall Street to Asia; Kospi halted, Indian shares steady",
+  "dek": "US chip stocks had their worst day since 2020 after Democrats who promised to curb AI data centres swept the midterms. Seoul suspended trading; the Nifty was flat and IT shares rose.",
+  "section": "Business",
+  "format": "indepth",
+  "topics": [
+    "Markets",
+    "Artificial intelligence",
+    "US midterms"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-06T03:54:03Z",
+  "updatedAt": "2026-11-06T03:54:03Z",
+  "lead": true,
+  "breaking": false,
+  "status": "published",
+  "body": "A sell-off in artificial intelligence and chip stocks that began on Wall Street on Thursday spread across Asia on Friday, forcing a trading halt in Seoul and sending Tokyo sharply lower. Indian shares held up far better: the Nifty 50 was almost flat in early trade, and the Nifty IT index of software exporters actually rose.\n\nIn New York the S&P 500 fell 4.4% and the tech-heavy Nasdaq 100 6.3% on Thursday, together wiping out about $2.8 trillion of market value, NBC News reported, their worst day since April 2025. Investors were reacting to the scale of the Democrats' victory in Tuesday's midterm elections, in which many winning candidates promised to slow or halt the construction of the giant data centres that power AI, and to growing doubts about whether AI spending will pay off.\n\n## What happened\n\nThe Dow Jones Industrial Average fell 1,833 points, or 3.4%, and the Nasdaq Composite dropped more than 5.5%, taking it more than 10% below its recent peak, the level traders call a correction. The Philadelphia semiconductor index lost 12.3%, its worst day since March 2020, according to NBC News. Nvidia fell 9.2%, its biggest one-day drop since April 2025. Memory and storage makers were hit hardest: SanDisk fell 22%, and Micron, Western Digital and AMD about 17% each. Arm Holdings fell 13% and Qualcomm 9.5% after results on Wednesday that investors saw as mixed.\n\nThe selling moved to Asia as markets opened. South Korea's Kospi fell more than 8% about three minutes after the open on Friday, triggering a circuit breaker that halted trading for 20 minutes, The Korea Times reported. The index fell below 5,000 for the first time in about ten months. By 10:30 am Seoul time SK Hynix was down 10.3% and Samsung Electronics 8%. Japan's Nikkei 225 fell as much as 5.7%, according to Business Today. On Thursday the Kospi had already lost 5.3%, the Associated Press reported.\n\n## India: a relatively calm open\n\nIn Mumbai, the Nifty 50 opened at 24,538.20 and was at 24,512.80 at 9:21 am, down 23.80 points or 0.1%, according to National Stock Exchange index data. The BSE Sensex was 103 points higher in pre-open trading at 79,413, Business Standard reported. The Nifty IT index was up 1.9% at 33,476.10, while the Nifty Midcap 100 was down 1.1% and the India VIX volatility gauge rose 6.3% to 16.56.\n\nIndia has few listed companies that make chips or build AI data centres, which kept it out of the worst of the sell-off. Business Today reported analysts' view that worries about AI regulation could encourage a \"reverse AI\" trade that helps markets such as India, though they said near-term weakness could not be ruled out. Hariselvan Radhakrishnan, chief executive of HST Wealth, told Business Today that pressure on India was likely to be concentrated in IT and other globally sensitive stocks, and that sustained global selling could still reach domestic sectors through foreign investors pulling money out. Foreign portfolio investors bought Rs 7,284 crore of Indian shares on Wednesday, their largest one-day purchase since October 2025, HDFC Sky reported.\n\nOil is the other channel. Brent crude rose about 4% on Thursday to settle at $98.29 a barrel as attacks on tankers near the Strait of Hormuz continued, Fox News reported, reversing part of the fall that had driven Indian shares up 2.6% on Thursday.\n\n## Background: the data-centre backlash\n\nDemocrats flipped five governorships on Tuesday, in Texas, Georgia, Ohio, Iowa and Nevada, states that together hold 37% of planned US data-centre capacity, according to an analysis by The National. In Texas, which alone accounts for 22.8%, Governor-elect Gina Hinojosa pledged in October to halt all new data-centre approvals until the legislature passes protections, CNBC reported. The incoming governors of Georgia and Ohio, Keisha Lance Bottoms and Amy Acton, have pledged pauses on large new data centres. Voters approved nearly every local data-centre moratorium on the ballot.\n\nSenator Bernie Sanders wrote on X: \"National data center moratorium now,\" according to CNBC. Nomura analysts said a federal moratorium \"looks unlikely\", though state-level pauses remain possible, Business Today reported.\n\n## What they are saying\n\n\"I don't think this is an AI bubble bursting,\" Ed Yardeni of Yardeni Research told NBC News, calling it instead \"an AI bubble losing some air very, very rapidly\". Nomura's Charlie McElligott said the selling did not reflect a fundamental deterioration in company prospects, according to Yahoo Finance.\n\nPresident Donald Trump blamed his opponents. \"The Stock Market suffered one of the Worst Days in History based on the results of the Election,\" he wrote on Truth Social, NBC News reported.\n\n## Why it matters for India\n\nFriday's early trading suggested India is, for now, being treated as a shelter from the AI sell-off rather than a casualty of it. Analysts quoted by Business Today warned that this is relative resilience, not immunity: a broad global retreat from risk would still reach Indian shares through foreign selling, and a renewed rise in oil prices would weigh on the rupee and on inflation. Mr Radhakrishnan said a decisive fall in the Nifty below 24,330 would signal that global risk aversion was outweighing domestic support.\n\n## What happens next\n\nTraders cut their bets on a US interest-rate rise at the Federal Reserve's 8-9 December meeting, with the odds now about 60%, NBC News reported. Investors will watch whether US markets steady on Friday and whether the incoming governors turn campaign pledges into orders once they take office.",
+  "image": {
+    "src": "wall-street-ai-rout-nov-5-falls.jpg",
+    "alt": "Bar chart of one-day falls on 5 November 2026: Dow Jones down 3.4%, S&P 500 down 4.4%, Nasdaq 100 down 6.3%, Nvidia down 9.2%, Qualcomm down 9.5%, Philadelphia semiconductor index down 12.3%, Arm Holdings down 13%, Micron down 17% and SanDisk down 22%.",
+    "caption": "Chip and memory makers fell far more than the broad US indices on Thursday.",
+    "credit": "Graphic: The Declaration",
+    "hero": false
+  },
+  "sources": [
+    {
+      "title": "National Stock Exchange: index data (Nifty 50, Nifty IT, Nifty Midcap 100, India VIX), 6 Nov 2026, 09:21 IST",
+      "url": "https://www.nseindia.com/market-data/live-market-indices",
+      "primary": true
+    },
+    {
+      "title": "NBC News: Stocks plunge as election outcome and AI worries crush tech shares",
+      "url": "https://www.nbcnews.com/business/markets/tech-stocks-plunge-ai-midterms-rcna607650"
+    },
+    {
+      "title": "The Korea Times: AI investment fears spark panic selling in Samsung, SK hynix",
+      "url": "https://www.koreatimes.co.kr/economy/20261106/ai-investment-fears-spark-panic-selling-in-samsung-sk-hynix"
+    },
+    {
+      "title": "Business Today: Why stock markets are falling; behind AI rout and likely impact on India",
+      "url": "https://www.businesstoday.in/markets/stocks/story/bt-explainer-why-stock-markets-are-falling-behind-ai-rout-likely-impact-on-india-566082-2026-11-06"
+    },
+    {
+      "title": "Business Standard: Stock Market LIVE, 6 November",
+      "url": "https://www.business-standard.com/markets/news/stock-market-live-november-6-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-q2-results-today-dhanteras-126110600099_1.html"
+    },
+    {
+      "title": "Yahoo Finance: Stock market today, Dow plunges 1,800 points, Nasdaq enters correction in AI trade meltdown",
+      "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+    },
+    {
+      "title": "CNBC: Top Democrats call to rein in AI buildout after midterms sweep",
+      "url": "https://www.cnbc.com/2026/11/05/democrats-data-center-restrictions-midterms.html"
+    },
+    {
+      "title": "The National: Democrats' midterm gains put US data centre boom under pressure",
+      "url": "https://www.thenationalnews.com/news/2026/11/05/democrats-midterm-gains-put-us-data-centre-boom-under-pressure/"
+    },
+    {
+      "title": "WHIO (AP): A brutal sell-off for AI stocks sends Wall Street reeling",
+      "url": "https://whio.com/news/business/asian-shares-mostly/35HQTD66QE2AJNC4GIP7NODRV4"
+    },
+    {
+      "title": "HDFC Sky: GIFT Nifty signals mildly positive open for Sensex, Nifty on Friday",
+      "url": "https://hdfcsky.com/news/gift-nifty-signals-mildly-positive-open-for-sensex-nifty-on-friday-as-oil-cools-democrats-sweep-us-polls"
+    }
+  ],
+  "correction": ""
+}
