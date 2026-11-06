@@ -1,0 +1,50 @@
+{
+  "title": "Uniformity vs Commonality",
+  "dek": "India's personal laws need reform, but a single identical code would flatten a plural society. A better path is to hold every community's code to the same constitutional tests of equality, non-discrimination and dignity.",
+  "section": "Opinion",
+  "topics": [
+    "Uniform Civil Code",
+    "Constitution"
+  ],
+  "author": "Rohit Kumar Singh",
+  "format": "standard",
+  "publishedAt": "2026-11-06T08:00:06Z",
+  "updatedAt": "2026-11-06T08:00:06Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "During the formulation of the Indian Constitution, the question of a Uniform Civil Code arose amid persistent communal turbulence following Partition. Recognising these circumstances, the Framers decided to place the issue in abeyance within Part IV of the Constitution, under Article 44, as a Directive Principle of State Policy to be gradually enacted once national conditions grew more harmonious.\n\nToday the debate has re-emerged following the enactment of state-level codes in Uttarakhand, Gujarat and Assam, alongside frequent references to enactment in other states. Proponents argue that for national unity, natural justice and legal synonymity, a standardised civil code across the country has become an absolute imperative. However, what remains deeply contentious is not the core need for reform, but the method of implementation.\n\n## Two paths\n\nTwo distinct paths lie before us:\n\n- **Uniformity:** a single code applying identical rules to all civil aspects (marriage, divorce, inheritance, adoption) across every community.\n- **Commonality:** a baseline framework of non-negotiable constitutional principles that every personal law must satisfy, while permitting diverse codes and variations.\n\nTo illustrate: uniformity mandates one single, standardised divorce law for all citizens to ensure gender justice. Commonality, conversely, permits distinct community-specific personal codes, provided every single one strictly guarantees gender equality and non-discrimination.\n\n## One in many\n\nThere is currently a strong political push for strict uniformity. While uniformity possesses systemic neatness, it risks diluting the foundational ethos of India. India is not a monoculture; it is a composite civilisation. Walk a few hundred kilometres in any direction and societal structures transform drastically, from northern marriage prohibitions to South Indian customary cross-cousin unions, or the matrilineal succession traditions of the Khasi community in Meghalaya. India has endured precisely because of pluralism, tolerance and the absence of a single forced identity. It is best described not as a melting pot, but as \"one in many\", or \"unity in diversity\".\n\nEven the new state codes concede the point: Uttarakhand and Gujarat both exempt their Scheduled Tribes, to protect their customary identities.\n\nHolding on to demonstrably regressive or discriminatory practices under the guise of tradition is certainly counterproductive in a modern world. Progressive ideals must be adopted to reconcile heritage with evolution. The Framers understood the need for this balance, embedding religious freedom under Articles 25–28 and cultural rights under Articles 29–30, alongside special protections for tribal communities under the Fifth and Sixth Schedules and Articles 371A and 371G, which safeguard Naga and Mizo customary law.\n\n## A scalpel, not a hammer\n\nRather than enforcing an identical code that flattens cultural markers, India should strive for commonality through codification and reform within diverse personal laws. The 21st Law Commission reached a similar conclusion in 2018, finding a uniform civil code \"neither necessary nor desirable at this stage\" and recommending reform of the existing personal laws instead.\n\nCodification matters here. Since the Bombay High Court's 1951 ruling in State of Bombay v. Narasu Appa Mali, uncodified personal law has been widely treated as beyond the reach of fundamental rights, a question the courts have never fully settled. Codified, every personal law becomes open to constitutional scrutiny. By testing all customary codes against the touchstones of Article 14 (equality), Article 15 (non-discrimination) and Article 21 (life and dignity), we achieve the dual objective of preserving plural identity while advancing human rights.\n\nThe reform of personal law in a diverse democracy requires the precision of a scalpel: a velvet hand to accommodate and elevate, not an iron hand to thump.",
+  "sources": [
+    {
+      "title": "Uttarakhand Gazette: The Uniform Civil Code, Uttarakhand, 2024 (Act No. 03 of 2024), Section 2 (PDF)",
+      "url": "https://ucc.uk.gov.in/server/file/uploads/shared-files/ucc-acts-en-final.pdf",
+      "primary": true
+    },
+    {
+      "title": "Law Commission of India: Consultation Paper on Reform of Family Law, 31 August 2018, para 1.15 (PDF)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3ca0daec69b5adc880fb464895726dbdf/uploads/2022/09/2022092674.pdf",
+      "primary": true
+    },
+    {
+      "title": "Ministry of Law and Justice: The Constitution of India, as on 1 May 2024 (PDF)",
+      "url": "https://cdnbbsr.s3waas.gov.in/s380537a945c7aaa788ccfcdf1b99b5d8f/uploads/2024/07/20240716890312078.pdf",
+      "primary": true
+    },
+    {
+      "title": "Outlook: Gujarat passes Uniform Civil Code Bill 2026",
+      "url": "https://www.outlookindia.com/national/gujarat-passes-uniform-civil-code-bill-2026-second-state-after-uttarakhand-to-enact-ucc",
+      "primary": false
+    },
+    {
+      "title": "Business Standard: Assam Assembly passes Uniform Civil Code Bill",
+      "url": "https://www.business-standard.com/india-news/assam-assembly-passes-uniform-civil-code-bill-amid-opposition-protest-126052700986_1.html",
+      "primary": false
+    },
+    {
+      "title": "ThePrint: How the three states' UCC models compare",
+      "url": "https://theprint.in/judiciary/uttarakhand-gujarat-now-assam-how-the-3-states-ucc-models-compare-from-marriage-to-succession/2945153/",
+      "primary": false
+    }
+  ],
+  "correction": ""
+}
