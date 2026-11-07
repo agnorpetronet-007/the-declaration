@@ -1,0 +1,33 @@
+{
+  "title": "Semicon India 2.0 opens for chip plants and equipment makers; 12 component projects cleared",
+  "dek": "The second phase of the chip programme has an outlay of Rs 1,27,500 crore. The Centre also approved Rs 7,503 crore of investment in circuit boards, battery materials and other parts.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Semiconductors",
+    "Electronics manufacturing"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-07T01:00:17Z",
+  "updatedAt": "2026-11-07T01:00:17Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The Centre has opened applications for the second phase of its semiconductor programme, Semicon India 2.0, inviting proposals for new chip fabrication plants, chip-making machines and materials, and assembly and testing units. Electronics and IT Minister Ashwini Vaishnaw launched the application portal in New Delhi on Friday and announced approval for 12 more electronics component projects under a separate scheme.\n\nThe second phase has an outlay of Rs 1,27,500 crore, according to reports of the launch. It aims to bring in at least three major makers of semiconductor equipment and five suppliers of the speciality chemicals and gases that chip plants need. Mr Vaishnaw said the programme was meant for serious, technologically capable companies. \"We don't want placeholders,\" he said.\n\n## What the new phase covers\n\nSemicon India 2.0 is organised around six pillars: chip design, machines and materials, fabrication plants (fabs), assembly, testing, marking and packaging (ATMP/OSAT), research and development, and training. Friday's portal opens applications under three of them: equipment and materials, additional fabs, and expansion of assembly and testing.\n\nThe first phase approved 12 projects with investment of more than Rs 1.64 lakh crore across six states. Five of them were in commercial production by October, according to reports of the launch. Under its Chips to Startup programme, 332 institutions have been given chip-design software and about 70,000 students trained.\n\nEquipment and materials are the gap the new phase is aimed at. Chip plants rely on a small number of foreign suppliers for lithography and other tools and on imported speciality gases and chemicals, many of them from East Asia.\n\n## Twelve component projects\n\nThe 12 projects cleared under the Electronics Components Manufacturing Scheme (ECMS) involve investment of Rs 7,503 crore and are expected to produce goods worth Rs 39,045 crore and create 7,127 direct jobs. They are in Gujarat, Karnataka, Madhya Pradesh, Maharashtra, Punjab, Tamil Nadu and Uttar Pradesh, and span 10 product types.\n\nThe companies named in reports include NeST ICELR (multilayer printed circuit boards), TDConnex (relays), Indo Asia Copper (copper foil), TACC (battery anode materials), Vidyuta Materials (battery cathode materials), Voltix Semicon (speciality ceramics), Enerfolie (polypropylene film), Modern Automotives (heat sinks), Surface Modification Technologies (camera rims), Rockwell Automation India (power and control systems) and Wipro Pari Robotics (factory automation). Copper foil, cathode active material and speciality ceramics are being supported under the scheme for the first time.\n\nWith this round, the scheme has approved 118 applications covering 34 products in 16 states, with total investment of Rs 77,051 crore, projected production of Rs 5.73 lakh crore and 81,755 direct jobs. Nearly half the units are small and medium enterprises.\n\n## Why it matters\n\nIndia imports most of the components that go into the phones and electronics assembled in the country, a large share of them from China. Battery materials, circuit boards and passive components are among the parts where dependence is highest. The component scheme is meant to build a domestic supply base so that more of the value of devices made in India is added in India.\n\n## What happens next\n\nCompanies can now apply for fab, equipment and assembly projects through the Semicon India 2.0 portal. The ministry has said further rounds of component approvals will follow.",
+  "sources": [
+    {
+      "title": "PIB: Ministry of Electronics and IT release on launch of Semicon 2.0 portal and ECMS approvals, 6 Nov 2026",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2333716",
+      "primary": true
+    },
+    {
+      "title": "ThePrint (PTI): Govt opens Semicon 2.0 applications, clears 12 electronics component projects worth Rs 7,503 cr",
+      "url": "https://theprint.in/india/govt-opens-semicon-2-0-applications-clears-12-electronics-component-projects-worth-rs-7503-cr/3092665/"
+    },
+    {
+      "title": "Kashmir Despatch: Vaishnaw launches Semicon 2.0 web application portal, announces 12 approved ECMS applicants",
+      "url": "https://kashmirdespatch.com/union-minister-ashwini-vaishnaw-launches-semicon-2-0-web-application-portal-and-announces-12-approved-applicants-under-electronics-components-manufacturing-scheme/"
+    }
+  ],
+  "correction": ""
+}
