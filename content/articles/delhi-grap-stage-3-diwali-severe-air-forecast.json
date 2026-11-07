@@ -1,0 +1,37 @@
+{
+  "title": "Delhi-NCR brings in Stage III pollution curbs two days before Diwali",
+  "dek": "The air-quality commission acted as a precaution, with half of Delhi's monitoring stations in the 'severe' band and severe air forecast from Saturday to Monday.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "Delhi pollution",
+    "Air quality",
+    "Stubble burning"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-07T01:00:17Z",
+  "updatedAt": "2026-11-07T01:00:17Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The Commission for Air Quality Management (CAQM) has imposed Stage III of the Graded Response Action Plan (GRAP) across Delhi and the National Capital Region, two days before Diwali, as forecasters expect the city's air to be \"severe\" from Saturday to Monday. The commission's sub-committee on GRAP announced the decision on Friday afternoon and described it as a \"precautionary measure\".\n\nStage III is normally triggered when the average air quality index (AQI) is expected to cross 401, the start of the \"severe\" band. The commission acted before the city-wide average had reached that level, though about half of Delhi's 59 monitoring stations were already in the severe range on Friday.\n\n## The readings\n\nFigures from different times and dashboards vary. One report put Delhi's AQI at 391 at 9 am on Friday, with about 30 of the 59 stations in the severe band. Another, citing Central Pollution Control Board data, gave readings of 474 at IIT Delhi and Rohini, 465 at Punjabi Bagh, 443 at RK Puram, 422 at ITO and 403 at India Gate. At 4 pm, according to the Indian Institute of Tropical Meteorology's dashboard as cited in reports, Jahangirpuri recorded 449, Delhi Technological University 445 and Bawana 428.\n\nThe government's Air Quality Early Warning System, run by the Pune institute, forecasts \"severe\" air from 7 to 9 November and \"severe\" to \"very poor\" air for the six days after that. Diwali falls on Sunday, 8 November.\n\nOn the CPCB scale, 301-400 is \"very poor\" and 401-500 \"severe\". The board describes severe air as affecting healthy people and seriously affecting those with lung and heart disease.\n\n## What Stage III means\n\nThe Stage I and II measures already in force continue. Under Stage III, according to reports of the commission's order:\n\n- Non-essential construction and demolition are banned, including earthwork, piling, trenching and road building. Essential projects may continue with dust controls.\n- BS-III petrol and BS-IV diesel four-wheelers face restrictions in Delhi and specified NCR districts, with exemptions for some categories.\n- Older light and medium goods vehicles, diesel commercial vehicles registered outside Delhi and some inter-state diesel buses are restricted, subject to exemptions.\n- Stone crushers and mining stop, as do hot-mix plants that do not run on approved clean fuels.\n- Diesel generator sets are restricted except for essential services.\n\nThe Delhi and NCR governments may also decide to move classes up to Class 5 to hybrid or online mode and to allow half of office staff to work from home. Reports did not say by Friday night whether either had been ordered.\n\n## Why the air is so bad\n\nCooler nights and light winds in early November trap pollution near the ground; the minimum temperature at Safdarjung on Friday was 17.2°C, 1.9°C above normal, one report said. Smoke from crop-residue burning adds to it. Figures from the Punjab Pollution Control Board, as reported, show the state's farm-fire count for the season rose from 2,347 on 4 November to 2,787 on 5 November, an increase of 440 in a day. Tarn Taran (586), Ferozepur (361) and Sangrur (240) had the most. The state says it has registered 710 police cases, imposed Rs 46.10 lakh in environmental compensation in 914 cases and made 829 \"red entries\" in land records against farmers who burned stubble. About 87.6% of Punjab's roughly 32.87 lakh hectares of paddy had been harvested.\n\n## What happens next\n\nFireworks on Diwali night usually add to pollution. Stage IV, the strictest level, applies when the AQI crosses 450 and brings a ban on most trucks entering Delhi and on all construction, including public projects. The Central Pollution Control Board publishes its daily bulletin at 4 pm.",
+  "sources": [
+    {
+      "title": "ANI: CAQM invokes GRAP III restrictions across Delhi-NCR as air quality nears severe levels",
+      "url": "https://aninews.in/news/national/general-news/caqm-invokes-grap-iii-restrictions-across-delhi-ncr-as-air-quality-nears-severe-levels20261106175141/"
+    },
+    {
+      "title": "Business Today: CAQM invokes GRAP stage III in Delhi NCR as air quality deteriorates ahead of Diwali",
+      "url": "https://www.businesstoday.in/india/story/caqm-invokes-grap-stage-iii-in-delhi-ncr-as-air-quality-deteriorates-ahead-of-diwali-566278-2026-11-06"
+    },
+    {
+      "title": "The Week: Delhi air quality to stay 'severe' ahead of Diwali",
+      "url": "https://www.theweek.in/news/india/2026/11/06/delhi-air-quality-to-stay-severe-ahead-of-diwali-aqi-hits-389-at-several-stations-despite-grap-measures.html"
+    },
+    {
+      "title": "Open Magazine: Punjab's stubble burning tally hits 2,787",
+      "url": "https://openthemagazine.com/india/quick-take-punjabs-stubble-burning-tally-hits-2787-seven-things-to-know"
+    }
+  ],
+  "correction": ""
+}
