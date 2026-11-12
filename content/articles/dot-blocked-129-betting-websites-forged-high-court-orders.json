@@ -1,0 +1,37 @@
+{
+  "title": "Telecom department blocked 129 betting sites on two forged High Court orders, report says",
+  "dek": "Fake orders bearing the names of the Rajasthan and Allahabad High Courts were emailed to officials, who told internet providers to block the sites. Uttar Pradesh police have opened a forgery case.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Website blocking",
+    "Online betting",
+    "Cybersecurity"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-12T13:31:55Z",
+  "updatedAt": "2026-11-12T13:31:55Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "India's Department of Telecommunications (DoT) ordered internet service providers to block 129 betting and streaming websites this year on the strength of two High Court orders that turned out to be forged, according to an investigation by an international news agency published on Wednesday. Both courts have disowned the orders, and police in Uttar Pradesh have registered a case of forgery and cheating.\n\nThe case raises questions about how the government checks the court orders it acts on when it blocks websites, a power that requires a certified copy of an order from a competent court.\n\n## How the orders reached the department\n\nThe first document, presented as an order of the Rajasthan High Court, was emailed to the DoT at 8:59 pm on 19 July by a person describing himself as an advocate-on-record, according to the report. It invoked the national-security provision of the Information Technology Act and demanded compliance within 24 hours. On 21 July, the DoT told internet providers to block 34 websites. Email sent to the address the document came from later bounced, the report said. The Rajasthan High Court's registrar said in an email that the order \"appears to be fraudulent\" and that it was not on the court's server, according to reports.\n\nThe second document, dated 14 August, was presented as an ex-parte \"dynamic injunction\" by the Allahabad High Court in a writ petition, bearing the name of a sitting judge, against 95 websites accused of streaming fake cricket matches and running betting. It was emailed to officials on 22 August. Two days later, the DoT's legal division noted that only a copy of the order had been received, without the petition or supporting papers, the report said. The department's technology division then asked for the list of web addresses in an editable spreadsheet, and the blocking instruction went out on 2 September. A QR code on the document's seal led to an unrelated web page.\n\nNeither order appears in the courts' online records, and both blocking instructions were still on the DoT's website on Wednesday, the report said.\n\n## The police case\n\nOn 6 November, the Allahabad High Court filed a police complaint after the judge's office said no such order had been passed. A senior cybercrime official in Uttar Pradesh, Ghanshyam Yadav, said: \"It is fake. It is not a genuine order from High Court of Allahabad.\" Police have registered a case against unknown persons. No arrests had been reported by Wednesday.\n\nThe investigation could not establish who forged the documents, whether artificial intelligence was used to produce them, or what checks the DoT carried out before acting. The DoT did not respond to the agency's questions, and neither it nor the Ministry of Electronics and Information Technology (MeitY) had issued a public statement by Thursday evening.\n\n## Why it matters\n\nWebsite blocking in India is governed by Section 69A of the IT Act and the 2009 blocking rules, under which the government must act on a certified copy of a court order or on a recommendation from a review committee. The forged orders appear to have passed through that process without a check against the courts' own records.\n\nThe episode follows another case of impersonation in the takedown system. On 6 November, the social media platform X told the Delhi High Court that takedown notices it received against two digital-rights groups, the Internet Freedom Foundation and SFLC.in, had come from someone impersonating the Delhi Police. Nikhil Pahwa, a digital-policy commentator, wrote that MeitY \"cannot simply play the role of a courier\".\n\n## What happens next\n\nThe Uttar Pradesh police investigation continues. It is not yet known whether the DoT will withdraw the blocking orders or change how it verifies court orders, for example by checking them against the courts' websites or receiving them only through official channels.",
+  "sources": [
+    {
+      "title": "The Wire: India blocked 129 betting sites but the court orders behind them were faked, report",
+      "url": "https://m.thewire.in/article/law/india-blocked-129-betting-sites-but-the-court-orders-behind-them-were-faked-report"
+    },
+    {
+      "title": "Outlook: The fake court orders behind India's 129-betting website ban",
+      "url": "https://www.outlookindia.com/international/fake-high-court-orders-india-blocked-129-betting-websites"
+    },
+    {
+      "title": "MediaNama: 129 betting websites blocked on fake court orders",
+      "url": "https://www.medianama.com/2026/11/223-betting-websites-fake-court-orders-govt/"
+    },
+    {
+      "title": "The Pioneer (Reuters): India blocked 129 betting sites on two forged High Court orders, Reuters finds",
+      "url": "https://dailypioneer.com/technology/india-blocked-129-betting-sites-on-two-forged-high-court-orders-reuters-finds"
+    }
+  ],
+  "correction": ""
+}
