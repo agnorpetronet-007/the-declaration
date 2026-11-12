@@ -13,6 +13,9 @@ Then say:
 
 The site's code and every story live in GitHub, not in Claude. These three files carry all the decisions and settings.
 
+
+> **12 Nov 2026 update (after GitHub reinstated the suspended account):** the news desk now runs **three times a day, at 07:44, 12:44 and 18:44 IST** (cron `CRON_TZ=Asia/Kolkata 44 7,12,18 * * *`, 6-9 stories per edition, quota deadline 18:44). The hourly scheduled rebuild was **removed** from the workflow; the site rebuilds only on merge. These were the owner's commitments to GitHub Support: keep automated activity modest, one pull request per run, one repository. Where older text below says "every 3 hours", the 12 Nov schedule applies.
+
 ---
 
 ## What moves and what doesn't
