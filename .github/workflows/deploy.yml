@@ -3,8 +3,7 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
-  schedule:
-    - cron: "17 * * * *"   # hourly rebuild so time-based things (breaking bar, lead expiry, "x min ago") stay current
+  # No scheduled rebuild (removed 12 Nov 2026 after GitHub's review): the site rebuilds only when a change is merged.
 permissions:
   contents: read
   pages: write
