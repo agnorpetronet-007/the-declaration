@@ -1,0 +1,37 @@
+{
+  "title": "ISRO test-fires redesigned PSLV third stage after the two launch failures it caused",
+  "dek": "The ground test at Sriharikota checked a new nozzle and extra seals on the solid-fuel stage behind the losses of PSLV-C61 and PSLV-C62. ISRO says more tests will follow; no return-to-flight date is set.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "ISRO",
+    "PSLV"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-13T02:27:39Z",
+  "updatedAt": "2026-11-13T02:27:39Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The Indian Space Research Organisation (ISRO) has successfully ground-tested a redesigned version of the third stage of its Polar Satellite Launch Vehicle (PSLV), the part of the rocket blamed for two failed launches. The test was carried out on Thursday at the static test facility of the Satish Dhawan Space Centre in Sriharikota, Andhra Pradesh, ISRO said.\n\nThe new version of the solid-motor stage, known as PS3, \"is realized and tested successfully\", the agency said in a release. \"Based on the detailed analysis & reviews of the test data, further tests are planned.\" ISRO did not say how long the motor burned or publish any performance figures.\n\n## What was changed\n\nAfter the failures, ISRO said, the PS3 configuration \"was revisited comprehensively\", covering design margins, the criteria for accepting raw materials, assembly procedures and quality checks. The changes include \"essential improvements\" to the nozzle \"to improve design margins\", stronger mechanical interfaces with \"redundancy in the sealing systems\", and non-destructive testing at every stage of integration and transport.\n\nThe release does not identify the exact mechanism of the failures.\n\n## Two lost missions\n\nThe PSLV, ISRO's workhorse rocket for Earth-observation and commercial satellites, failed on 18 May 2025 when PSLV-C61 lost the radar-imaging satellite EOS-09 after its first two stages performed normally. Reports at the time attributed the loss to a drop in pressure in the third stage's combustion chamber. ISRO's chairman, V. Narayanan, said in August 2025 that the failure analysis committee's report had been submitted to the Prime Minister's Office; the report was not made public.\n\nISRO's release says a second mission, PSLV-C62 carrying the EOS-N1 satellite, also suffered a third-stage anomaly. The two failures broke a long record of reliability for a rocket that had flown more than 60 times and launched India's Chandrayaan-1 and Mangalyaan missions.\n\n## Earlier redesign tests\n\nThe agency has been working on the stage for more than a year. According to ISRO's annual report for 2025-26, two static tests of a redesigned third stage were completed on 6 October and 19 November 2025. Thursday's release does not refer to those earlier tests or say how the version tested this week differs from them.\n\n## Why it matters\n\nUntil the PSLV flies again, India has fewer ways to put medium-sized satellites into polar orbits, which are used for Earth observation, mapping and weather. The rocket is also central to ISRO's commercial launch business and to plans to hand PSLV production to industry. A successful ground test is a necessary step, but the rocket will need to fly successfully before customers regain confidence.\n\n## What happens next\n\nISRO says further tests are planned. It has not announced the next PSLV launch or a return-to-flight date.",
+  "sources": [
+    {
+      "title": "ISRO: Ground test of third stage of PSLV (PS3) conducted successfully, 12 Nov 2026",
+      "url": "https://www.isro.gov.in/Ground_test_of_third_stage_of_PSLV_PS3.html",
+      "primary": true
+    },
+    {
+      "title": "ANI: ISRO successfully conducts ground static test of PSLV's third stage at Sriharikota",
+      "url": "https://aninews.in/news/national/general-news/isro-successfully-conducts-ground-static-test-of-pslvs-third-stage-at-sriharikota20261112225218/"
+    },
+    {
+      "title": "NewsBytes: ISRO tests upgraded PSLV 3rd stage successfully after 2 failures",
+      "url": "https://www.newsbytesapp.com/news/science/isro-tests-upgraded-pslv-3rd-stage-successfully-after-2-failures/tldr"
+    },
+    {
+      "title": "Wikipedia: PSLV-C61",
+      "url": "https://en.wikipedia.org/wiki/PSLV-C61"
+    }
+  ],
+  "correction": ""
+}
