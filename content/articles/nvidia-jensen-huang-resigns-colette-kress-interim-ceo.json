@@ -1,0 +1,51 @@
+{
+  "title": "Nvidia's Jensen Huang resigns after 33 years amid US spy concerns; CFO Kress steps in",
+  "dek": "The board gave no reason, named its first chair and began a search for a permanent CEO. Beijing calls the espionage allegation a smear; the board says it has no evidence secrets were compromised.",
+  "section": "Technology",
+  "format": "indepth",
+  "topics": [
+    "Nvidia",
+    "China",
+    "Artificial intelligence"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-13T02:27:39Z",
+  "updatedAt": "2026-11-13T02:27:39Z",
+  "lead": true,
+  "breaking": false,
+  "status": "published",
+  "body": "Jensen Huang, who co-founded Nvidia in 1993 and ran it for 33 years as it became the most important supplier of chips for artificial intelligence, has resigned as president, chief executive and board member with immediate effect. The company named its chief financial officer, Colette Kress, as interim chief executive while its board searches for a permanent successor.\n\nThe resignation follows a week of reports that United States intelligence officials suspected a businesswoman with whom Mr Huang had a personal relationship of gathering information for China. Beijing has called that allegation a smear. Nvidia's board has said it has no reason to believe that national security or company secrets were compromised.\n\n## What happened\n\nIn a statement dated 12 November, Nvidia said its board \"announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately\". The statement did not give a reason. \"The Board and the company thank Jensen for his immeasurable contributions to the company and the industry,\" it said.\n\nMs Kress, who has been executive vice-president and chief financial officer since September 2013, will keep that job while serving as interim chief executive \"until a permanent successor has been named\". The board said it \"is initiating a search for a permanent Chief Executive Officer and will consider internal and external candidates\".\n\nThe company also created the post of board chair for the first time and gave it to Harvey C. Jones, a director since 1993. \"The Board has full confidence in Colette and the leadership team,\" Mr Jones said in the statement, adding that the company expects operations, customer commitments and its product roadmap \"to continue without interruption\".\n\n\"I am committed to building on the extraordinary foundation Jensen created over the last 33 years,\" Ms Kress said.\n\nReports differ on the market reaction. One report said Nvidia's shares fell more than 6% at first on Thursday; another said they dropped more than 10% in early trading and were down more than 23% over the past month. The company kept its previously announced date for third-quarter results, Tuesday 17 November, with an analyst call at 2 pm Pacific time (3:30 am IST on Wednesday).\n\n## Background\n\nThe chain of events began with reports last week, first carried by a US newspaper, that US intelligence officials had concluded Mr Huang had developed a close relationship with a Chinese businesswoman, a former executive of the Singapore-based data-centre company Megaspeed, whom they suspected of collecting information for Beijing. According to the reports, officials suspected she had sought confidential information about advanced AI chips and US government developments. One report said Megaspeed is under investigation over the alleged smuggling of export-controlled AI processors into China; that is an allegation, not a finding.\n\nOn Sunday 8 November, Mr Huang acknowledged in a letter to staff that he had had an extramarital relationship, without naming anyone, according to reports. Nvidia's board then opened an independent investigation into claims that he had been the target of a foreign intelligence effort. The board said at the time that it had \"no reason to believe\" that national security or Nvidia's secrets had been compromised. Further reporting on Wednesday described a second relationship, with a senior employee, according to reports. No public evidence has emerged that any confidential information was obtained.\n\nThe departure leaves Nvidia without its founder at a moment of rapid growth. According to reports, its revenue for the first half of its 2027 financial year was about $96 billion, up 85% from a year earlier. Before this week the company had neither a board chair nor a chief operating officer, and no publicly named successor.\n\n## Reactions\n\nPresident Donald Trump had defended Mr Huang before the resignation, calling him an \"amazing guy\" and an \"honorable man\", according to reports. Mr Huang, who owns about 3.6% of Nvidia, has not made a public statement on his departure beyond his earlier letter to staff.\n\nBeijing's position\n\nChina's foreign ministry has rejected the espionage claim. At the ministry's regular briefing in Beijing on Monday, spokesperson Guo Jiakun said: \"The so-called Chinese spy allegation is unsubstantiated. It is nothing but smears against China.\" A Global Times editorial accused US media of fabricating the story, and cited Singapore's Ministry of Home Affairs as denying reports that local authorities had been concerned about the woman.\n\n## Why it matters for India\n\nNvidia's processors are the main hardware for training and running large AI models, including those built in India under the government-backed IndiaAI Mission and in the data centres that Indian companies are building. A leadership change does not by itself alter Nvidia's supply contracts, and the board says commitments to customers will continue. But the episode lands in the middle of a tightening US-China contest over AI chips, in which Washington has restricted sales of advanced processors to China and has increasingly policed whether chips reach China through third countries. Earlier this month, according to reports, Nvidia told its cloud partners to sell most of their capacity to customers outside China.\n\nFor Indian buyers, the more immediate questions are whether US scrutiny of chip routes through South-East Asian intermediaries tightens further, and whether that makes export licensing slower for everyone outside the closest US allies. Neither Nvidia nor the US government has announced any change on that front.\n\n## What happens next\n\n- 17 November: Nvidia reports quarterly results, its first under interim leadership.\n- The board's independent investigation continues; it has not said when it will report.\n- The board's search for a permanent chief executive is open to internal and external candidates, with no timeline given.",
+  "sources": [
+    {
+      "title": "NVIDIA: press release, 'NVIDIA Announces CEO Transition', 12 Nov 2026",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "primary": true
+    },
+    {
+      "title": "NVIDIA Investor Relations: CEO transition release",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
+      "primary": true
+    },
+    {
+      "title": "Tom's Hardware: Nvidia confirms Jensen Huang has resigned as CEO; Colette Kress appointed interim CEO",
+      "url": "https://www.tomshardware.com/tech-industry/nvidia-confirms-jensen-huang-has-resigned-as-ceo-colette-kress-executive-vice-president-and-chief-financial-officer-appointed-interim-ceo"
+    },
+    {
+      "title": "Fortune: Nvidia's Jensen Huang resigns, CFO Colette Kress named interim CEO",
+      "url": "https://fortune.com/2026/11/11/nvidia-oust-jensen-huang-spy-affairs/"
+    },
+    {
+      "title": "AP (via ITV): China dismisses a spy plot claim involving Nvidia CEO Jensen Huang as smear campaign",
+      "url": "https://www.itv.com/news/2026-11-09/china-denies-spy-plot-claim-involving-nvidia-ceo-jensen-huang"
+    },
+    {
+      "title": "Fox Business: China denies spy plot targeting Nvidia CEO Jensen Huang",
+      "url": "https://www.foxbusiness.com/technology/china-denies-spy-plot-targeting-nvidia-ceo-jensen-huang-calls-allegations-smear"
+    },
+    {
+      "title": "Korea JoongAng Daily: China accuses U.S. press of 'fabricating' Jensen Huang spy story",
+      "url": "https://www.koreajoongangdaily.com/world/china-accuses-us-press-of-fabricating-jensen-huang-spy-story/12964135"
+    }
+  ],
+  "correction": ""
+}
