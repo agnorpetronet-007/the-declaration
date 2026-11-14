@@ -1,0 +1,53 @@
+{
+  "title": "India's exports jump 30% to $90 billion in October; trade deficit narrows to $20 billion",
+  "dek": "Goods exports rose 45% from a weak October 2025, but the merchandise deficit is still close to $40 billion as oil and gold imports stay high.",
+  "section": "Business",
+  "format": "standard",
+  "topics": [
+    "Trade data",
+    "India-US trade deal"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-14T02:29:39Z",
+  "updatedAt": "2026-11-14T02:29:39Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "India's total exports of goods and services rose by nearly 30% to $89.99 billion in October 2026 from $69.27 billion a year earlier, according to data released by the Ministry of Commerce and Industry on Friday. Total imports rose more slowly, to $110.07 billion from $94.42 billion, so the overall trade deficit narrowed to $20.09 billion from $25.15 billion.\n\nMerchandise exports were the main driver, climbing 45.06% to $49.47 billion from $34.11 billion. Merchandise imports rose to $89.35 billion from $76.69 billion. That leaves a goods-only deficit of about $39.9 billion for the month (our calculation from the ministry's figures), offset in part by a surplus on services.\n\n## Services and the year so far\n\nServices exports are estimated at $40.51 billion, up from $35.17 billion. The October services numbers are the ministry's estimates, because Reserve Bank of India data on services trade is available only up to September; they will be revised.\n\nFor April to October 2026, total exports were about $568.84 billion, up about 16.66% on the same period last year, the ministry said.\n\n## Why the jump\n\nThe 45% rise in goods exports flatters the picture: October 2025 was a weak month, after the US imposed tariffs of up to 50% on many Indian goods in August 2025. The ministry's release did not break down the October growth by product or destination in the material The Declaration could read; that detail will be needed to judge how much of the gain came from the US market, from electronics and from higher-priced petroleum products.\n\nOn the import side, crude oil prices have stayed high because of the US-Iran war. Brent crude settled at $95.84 a barrel on Friday, according to reports. Expensive oil raises India's import bill and widens the goods deficit.\n\n## Trade talks with the US\n\nThe figures come as India and the US try to close the first phase of a trade agreement covering goods. Commerce Secretary Rajesh Agrawal said on Friday: \"India-US trade talks are on the right track... We look forward to a successful conclusion soon.\" According to reports, the US has assured India that it will face a lower tariff rate than its regional competitors; neither government has confirmed this. India's sixth round of trade talks with Canada is also under way in Delhi until 20 November.\n\n## What happens next\n\nWholesale price inflation for October is due on Monday, 16 November, according to the commerce ministry. September's wholesale inflation was 11.39%, up from 9.92% in August. Retail inflation for October, released this week, was 6.09%, above the Reserve Bank's 6% upper limit.",
+  "sources": [
+    {
+      "title": "PIB: Ministry of Commerce and Industry release on India's foreign trade, October 2026 (13 Nov 2026 releases list)",
+      "url": "https://www.pib.gov.in/allrelease.aspx?reg=3&lang=1",
+      "primary": true
+    },
+    {
+      "title": "PIB: Provisional WPI for September 2026",
+      "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2323098&lang=1&reg=1",
+      "primary": true
+    },
+    {
+      "title": "ANI: India's exports surge nearly 30% to USD 89.99 billion in October, trade deficit narrows to USD 20.09 billion",
+      "url": "https://aninews.in/news/business/indias-exports-surge-nearly-30-to-usd-8999-billion-in-october-trade-deficit-narrows-to-usd-2009-billion20261113142455/"
+    },
+    {
+      "title": "Business Today: India US trade talks on track, says Commerce Secretary",
+      "url": "https://www.businesstoday.in/india/story/india-us-trade-talks-on-track-says-commerce-secretary-567376-2026-11-13"
+    },
+    {
+      "title": "Business Today: US assures India of lower tariffs than peers under proposed trade deal: report",
+      "url": "https://www.businesstoday.in/latest/economy/story/us-assures-india-of-lower-tariffs-than-peers-under-proposed-trade-deal-report-567432-2026-11-13"
+    },
+    {
+      "title": "Rigzone: Crude fluctuates as Iran tensions persist",
+      "url": "https://www.rigzone.com/news/crude_fluctuates_as_iran_tensions_persist-13-nov-2026-185085-article"
+    }
+  ],
+  "correction": "",
+  "image": {
+    "src": "india-trade-october-2026.jpg",
+    "alt": "Bar chart comparing India's trade in October 2025 and October 2026, in US$ billion: total exports 69.27 vs 89.99; total imports 94.42 vs 110.07; goods exports 34.11 vs 49.47; goods imports 76.69 vs 89.35; services exports 35.17 vs 40.51 (2026 estimated); overall trade deficit 25.15 vs 20.09.",
+    "caption": "Exports grew faster than imports in October, narrowing the overall trade deficit.",
+    "credit": "Graphic: The Declaration",
+    "hero": false
+  }
+}
