@@ -37,7 +37,7 @@ Create content/articles/<id>.json, where <id> is a short lowercase-hyphenated sl
 - correction: ""
 - image: optional
 
-Do NOT change any other story file, including other stories' lead or breaking flags. Your pull request must touch only your own new files, so it never conflicts with the 3-hourly news editions.
+Do NOT change any other story file, including other stories' lead or breaking flags. Your pull request must touch only your own new files, so it never conflicts with the news editions.
 - TIMESTAMPS: run `date -u +%Y-%m-%dT%H:%M:%SZ` just before you commit and use exactly that for publishedAt and updatedAt. Never round up or use a future time.
 - Length: 1,800-2,800 words. Never pad. Every paragraph must earn its place.
 - Structure, using "## " subheadings (adapt the wording to the subject):
