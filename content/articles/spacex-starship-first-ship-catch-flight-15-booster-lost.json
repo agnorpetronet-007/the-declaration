@@ -1,0 +1,32 @@
+{
+  "title": "SpaceX catches a Starship upper stage at its launch tower for the first time",
+  "dek": "The ship returned from about 22 hours and 14 orbits to be caught by the tower's arms in Texas, a key step towards full reuse. The Super Heavy booster was lost over the Gulf of Mexico.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "SpaceX",
+    "Space"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-15T07:37:42Z",
+  "updatedAt": "2026-11-15T07:37:42Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "SpaceX caught the upper stage of its Starship rocket with the mechanical arms of its launch tower in Texas on Saturday, the first time an orbital-class spacecraft has been flown back to its launch site and caught. The ship returned after about 22 hours in orbit and 14 trips around Earth on the rocket's 15th test flight.\n\nThe mission's wider goal, recovering both stages, was not met. The Super Heavy booster, which lifts the ship off the pad, aborted its planned return and was lost over the Gulf of Mexico.\n\n## What happened\n\nFlight 15, with Ship 42 on top of Booster 22, launched from Pad 2 at SpaceX's Starbase site in south Texas on Friday evening local time, in a window that opened at 4.45 pm Central Time (4.15 am IST on Saturday), according to reports. The ship reached an orbit at an altitude of about 275 km and deployed 26 of SpaceX's larger third-generation Starlink internet satellites. Three of them carried cameras that photographed the ship's heat shield before it came home; SpaceX said the images looked good for re-entry.\n\nAbout 22 hours after launch, the ship came back through the atmosphere and slowed to a hover beside the tower, whose arms closed around it. SpaceX had caught Super Heavy boosters three times before, the first in October 2024, but never the ship.\n\nThe booster, however, aborted its return during its coast. SpaceX's Dan Huot said it \"aborted itself for a GNC issue that it detected\", referring to guidance, navigation and control. It hovered over the Gulf, its flight termination system fired and it fell into the water. Elon Musk, SpaceX's chief executive, said its engines had slightly underperformed, leaving too little propellant for the return, and that fixes include more consistent Raptor engines and ending engine burns about a second earlier. \"This booster loss does not change our timeline to reach high volume, fully reusable Starship flights,\" he wrote.\n\nNASA Administrator Jared Isaacman called the catch \"almost magic\" in a post on X.\n\n## Why it matters\n\nStarship is designed to be fully reusable: both stages are meant to land and fly again, which SpaceX says will cut the cost of reaching orbit sharply. Catching the ship intact is the hardest part of that, because the upper stage must survive re-entry from orbital speed. NASA is relying on a version of Starship as the lunar lander for its Artemis programme, which needs several tanker flights to refuel it in orbit, so reliable reuse is central to US plans to return astronauts to the Moon.\n\nFor India, a sharp fall in launch costs would increase competition for ISRO's commercial arm and India's private launch start-ups, which are trying to win satellite business with smaller rockets. ISRO is itself working on reusable launch technology, and has been recovering from two PSLV failures traced to the rocket's third stage.\n\n## What happens next\n\nEngineers are investigating the booster loss. Mr Musk has said he expects Starship to fly about once a week in the first half of 2027.",
+  "sources": [
+    {
+      "title": "Teslarati: SpaceX makes history, catching Starship from orbit for the first time",
+      "url": "https://www.teslarati.com/spacex-catches-starship-first/"
+    },
+    {
+      "title": "Fox Business: SpaceX makes history with first-ever Starship spacecraft catch at Texas facility",
+      "url": "https://www.foxbusiness.com/technology/spacex-makes-history-starship-spacecraft-caught-launch-tower-first-time"
+    },
+    {
+      "title": "Jerusalem Post: SpaceX catches Starship spacecraft at Texas launch tower for first time",
+      "url": "https://www.jpost.com/business-and-innovation/article-914888"
+    }
+  ],
+  "correction": ""
+}

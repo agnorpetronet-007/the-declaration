@@ -1,0 +1,32 @@
+{
+  "title": "Microsoft says Outlook and Teams fully restored after outage; blames network upgrade",
+  "dek": "The disruption to Microsoft 365 lasted more than a day and reached users in at least 74 countries, including airline email desks in India. Microsoft said it was not a cyberattack.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Microsoft",
+    "Cybersecurity"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-15T07:37:42Z",
+  "updatedAt": "2026-11-15T07:37:42Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Microsoft said on Saturday that it had fully restored its Microsoft 365 services, including Outlook email and Teams, after an outage of more than 24 hours that disrupted governments, courts, hospitals, airlines and businesses around the world. It said the problem was caused by an issue introduced during an earlier upgrade of its network capacity, and was not a cyberattack.\n\n\"We have completed our efforts to address the underlying issue of the incident,\" the company said in its final update, adding that it had \"restored service to the remaining impacted customers and regions\". It said it was \"deeply sorry\" for the disruption.\n\n## What went wrong\n\nProblems began around midday US time on Thursday, when users in the Americas could not open their Exchange Online mailboxes. Microsoft first acknowledged the issue at 5.54 pm GMT (11.24 pm IST on Thursday) and about 13 minutes later warned that users in any region could be affected. Within an hour, the outage-tracking site Downdetector had received reports from 74 countries and territories, according to reports. Outlook, Teams and the Copilot assistant were among the services hit.\n\nSome servers failed automated health checks and became \"unexpectedly unavailable\", it said, overloading the rest. A spokesperson said the incident \"was introduced by an issue during an earlier network capacity upgrade\" that surfaced after a recent network change, and that it was \"not related to cyber\" or to AI agents, with \"no indication\" of malicious activity.\n\nRecovery was slower than expected. \"Given the scale of demand, we restored services gradually, validating stability at each stage,\" Microsoft said. Asia-Pacific stabilised first on Friday, followed by Europe and North America. The company extended its email delivery window to 48 hours so that messages sent during the outage would not be lost.\n\n## Who was hit\n\nGovernment departments in Japan, Singapore, Australia, Greece and Norway reported disruption to official email. In Britain a criminal trial in Manchester was halted, police could not take online crime reports and pharmacies warned of prescription delays, according to reports. Some Hong Kong banks were affected, and the AI companies OpenAI and Anthropic reported problems connecting to Microsoft 365 tools. Microsoft says more than 430 million people use its 365 apps.\n\nIn India, email support at IndiGo and Akasa Air was disrupted, according to reports. Air India said it had rerouted emails to keep receiving customer messages, and its flights ran normally.\n\n## Why it matters\n\nThe outage is the latest to show how much public services and companies depend on a handful of cloud providers. A single configuration fault in one company's network was enough to stop courts and government offices on several continents. For India, where ministries, banks and large companies rely heavily on Microsoft's and other foreign cloud platforms, it adds to questions about backup systems for essential services.",
+  "sources": [
+    {
+      "title": "NBC News: Microsoft says services fully restored after global outage",
+      "url": "https://www.nbcnews.com/tech/tech-news/microsoft-says-services-fully-restored-global-outage-rcna609289"
+    },
+    {
+      "title": "Outlook India: Microsoft fixes 24-hour global outage that silenced Outlook and Teams worldwide",
+      "url": "https://www.outlookindia.com/international/microsoft-fixes-24-hour-global-outage-that-silenced-outlook-and-teams-worldwide"
+    },
+    {
+      "title": "CBS News: Microsoft battling major outage",
+      "url": "https://www.cbsnews.com/news/microsoft-battling-major-outage/"
+    }
+  ],
+  "correction": ""
+}
