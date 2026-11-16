@@ -1,0 +1,36 @@
+{
+  "title": "Companies can now apply to run 'consent managers' under India's data protection law",
+  "dek": "The registration framework took effect on 13 November and applications go to the Data Protection Board through a new portal. Firms need a net worth of at least Rs 2 crore; most other duties under the law start in May 2027.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Data protection",
+    "Digital policy"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-16T02:25:45Z",
+  "updatedAt": "2026-11-16T02:25:45Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Companies that want to act as \"consent managers\", the platforms through which people will be able to give, review and withdraw permission for the use of their personal data, can now apply to register with the Data Protection Board of India, the Ministry of Electronics and Information Technology (MeitY) has said. It is the first new set of obligations to take effect under the Digital Personal Data Protection (DPDP) Act, 2023 since its rules were notified a year ago.\n\nThe registration framework came into force on 13 November, and IT Secretary S Krishnan launched an online application portal, dpbi.gov.in, the ministry said in a release, according to reports. Applicants must be companies incorporated in India with adequate technical, operational and financial capacity, including a net worth of at least Rs 2 crore.\n\n## What a consent manager does\n\nUnder the law, a consent manager is an entity registered with the Data Protection Board that lets a person, called a \"data principal\", manage consent given to different companies from one place, through a platform the ministry describes as accessible, transparent and interoperable. Instead of clicking through separate consent screens on every app and website, a user could, for example, see which companies hold permission to use their data and withdraw it in one step. The framework \"enables data principals to exercise greater control over consent\", the ministry said, according to reports.\n\nConsent managers are accountable to the people who use them rather than to the companies collecting data. The rules require them, among other things, to avoid conflicts of interest with the companies they deal with, to keep records of consents for at least seven years and to be unable to read the personal data that passes through their platforms, according to summaries of the rules.\n\n## How registration works\n\nThe Board will assess applications against the conditions in the rules and may register companies that qualify, the ministry said. It will publish a list of registered consent managers on its website. The release did not mention application fees, review times or how many applications had been received.\n\nQuestions remain about the Board's own readiness. One report said no members of the Board had been named publicly by the time the portal opened; the ministry's announcement did not name any. The Board, not the ministry, decides who is registered.\n\n## Background\n\nParliament passed the DPDP Act in August 2023, and the government notified the DPDP Rules in November 2025 with a phased timetable. The next and larger phase begins on 13 May 2027, when people's rights over their data, companies' duties as \"data fiduciaries\" and the Board's powers to inquire into breaches and impose penalties take effect.\n\nFor users, little changes immediately: consent managers must first be registered and companies must connect to them. For businesses, the practical effect is that from 2027 consent may reach them through registered intermediaries as well as through their own apps and websites, so they will need systems that can accept and act on consents and withdrawals coming from those platforms.\n\n## What happens next\n\nThe Board will begin assessing applications and is expected to publish its first list of registered consent managers once approvals are made. The government has not said when that will be.",
+  "sources": [
+    {
+      "title": "The Tribune (ANI): Govt opens registration for consent managers under DPDP Act; Rs 2 crore net worth required",
+      "url": "https://www.tribuneindia.com/news/consent-managers/govt-opens-registration-for-consent-managers-under-dpdp-act-rs-2-crore-net-worth-required"
+    },
+    {
+      "title": "Inc42: DPDP Act: MeitY opens consent manager registration portal",
+      "url": "https://inc42.com/buzz/dpdp-act-implementation-meity-opens-consent-manager-registration-portal/"
+    },
+    {
+      "title": "PPC Land: India opens consent manager registration with a Rs 2 crore net worth floor",
+      "url": "https://ppc.land/india-opens-consent-manager-registration-with-a-2-crore-net-worth-floor/"
+    },
+    {
+      "title": "Elets eGov: India opens consent manager registration under DPDP framework",
+      "url": "https://egov.eletsonline.com/2026/11/india-opens-consent-manager-registration-under-dpdp-framework/"
+    }
+  ],
+  "correction": ""
+}
