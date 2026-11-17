@@ -1,0 +1,48 @@
+{
+  "title": "US requires licences for AI chips at foreign data centres serving Chinese firms",
+  "dek": "A new Commerce Department rule targets cloud access to advanced American chips and adds licence requirements for Singapore, Malaysia, Thailand, Indonesia and Brazil. India is not on the list.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "AI chips",
+    "US-China relations",
+    "Geopolitics"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-17T02:35:04Z",
+  "updatedAt": "2026-11-17T02:35:04Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The United States has moved to close a route by which Chinese companies can use advanced American AI chips without buying them, by renting computing power from data centres abroad. A rule issued on Monday by the US Commerce Department's Bureau of Industry and Security (BIS) requires a licence before advanced chips go to any data centre that provides large amounts of computing to Chinese-owned companies, and adds licence requirements for advanced chips sent to Singapore, Malaysia, Thailand, Indonesia and Brazil.\n\nThe rule, drafted with the Treasury Department and the National Security Council, is \"designed to ensure that existing restrictions on access to sensitive American technology cannot be circumvented\" through remote arrangements with data centres in third countries, BIS said. It takes effect when it is published in the US Federal Register, and the public has 60 days after that to comment.\n\n## What the rule does\n\nThe rule text sets out three main changes.\n\n- Data centres: a licence is needed to export, re-export or transfer advanced AI chips to a data centre anywhere in the world that gives companies headquartered in China, Macau or other countries in the US \"Country Group D:5\" arms-embargo list, or whose parent companies are headquartered there, access to more than 12 million units of \"aggregate TPP\", a measure of total processing power. One analysis put that at roughly 750 of Nvidia's H100 chips. Data centres already serving such customers have 90 days to obtain a licence \"or face future export restrictions\". Systems used only to rank or recommend content, such as those of online retailers and social media companies, are exempt.\n- Five countries: in addition to existing rules, a licence is now needed to ship advanced chips to Indonesia, Malaysia, Singapore, Thailand and Brazil, which the rule describes as countries \"which present a higher-than-normal risk of diversion\". Shipments to companies headquartered in the United States, or with a US parent, are exempt if the exporter files monthly reports listing every party and product. Commerce will \"consider a range of consequences\" for countries that tolerate evasion, including import restrictions and Entity List designations, the rule says.\n- Chipmakers: it tightens the presumptions that contract chip fabricators and packagers must overcome before making advanced logic chips for chip designers in some destinations.\n\nThe rule also formally rescinds the \"AI Diffusion Rule\" issued by the Biden administration in January 2025, which had sorted countries into tiers with caps on chip imports and which, BIS says, was never enforced.\n\n## Reaction\n\nMarkets in Asia fell on Tuesday morning, with chip-heavy indices in South Korea and Taiwan down 2% and 1.4% respectively, according to reports. Charu Chanana, chief investment strategist at Saxo, called the rule \"a meaningful escalation because it extends restrictions from physically buying advanced chips\" to renting access to them, according to reports. China has warned against new US export controls on chips, reports said; its foreign ministry had not addressed the rule specifically at its Monday briefing, where spokesperson Mao Ning said, on a separate US supply-chain agreement, that AI should not be divided along ideological lines.\n\n## What it means for India\n\nIndia is not on the list of five countries, and it gains from the end of the AI Diffusion Rule, which had placed it in a middle tier subject to caps. But the rule's main targets are South-East Asia's data-centre hubs, especially Singapore, Malaysia and Thailand, which have drawn billions of dollars in investment from US and Chinese cloud companies. India is trying to win some of that business: its government-backed IndiaAI Mission is buying access to thousands of graphics processors for Indian start-ups and researchers, and Indian and foreign companies have announced large data-centre projects. Indian operators that serve Chinese-owned customers would, like operators anywhere, now need a US licence to use advanced American chips for them, and will have to check who ultimately owns their clients.\n\n## What happens next\n\nThe rule takes effect on publication in the Federal Register, which had not happened by Tuesday morning. Data centres already serving Chinese-owned customers then have 90 days to apply for licences. Nvidia, the largest maker of AI chips, reports quarterly results after the US market closes on Tuesday.",
+  "sources": [
+    {
+      "title": "US Bureau of Industry and Security: interim final rule on remote access to advanced computing items, RIN 0694-AK50 (PDF)",
+      "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+      "primary": true
+    },
+    {
+      "title": "US Bureau of Industry and Security: BIS issues rule addressing remote access to American super intelligence technology, 16 Nov 2026",
+      "url": "https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology",
+      "primary": true
+    },
+    {
+      "title": "Ministry of Foreign Affairs of China: Spokesperson Mao Ning's regular press conference, 16 Nov 2026",
+      "url": "https://www.fmprc.gov.cn/eng/xw/fyrbt/202611/t20261116_12060306.html",
+      "primary": true
+    },
+    {
+      "title": "CBS News: Commerce Department moves to curb remote access to AI chips",
+      "url": "https://www.cbsnews.com/news/nvidia-jensen-huang-commerce-department-limit-remote-access-ai-chips/"
+    },
+    {
+      "title": "BERI: BIS requires licences for AI chips shipped to five countries",
+      "url": "https://www.beri.net/article/bis-remote-access-rule-ai-chips-12-million-tpp-data-center-license-singapore-malaysia-indonesia-thailand-brazil-monthly-reporting-gpu-capacity-contracts"
+    },
+    {
+      "title": "Global Banking & Finance (Reuters): Asia shares stumble on tech weakness ahead of Nvidia earnings",
+      "url": "https://www.globalbankingandfinance.com/asia-shares-stumble-tech-weakness-ahead-nvidia-earnings/"
+    }
+  ],
+  "correction": ""
+}

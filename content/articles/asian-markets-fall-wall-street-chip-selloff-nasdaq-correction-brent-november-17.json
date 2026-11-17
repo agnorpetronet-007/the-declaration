@@ -1,0 +1,42 @@
+{
+  "title": "Asian markets slide after Nasdaq enters correction on AI chip sell-off",
+  "dek": "Kospi fell 2% and the dollar hit a 19-month high on Tuesday morning after Wall Street's chipmakers dropped 5.3%. Brent eased to about 2 a barrel ahead of Nvidia's results.",
+  "section": "Business",
+  "format": "standard",
+  "topics": [
+    "Markets",
+    "Nvidia",
+    "Oil prices"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-17T02:35:04Z",
+  "updatedAt": "2026-11-17T02:35:04Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Asian stock markets fell on Tuesday morning after a sharp sell-off in US technology shares overnight, setting a cautious backdrop for Indian markets a day after the Sensex gained 512 points. South Korea's Kospi fell 2% shortly after the open, Taiwan's market lost 1.4% and Japan's Nikkei 1%, while the dollar rose to its strongest level since April 2025, according to reports.\n\nOn Wall Street on Monday, the Nasdaq Composite fell 2.49% to 24,509.76, taking it more than 10% below its record of 6 October, a fall that traders call a correction. The S&P 500 lost 1.92% to 7,416.59 and the Dow Jones Industrial Average 739 points, or 1.41%, to 51,608.17, reports said. Both the S&P 500 and the Nasdaq have now fallen for three sessions in a row.\n\n## What drove the fall\n\nChipmakers led the decline: the Philadelphia semiconductor index fell 5.3%, according to reports, as investors worried about the high valuations of artificial-intelligence companies before Nvidia, the largest maker of AI chips, reports quarterly results after the US market closes on Tuesday. Nvidia's shares have fallen sharply since its chief executive, Jensen Huang, resigned last week.\n\nA new US rule added to the pressure. The Commerce Department on Monday required licences for advanced AI chips going to data centres anywhere that sell large amounts of computing power to Chinese-owned companies, and for chip shipments to Singapore, Malaysia, Thailand, Indonesia and Brazil. Interest rates are the other worry: markets see a rise in US interest rates next month as close to certain, according to reports, and the 10-year US Treasury yield was at 5.12%.\n\n## Oil, gold and the rupee\n\nBrent crude fell 0.9% to $91.62 a barrel in Asian trade on Tuesday, after dropping on Monday, and US crude fell 0.8% to $85.05, reports said; prices remain far above pre-war levels because shipping through the Strait of Hormuz has almost stopped. Spot gold rose 0.1% to $3,860.30 an ounce. A stronger dollar tends to put pressure on the rupee, which recovered to 93.92 to the dollar on Monday.\n\n## How India stands\n\nOn Monday, the Sensex rose 512 points as banking and consumer-goods shares gained, and the Nifty closed near 25,290. Foreign institutional investors bought a net Rs 4,865 crore of Indian shares on Monday, while domestic institutions sold a net Rs 3,519 crore, according to provisional exchange data. Indian markets have fewer large chipmakers than Seoul or Taipei, so the AI sell-off hits them less directly, but Indian IT services companies are sensitive to sentiment on US technology spending.\n\n## What happens next\n\nNvidia's results are due after the US close on Tuesday, which is early on Wednesday morning in India. Minutes of the US Federal Reserve's last meeting are due on Wednesday. In India, Tuesday is the weekly expiry day for Nifty derivatives contracts, which often brings sharper intraday moves.",
+  "sources": [
+    {
+      "title": "US Bureau of Industry and Security: interim final rule on remote access to advanced computing items, RIN 0694-AK50 (PDF)",
+      "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+      "primary": true
+    },
+    {
+      "title": "Global Banking & Finance (Reuters): Asia shares stumble on tech weakness ahead of Nvidia earnings",
+      "url": "https://www.globalbankingandfinance.com/asia-shares-stumble-tech-weakness-ahead-nvidia-earnings/"
+    },
+    {
+      "title": "CNN: Stocks slide to kick off major week for Wall Street",
+      "url": "https://www.cnn.com/2026/11/16/business/stocks-nvidia-ai-anthropic"
+    },
+    {
+      "title": "STL.News: U.S. stock market today, November 16, 2026",
+      "url": "https://www.stl.news/u-s-stock-market-today-november-16-2026/"
+    },
+    {
+      "title": "Quantsapp: FII and DII cash market activity",
+      "url": "https://www.quantsapp.com/fii-dii"
+    }
+  ],
+  "correction": ""
+}
