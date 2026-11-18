@@ -1,0 +1,41 @@
+{
+  "title": "OpenAI releases GPT-6.2 Astra and Sol, its first model rated 'High' for AI self-improvement",
+  "dek": "The new models cut the cost of OpenAI's top tier by a fifth and come with tighter cybersecurity safeguards, after the company scrapped an earlier update two months ago.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Artificial intelligence",
+    "OpenAI"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-18T02:25:44Z",
+  "updatedAt": "2026-11-18T02:25:44Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "OpenAI released two new AI models on Tuesday: GPT-6.2 Astra, aimed at long and complex professional work, and GPT-6.2 Sol, a cheaper model for everyday tasks and automated multi-step \"agentic\" workflows. The company said Astra is the first model it has released outside the company to reach the \"High\" threshold for AI self-improvement in its Preparedness Framework, the internal system it uses to grade the risks of its models.\n\nBoth models are available in ChatGPT's work product and in Codex, OpenAI's coding tool, for paying Plus, Pro, Enterprise and Edu subscribers, and to developers through OpenAI's API, the company said in its announcement. They are not being added to the regular consumer ChatGPT. The release comes almost two months after OpenAI scrapped an earlier planned update in order to put stronger safeguards in place, according to reports.\n\n## Prices and performance\n\nIn the API, Astra costs $8 per million input tokens and $40 per million output tokens, and Sol costs $2 and $10, OpenAI said. (A token is a fragment of text; a million tokens is roughly 750,000 English words.) Astra's price is 20% below that of its predecessor, GPT-6 Astra, while Sol's matches the previous Sol model, according to reports.\n\nOpenAI said Astra delivers better results than GPT-6 Astra at less than a third of the cost per task, scoring 5.2 points higher on a benchmark of agent tasks called Agents' Last Exam. It said Sol nearly matches Astra on making merge-ready changes to real software codebases at about one-fifth of the cost. These are the company's own figures.\n\nIndependent testers gave a more mixed picture. On the Artificial Analysis Intelligence Index, Astra scored 62, second to Anthropic's Claude Fable 5.2 on 65 and ahead of Google's Gemini 4 Carbon on 60, according to reports. The same testers found no gain in coding over the earlier Astra, and found both new models gave wrong answers to more than half of a set of hard factual questions.\n\n## Safety: self-improvement and cyber risks\n\nThe \"High\" rating for self-improvement means OpenAI judges that Astra could meaningfully speed up AI research itself. The company says it has responded with tighter limits on research environments and a monitoring system it calls Control Room, according to reports.\n\nOpenAI described Astra as its most capable model so far for cybersecurity work, with a 22-point gain over its predecessor on an internal test of finding and exploiting software weaknesses. \"Because of higher capabilities, both models launch with tighter safeguards for higher-risk cybersecurity assistance,\" the company said, adding that it is working to make them available through a programme called Daybreak, where approved security defenders can use them with fewer refusals. Critics have warned that such safeguards can also block legitimate security research.\n\n## Why it matters for India\n\nIndian IT services companies and start-ups build products on top of models such as these, so the price of top-tier models feeds into their costs. Indian AI companies are also competing on price: Sarvam AI this week opened a service that runs its own and other open models on servers in India, priced in rupees, according to reports.\n\n## What happens next\n\nOpenAI said availability depends on a user's plan and workspace permissions, and that the rollout is continuing.",
+  "sources": [
+    {
+      "title": "OpenAI Developer Community: GPT-6.2 Astra and Sol are now available (OpenAI announcement), 17 Nov 2026",
+      "url": "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531",
+      "primary": true
+    },
+    {
+      "title": "The Decoder: OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+      "url": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/"
+    },
+    {
+      "title": "Bloomberg: OpenAI unveils new Astra AI model after scrapping prior release",
+      "url": "https://www.bloomberg.com/news/articles/2026-11-17/openai-unveils-new-astra-ai-model-after-scrapping-prior-release"
+    },
+    {
+      "title": "9to5Google: OpenAI releases GPT-6.2 Astra and Sol for complex projects",
+      "url": "https://9to5google.com/2026/11/17/openai-releases-gpt-6-2-astra-and-sol-for-complex-projects-a-week-after-claude-5-2/"
+    },
+    {
+      "title": "Inc42: Sarvam AI opens Token Factory to run global AI models on Indian servers",
+      "url": "https://inc42.com/buzz/sarvam-ai-opens-token-factory-to-run-global-ai-models-on-indian-servers"
+    }
+  ],
+  "correction": ""
+}

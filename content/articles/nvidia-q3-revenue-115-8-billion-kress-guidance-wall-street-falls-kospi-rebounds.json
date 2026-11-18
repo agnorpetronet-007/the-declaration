@@ -1,0 +1,43 @@
+{
+  "title": "Nvidia's revenue doubles to $115.8 billion in first results since Huang's exit; Asian chip stocks rebound",
+  "dek": "The chipmaker forecast $130 billion for the current quarter and said it expects about 75% growth next year, lifting its shares 4% after hours and Korean chip stocks on Wednesday morning, after Wall Street fell for a fourth day.",
+  "section": "Business",
+  "format": "standard",
+  "topics": [
+    "Nvidia",
+    "Markets",
+    "AI chips"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-18T02:25:44Z",
+  "updatedAt": "2026-11-18T02:25:44Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Nvidia's revenue more than doubled from a year earlier to a record $115.8 billion in the three months to 25 October, the company said on Tuesday, in its first quarterly results since chief executive Jensen Huang resigned last week. It forecast revenue of $130 billion, plus or minus 3%, for the current quarter, and its shares rose about 4% in after-hours trading in New York, according to reports.\n\nThe results, released after the US market closed (about 3 am IST on Wednesday), followed a fourth straight fall on Wall Street driven by worries over high valuations for AI companies. The Dow Jones Industrial Average fell 1.6% on Tuesday, the S&P 500 lost 1% to its lowest close since 29 July and the Nasdaq Composite slipped 0.7%, according to reports.\n\n## What Nvidia reported\n\nAccording to the company's results release:\n\n- Revenue was $115.8 billion, up 20% from the previous quarter and 103% from a year earlier.\n- Data Center revenue, which comes mainly from the AI chips sold to cloud companies and AI developers, was $107.6 billion, up 110% from a year earlier.\n- Net income was $65.3 billion, up 105%, and diluted earnings were $2.70 a share, against $1.30 a year earlier.\n- Gross margin was 74.8%.\n- Nvidia returned $28.1 billion to shareholders through buybacks and dividends in the quarter, and its board added $150 billion to its share buyback authorisation.\n\nFor the fourth quarter, which has an extra week, Nvidia forecast revenue of $130 billion, plus or minus 3%, with gross margins of 71-72%. The company said the outlook assumes no data-centre computing revenue from China, where US export rules restrict sales of its most advanced chips.\n\nOn its call with analysts, Nvidia said it now expects revenue in the financial year ending January 2028 to grow about 75%, up from an earlier 70%, according to reports. \"The fact that they gave guidance is huge,\" Gene Munster of Deepwater Asset Management said, according to reports.\n\n\"Vera Rubin is off to an explosive start, our roadmap is on track and our ambition has never been greater,\" Colette Kress, who is serving as interim chief executive while remaining chief financial officer, said in the release, referring to the company's newest chip platform.\n\n## A company without its founder\n\nMr Huang, who co-founded Nvidia in 1993, resigned as president, chief executive and board member with immediate effect on 12 November, the company told US regulators in a filing that gave no reason. The board appointed Harvey Jones as its first chair and said it would consider internal and external candidates for a permanent chief executive. The US Securities and Exchange Commission has opened a civil inquiry into Nvidia's disclosures, according to reports; neither the company nor the regulator has confirmed this.\n\n## Asia on Wednesday\n\nAsian chip stocks recovered on Wednesday morning. South Korea's Kospi rose 2.6% to 5,098.54 by 9.22 am local time (5.52 am IST), a day after closing below 5,000 for the first time in about nine and a half months, with Samsung Electronics up more than 4% and SK hynix up more than 6%, according to reports. Japan's Nikkei 225 rose about 1% after the open.\n\nIn India, the Sensex rose 427 points on Tuesday and the Nifty Bank index hit a record close, while the rupee firmed to 93.51 against the dollar. Indian markets open at 9.15 am IST on Wednesday, the first session to reflect Nvidia's results.\n\n## What happens next\n\nUS markets reopen at 8 pm IST on Wednesday. Investors are also watching the meeting between US President Donald Trump and Chinese President Xi Jinping in Shenzhen on Thursday, where chip export controls are expected to come up.",
+  "sources": [
+    {
+      "title": "NVIDIA: Financial results for the third quarter of fiscal 2027, 17 Nov 2026",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "primary": true
+    },
+    {
+      "title": "NVIDIA: Form 8-K exhibit announcing CEO transition, 12 Nov 2026 (SEC filing)",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001045810/000104581026000082/nvidiaannouncesceotransiti.htm",
+      "primary": true
+    },
+    {
+      "title": "CNBC: Stock market today, live updates, 17 Nov 2026",
+      "url": "https://www.cnbc.com/2026/11/17/stock-market-today-live-updates.html"
+    },
+    {
+      "title": "MoneyToday: Kospi rebounds above 5,000 on chip rally, 18 Nov 2026",
+      "url": "https://www.mt.co.kr/en/stock/2026/11/18/2026111809365349968"
+    },
+    {
+      "title": "TechCrunch: SEC reportedly investigating Nvidia amid Huang exit",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/"
+    }
+  ],
+  "correction": ""
+}
