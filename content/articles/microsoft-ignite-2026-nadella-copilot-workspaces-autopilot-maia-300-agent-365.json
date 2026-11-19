@@ -1,0 +1,37 @@
+{
+  "title": "Microsoft bets on AI agents at Ignite with Copilot Workspaces, Autopilot and Maia 300 chip",
+  "dek": "Satya Nadella told the San Francisco conference that Copilot will become a 'new OS for work', announced in-house coding and security models, and said more than 50 million agents are now managed through Agent 365.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Artificial intelligence",
+    "Microsoft"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-19T02:25:04Z",
+  "updatedAt": "2026-11-19T02:25:04Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Microsoft has set out a plan to make AI agents a routine part of office work, announcing a shared workspace where people and their agents collaborate, an always-on agent called Autopilot, new in-house AI models and a new AI chip at its Ignite conference in San Francisco this week.\n\nIn the opening keynote on Tuesday, published by the company as an edited text, chief executive Satya Nadella described Copilot, Microsoft's AI assistant, as a \"new OS for work\" that brings chat, coding and autonomous agents into one product and extends into sales, legal, finance and customer service roles.\n\n## What was announced\n\nCopilot Workspaces is a \"multiplayer\" environment in which people, their agents and colleagues work towards a common goal with shared context, Nadella said; Microsoft gave no release date. Autopilot is an autonomous agent that keeps work moving \"24x7\" across the places teams collaborate. Microsoft also announced a partnership to bring Salesforce into Copilot and new plugins for its Dynamics 365 business software.\n\nOn models, Microsoft said Microsoft-Decision-1.1, used internally for routing, labelling and content filtering, is now generally available and has been used by more than 4,000 customers. It released a coding model family, Code 2 and the cheaper Code 2 Flash, on GitHub Copilot and its Foundry platform, and a smaller security model, Cyber 2 Flash, which it is building into Perception, an \"agentic\" security system that is now generally available. Microsoft said OpenAI's GPT-6.2 and Meta's latest models are coming to Foundry, and that trusted customers will be able to license the weights of its own MAI models.\n\nNadella said more than 50 million agents are now registered in Agent 365, Microsoft's system for managing the identity, security and governance of companies' AI agents, and announced a business analytics tool to track AI spending against results. On hardware, Microsoft announced the Maia 300 AI chip, which it says delivers 40% more tokens per watt than leading GPU-based systems, and made its Cobalt 200 processor-based virtual machines generally available.\n\n## Why it matters\n\nThe announcements show the main technology companies moving from chatbots that answer questions towards agents that carry out tasks on their own, which raises new questions about oversight, security and accountability. Microsoft said it is working with the US National Institute of Standards and Technology's agent standards effort and about 40 organisations on transparency and security standards for AI agents.\n\nFor India, the shift matters both to the large IT services industry, which builds and runs such systems for global clients, and to regulators. India's telecom regulator TRAI issued draft rules on 30 October requiring telecom operators to keep an inventory of the AI systems they use, classify them by risk, keep human oversight and report serious AI-related incidents; comments are due by 27 November.\n\nThe conference also came less than a week after a Microsoft 365 outage that disrupted Teams, OneDrive, SharePoint and Office, which the company attributed to a hidden software flaw, a surge in traffic and reduced server capacity, according to reports.\n\n## What happens next\n\nIgnite is scheduled to run until Friday. Microsoft has not given dates for general availability of Copilot Workspaces or Autopilot.",
+  "sources": [
+    {
+      "title": "Microsoft: 'Ignite 2026: Building the frontier ecosystem', edited keynote by Satya Nadella, 17 Nov 2026",
+      "url": "https://blogs.microsoft.com/blog/2026/11/17/ignite-2026-building-the-frontier-ecosystem/",
+      "primary": true
+    },
+    {
+      "title": "Telangana Today (IANS): Microsoft unveils AI models, Copilot platform and Azure upgrades at Ignite",
+      "url": "https://telanganatoday.com/microsoft-unveils-ai-models-copilot-platform-and-azure-upgrades-at-ignite"
+    },
+    {
+      "title": "Ynetnews: Microsoft unveils autonomous AI agents at Ignite 2026",
+      "url": "https://ynetnews.com/tech-and-digital/article/bjgns8jafe"
+    },
+    {
+      "title": "Communications Today: AI-driven threats push DoT and telcos into joint security review",
+      "url": "https://www.communicationstoday.co.in/ai-driven-threats-push-dot-and-telcos-into-joint-security-review/"
+    }
+  ],
+  "correction": ""
+}
