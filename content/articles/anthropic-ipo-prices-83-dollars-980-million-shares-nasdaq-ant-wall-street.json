@@ -1,0 +1,46 @@
+{
+  "title": "Anthropic prices IPO at $83 a share, raising about $81 billion before Nasdaq debut",
+  "dek": "The AI company sold 980 million shares above its marketed range of $70-78, valuing it at about $1.5 trillion on a fully diluted basis, according to reports; trading under the ticker ANT starts on Thursday in New York.",
+  "section": "Business",
+  "format": "standard",
+  "topics": [
+    "Anthropic",
+    "IPO",
+    "Artificial intelligence"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-19T02:25:04Z",
+  "updatedAt": "2026-11-19T02:25:04Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Anthropic, the US artificial intelligence company that makes the Claude models, priced its initial public offering at $83 a share on Wednesday, above the $70-78 range it had marketed to investors, and its shares are due to start trading on the Nasdaq Global Select Market on Thursday under the ticker \"ANT\", the company said in a statement.\n\nThe offering covers 980 million Class A shares: 956,351,354 sold by Anthropic and 23,648,646 by existing shareholders. At $83, that comes to about $81.3 billion before underwriting fees, of which about $79.4 billion goes to the company. The underwriters have a 30-day option to buy up to 147 million more shares, which would add about $12.2 billion if fully used. The deal is expected to close on Friday, 20 November.\n\n## How big it is\n\nAt the IPO price the company is valued at about $1.5 trillion on a fully diluted basis, which counts unvested employee options and other promised shares, according to reports. That compares with $965 billion in a private funding round in May. Alongside the listing, AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC Partners agreed to buy $26 billion of non-voting shares in a private placement, reports said.\n\nAmazon owns nearly 15% of the company and Google almost 14%, according to reports based on its prospectus. Each of the seven co-founders, including chief executive Dario Amodei, sold nearly 3.4 million shares in the offering, worth about $282 million each, according to the filing as described in reports. The Securities and Exchange Commission declared the registration statement effective on 18 November, the company said; Goldman Sachs and Morgan Stanley are named as sources for the prospectus.\n\nPricing above the range was widely read as a sign of strong demand from large investors, and one report said the offering was heavily oversubscribed. Its reception is being watched as a test for other privately held AI developers, including OpenAI, that may consider listing.\n\n## A nervous market\n\nThe listing comes as Wall Street wrestles with the cost of the AI boom. On Wednesday the Dow Jones Industrial Average fell 1.1% to 50,198.17, its lowest close since June, and the S&P 500 slipped 0.2% for a fifth straight loss, while the Nasdaq Composite rose 0.4%, according to market reports. Nvidia gave up an early gain to close 2.9% lower, a day after reporting quarterly revenue of $115.8 billion; it also said it would file its quarterly report with the SEC \"in the coming weeks\", according to reports. Health insurers fell sharply after the US Medicare agency proposed wider audits of private Medicare plans, reports said.\n\n## What happens next\n\nTrading in ANT is expected to begin during US hours on Thursday, which is Thursday night in India. The first trades will show whether investors value the company above its IPO price, and the underwriters have 30 days to decide whether to buy the extra 147 million shares.\n\nDisclosure: The Declaration's news desk drafts stories using Anthropic's Claude models. Every story is reviewed and approved by a human editor before publication.",
+  "sources": [
+    {
+      "title": "Anthropic: 'Anthropic prices initial public offering' (company statement, 18 Nov 2026)",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "primary": true
+    },
+    {
+      "title": "TechCrunch: Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/"
+    },
+    {
+      "title": "CBC: Anthropic prices IPO at $83 US per share, valuing AI giant at $1.51 trillion US",
+      "url": "https://www.cbc.ca/news/business/anthropic-ipo-share-price-nasdaq-9.7426856"
+    },
+    {
+      "title": "The Motley Fool: Anthropic prices its IPO at $83 a share. Here's what we know",
+      "url": "https://www.fool.com/investing/2026/11/18/it-s-official-anthropic-prices-its-ipo-at-usd83-a-share-here-s-what-we-know-and-what-we-don-t/"
+    },
+    {
+      "title": "Stocktitan: Stock market today, November 18, 2026: the Dow closes lower",
+      "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-18-2026"
+    },
+    {
+      "title": "Washington Times (AP): Wall Street wobbles as Nvidia and other AI stocks keep swinging sharply",
+      "url": "https://www.washingtontimes.com/news/2026/nov/18/wall-street-wobbly-nvidia-ai-stocks-keep-swinging-sharply/"
+    }
+  ],
+  "correction": ""
+}
