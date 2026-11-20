@@ -1,20 +1,25 @@
 {
-  "title": "Russia fires missiles and drones at Kyiv overnight after Putin vows 'painful' revenge for bridge",
-  "dek": "Fires broke out in two Kyiv districts and infrastructure was hit in Kyiv and Kryvyi Rih. No casualties had been reported by early Friday.",
+  "title": "Russian missiles hit three Kyiv bridges, killing three, after Putin vows revenge for Crimea",
+  "dek": "The overnight attack damaged crossings over the Dnipro and cut power, heat and water in parts of the capital. Poland is investigating a possible object that fell 45 km from the Ukrainian border.",
   "section": "World",
-  "format": "brief",
+  "format": "standard",
   "topics": [
     "Russia-Ukraine war",
     "Geopolitics"
   ],
   "author": "Declaration Desk",
   "publishedAt": "2026-11-20T02:28:43Z",
-  "updatedAt": "2026-11-20T02:28:43Z",
+  "updatedAt": "2026-11-20T07:24:44Z",
   "lead": false,
   "breaking": false,
   "status": "published",
-  "body": "Russia launched a large overnight missile and drone attack on Kyiv and other Ukrainian cities early on Friday, hours after President Vladimir Putin promised retaliation for Ukraine's strikes on the Crimean bridge that would be \"far more painful\" than the damage to the bridge.\n\nExplosions began in Kyiv at about 1.25 am local time (4.55 am IST), minutes after Ukraine's air force warned of incoming ballistic missiles, and further waves followed until about 4 am, according to reports. The Kyiv City Military Administration reported fires in residential buildings in the Obolonskyi and Podilskyi districts, and Mayor Vitali Klitschko said an infrastructure facility in Holosiivskyi district had been hit. Oleksandr Vilkul, head of the city's defence council, said a \"massive\" drone attack had hit a major infrastructure facility in Kryvyi Rih. Air defences were also in action over Lviv in the west.\n\nNo casualties had been reported by early morning, and Ukraine's air force had not yet published its count of the missiles and drones launched. Figures are expected later on Friday.\n\nSpeaking in Shenzhen on Thursday after his meetings with US President Donald Trump and Chinese President Xi Jinping, Mr Putin said that after the bridge strikes Russia would not negotiate, and that Ukraine and Europe were \"not yet ready\" for compromise, according to reports. A day earlier, a Russian drone attack on Kyiv killed one man and damaged St Volodymyr's Cathedral, according to reports.",
+  "body": "Russian ballistic missiles struck three bridges over the Dnipro river in Kyiv early on Friday, killing three people and injuring about 15, Ukrainian officials said, in a large overnight missile and drone attack that came hours after President Vladimir Putin promised retaliation for Ukraine's strikes on the Crimean bridge that would be \"far more painful\".\n\nThe three people killed were employees of Kyivvodokanal, the city's water utility, according to the Kyiv City Military Administration. Mayor Vitali Klitschko said the Podilsko-Voskresenskyi, Darnytskyi and Southern (Pivdennyi) bridges were damaged and urged residents not to drive. The bridges carry traffic between the two halves of a city of about 3 million, and the strikes were the heaviest on the river crossings since the war began in 2022, according to reports.\n\n## What happened\n\nExplosions began in Kyiv at about 1.25 am local time (4.55 am IST), and further waves of ballistic missiles, cruise missiles and drones followed between about 3 am and 6.30 am, according to reports. The cruise missiles were launched from Tu-160 strategic bombers, according to reports. Klitschko said a critical infrastructure facility had been damaged; the power company DTEK said some consumers in five Kyiv districts were without electricity, and residents of central districts reported losing heat and water. Fires broke out in residential buildings in the Obolonskyi and Podilskyi districts.\n\nOther cities were also hit. In Kharkiv, a drone struck a hospital, injuring at least four people, Mayor Ihor Terekhov said. Five people were injured in Dnipropetrovsk region, Governor Oleksandr Hanzha said, and one person was wounded when a drone hit a tram in Zaporizhzhia. Oleksandr Vilkul, head of Kryvyi Rih's defence council, said a \"massive\" drone attack had cut power to boiler houses, water pumping stations and hospitals there. Explosions were also reported in Lviv and Ivano-Frankivsk in the west. Ukraine's air force had not published its count of missiles and drones by early afternoon IST.\n\nRussia's defence ministry said it had intercepted 310 Ukrainian drones overnight, according to reports, and Moscow-installed officials said three people had been killed in occupied eastern Ukraine. Neither side's figures could be independently verified.\n\n## Poland\n\nPoland's army said it had received reports of a possible fall of an unknown object about 45 km from the Ukrainian border and had sent a ground team to secure the area. Prime Minister Donald Tusk said he had reports of an airspace violation but that there was no current threat from the air. \"Appropriate services are operating on site,\" he wrote. Flights at Rzeszów airport, the main hub for Western aid to Ukraine, were suspended because of military aircraft activity, according to reports. The investigation is continuing.\n\n## Background\n\nA road span of the Crimean bridge collapsed after a Ukrainian strike on the night of 17 November, the third Ukrainian attack on the bridge in a week, halting the rail link to the peninsula. Speaking in Shenzhen on Thursday after his meetings with US President Donald Trump and Chinese President Xi Jinping, Putin said Russia's response \"will be far more painful than what (Ukraine) did to the bridge\" and that Russia would not negotiate ceasefires on energy or maritime trade, according to reports. The three leaders had issued a joint \"Declaration towards Peace\" in Shenzhen that day.\n\nIn Berlin, President Volodymyr Zelensky met leaders of the European-led Coalition of the Willing, who called on Russia to accept a ceasefire on energy infrastructure and a truce for Black Sea shipping. \"If you want to stop war, stop trade with Russia,\" Zelensky told reporters, according to reports.\n\n## What happens next\n\nEngineers will assess the damaged bridges, which carry much of the capital's cross-river traffic and some utility lines. Polish investigators are expected to report on the object near the border. India, which buys Russian crude and has called for dialogue and diplomacy, has not commented on the latest strikes.",
   "sources": [
+    {
+      "title": "Kyiv City Military Administration: official Telegram channel updates on the 20 Nov attack",
+      "url": "https://t.me/VA_Kyiv",
+      "primary": true
+    },
     {
       "title": "Kyiv Independent: Russia launches mass missile attack against Ukraine after Putin vows retaliation",
       "url": "https://kyivindependent.com/russia-launches-mass-missile-attack-against-ukraine-after-putin-vows-revenge/"
@@ -22,6 +27,14 @@
     {
       "title": "The Moscow Times: Putin vows painful retaliation to Crimean bridge attacks",
       "url": "https://www.themoscowtimes.com/2026/11/19/putin-vows-painful-retaliation-to-crimean-bridge-attacks-a94315"
+    },
+    {
+      "title": "Ukrinform: Three killed, 15 injured in Russian attack on Kyiv",
+      "url": "https://www.ukrinform.net/rubric-ato/4186645-three-killed-15-injured-in-russian-attack-on-kyiv.html"
+    },
+    {
+      "title": "RTÉ: Russian missile strikes target key bridges in Kyiv",
+      "url": "https://www.rte.ie/news/ukraine/2026/1120/1599948-ukraine-russia/"
     }
   ],
   "correction": ""

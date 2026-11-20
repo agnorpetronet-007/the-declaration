@@ -1,0 +1,32 @@
+{
+  "title": "Hackers hit vendors of JPMorgan, Mastercard and Visa; firms say payment systems unaffected",
+  "dek": "The three companies say attackers reached marketing data such as names and email addresses held by outside service providers, one of them in Asia-Pacific. No card numbers were taken, they say.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Cybersecurity",
+    "Data breach"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-20T07:24:44Z",
+  "updatedAt": "2026-11-20T07:24:44Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "JPMorganChase, Mastercard and Visa said on Thursday that outside companies providing services to them had been hit by cyberattacks that exposed some customer data, mostly names and email addresses used for marketing, but that their own systems and payment networks had not been affected.\n\nJPMorganChase, the largest US bank, said in a statement that \"third parties who provide services\" to it had been \"the target of a cyberattack\" and that it believed the attackers had accessed certain marketing data held by those vendors, which may include some customers' names and email addresses. \"There is no disruption to our services,\" the bank said. It said it would contact affected customers where appropriate and offer them free credit monitoring. It did not say when the attack took place, name the vendors or say how many customers were affected.\n\n## What the card networks said\n\nMastercard said one of its third-party providers had been hacked and that the exposed data was limited to email addresses of a small subset of cardholders enrolled in one benefit programme. \"There is no impact to the Mastercard payment network or the ability for people to use their cards,\" the company said, adding that the exposure had been contained.\n\nVisa said earlier in the week that it was aware of a breach at a third-party service provider in the Asia-Pacific region. \"Visa's systems were not involved and were not impacted. No payments data such as card numbers were affected,\" a spokesperson said, according to reports.\n\nA ransomware group calling itself n0n claimed responsibility and leaked data, according to reports. The companies have not confirmed who was behind the attacks or whether the incidents are linked, and figures on the number of records involved published by outside researchers have not been confirmed by the companies.\n\n## Not linked to this week's outage\n\nJPMorgan said the breach was not connected to the online outages at several US banks on Monday, which it blamed on a \"software bug\". Senior US officials have said there is no evidence that a string of recent technology outages, which hit air travel, email and hotel booking systems, were caused by cyberattacks, according to reports.\n\n## Why it matters\n\nThe incidents fit a pattern security researchers have warned about for years: large financial institutions harden their own systems, so attackers go after the smaller marketing, loyalty and data-processing firms that hold copies of customer data. Stolen names and email addresses are most often used for convincing phishing messages, in which criminals pose as the bank or card company to trick customers into handing over passwords or one-time codes.\n\nFor Indian cardholders, the Visa incident is the one to watch, since the affected provider is in the Asia-Pacific region; Visa has not said which countries' customers were involved. India's Computer Emergency Response Team (CERT-In) and the Reserve Bank of India have not issued any statement on the incident. Banks and card networks do not ask customers for card numbers, PINs or one-time passwords by email or phone, and customers who receive such requests referring to these incidents should treat them as fraud.\n\n## What happens next\n\nJPMorgan says it will notify affected customers directly. US state data-breach laws generally require companies to tell affected customers, and in some cases regulators, within set periods, so more detail on numbers and the vendors involved may emerge in those notices.",
+  "sources": [
+    {
+      "title": "ABC News: JPMorgan Chase reports cyberattack on third-party service providers",
+      "url": "https://abcnews.com/US/jpmorgan-chase-reports-cyberattack-party-service-providers/story?id=138287705"
+    },
+    {
+      "title": "The Washington Post: Cyberattack may have exposed Chase bank, Mastercard customer data",
+      "url": "https://www.washingtonpost.com/nation/2026/11/19/cyberattack-may-have-exposed-chase-bank-mastercard-customer-data/"
+    },
+    {
+      "title": "The Next Web: JPMorgan Chase, Visa and Mastercard vendor breach, n0n leak",
+      "url": "https://thenextweb.com/news/jpmorgan-chase-visa-mastercard-vendor-breach-n0n-leak"
+    }
+  ],
+  "correction": ""
+}
