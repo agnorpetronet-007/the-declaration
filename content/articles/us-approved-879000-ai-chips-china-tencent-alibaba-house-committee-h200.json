@@ -1,0 +1,38 @@
+{
+  "title": "US approved 879,000 AI chips for Chinese firms in six months, House panel documents show",
+  "dek": "Tencent, Alibaba, Baidu and BYD were among the buyers cleared for Nvidia and AMD chips. All four are on a Pentagon list of companies it says are linked to China's military.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "AI chips",
+    "US-China relations",
+    "Geopolitics"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-21T02:22:41Z",
+  "updatedAt": "2026-11-21T02:22:41Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The US Commerce Department approved licences for more than 879,000 advanced artificial-intelligence chips made by Nvidia and AMD to be sold to Chinese companies between December 2025 and May 2026, according to documents released by the House of Representatives Foreign Affairs Committee. The approvals covered about a quarter of the 3.4 million chips for which the two companies sought licences in that period.\n\nThe largest approvals went to Tencent, cleared for 150,000 chips, Alibaba (75,000), Baidu (43,000) and the carmaker BYD (4,000), according to reports of the documents. All four are on the Pentagon's list of \"Chinese military companies\". It is not clear how many of the approved chips were actually shipped.\n\n## What the documents show\n\nThe chips included Nvidia's H200 and AMD's MI325X, among the most powerful AI processors that can be sold outside the US, according to reports. Licence requests also covered sales to ByteDance, the owner of TikTok, and to Tesla's Shanghai factory. The committee released the figures under a provision of the Export Control Reform Act that allows it to publish export data it considers contrary to the national interest to withhold.\n\nBrian Mast, the Republican chairman of the committee, called it \"the most detailed public disclosure in the history of the Export Control Reform Act\". He said two companies in Nvidia's applications, Maginfra and New Matrix, were suspected \"smuggling fronts\", according to reports. The committee's senior Democrat, Gregory Meeks, said the administration's handling of export controls had put national security at risk, reports said.\n\nThe Commerce Department's Bureau of Industry and Security (BIS) said its approach to H200 licences \"is based on a rule published in the Federal Register in January 2026\" that adds national-security requirements to a case-by-case review, and that its decisions came out of deliberation among several US agencies. Nvidia said the approvals were subject to \"strict conditions and limited volumes\" and that it has since stopped shipping H200s to China. AMD said it complies with US export laws. Tencent, Alibaba, Baidu, BYD and the Chinese embassy did not respond to requests for comment, according to reports.\n\n## Background\n\nUnder President Joe Biden, the US barred sales of its most advanced AI chips to China. In December 2025 President Donald Trump said Nvidia could sell H200 chips to approved Chinese customers if the US government received a 25 per cent share of the revenue. Actual sales have stayed small, analysts say, partly because Beijing did not approve large-scale imports, according to analysts quoted in reports.\n\nThe release adds to pressure on Washington's chip policy. This week the Commerce Department issued a rule requiring licences for advanced chips sent to data centres abroad that rent large amounts of computing power to Chinese companies, and Nvidia's former chief executive, Jensen Huang, is due to be interviewed behind closed doors by House committees on 1 December. On Friday Nvidia's shares fell about 14 per cent after reports that the Securities and Exchange Commission is examining its accounting.\n\n## Why it matters for India\n\nThe figures show how far US policy on AI chips for China has shifted in a year, and how the volumes allowed to China compare with what other countries can get. India, which is buying tens of thousands of graphics processors for its national AI Mission and courting chip and data-centre investment, depends on the same American suppliers and the same export-licensing system. Chips that flow to Chinese cloud and AI companies strengthen India's main technology rival, and the five-country licence rule announced this week shows Washington is also tightening controls on South-East Asian data-centre hubs that compete with India for investment.",
+  "sources": [
+    {
+      "title": "US Bureau of Industry and Security: interim final rule on remote access to advanced computing items, RIN 0694-AK50 (PDF)",
+      "url": "https://www.bis.gov/media/documents/rin-0694-ak50.pdf",
+      "primary": true
+    },
+    {
+      "title": "CNBC: Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+      "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+    },
+    {
+      "title": "Reuters (via Yahoo): US signed off on sales of nearly 900,000 AI chips to China in six months, House committee says",
+      "url": "https://www.yahoo.com/news/politics/articles/license-information-ai-chips-sent-201033356.html"
+    },
+    {
+      "title": "Korea JoongAng Daily: US approved exports of nearly 879,000 advanced AI chips to Chinese firms",
+      "url": "https://www.koreajoongangdaily.com/business/us-approved-exports-of-nearly-879000-advanced-ai-chips-to-chinese-firms/12983241"
+    }
+  ],
+  "correction": ""
+}
