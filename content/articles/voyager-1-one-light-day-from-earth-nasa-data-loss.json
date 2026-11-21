@@ -1,0 +1,50 @@
+{
+  "title": "Voyager 1 becomes the first spacecraft one light-day from Earth, but has stopped sending data",
+  "dek": "A signal from the 49-year-old probe now takes 24 hours to arrive. NASA says it has had no science data since 14 November and engineers are investigating.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "Voyager",
+    "NASA",
+    "Space"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-21T07:24:34Z",
+  "updatedAt": "2026-11-21T07:24:34Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "NASA's Voyager 1 has become the first spacecraft to travel one light-day from Earth, a distance so great that a radio signal moving at the speed of light now takes a full 24 hours to reach it. The probe crossed the line at 2.16 am Pacific time on 18 November (3.46 pm IST), NASA said, more than 49 years after it was launched.\n\nA light-day is about 25.9 billion km. The space agency said in a release on 19 November that its engineers had confirmed the milestone using the spacecraft's carrier signal and trajectory calculations, and that the team heard from Voyager 1 a day after the crossing, once its signal had made the journey home.\n\n## A distance hard to picture\n\nLight, which travels about 299,000 km a second, takes about 1.3 seconds to reach the Moon and about four hours to reach Neptune, NASA said. Voyager 1 is now about 20 light-hours beyond Neptune. Even so, the nearest star other than the Sun is more than four light-years away, and a light-year is about 9.46 trillion km.\n\n> \"Traveling a light-day is a singular feat for a spacecraft, but Voyager is so much more than a distant traveler.\" – Joe Westlake, director of NASA's Heliophysics Division\n\nVoyager 1 is moving at about 61,155 km an hour. It crossed into interstellar space, beyond the bubble of solar wind that surrounds the planets, in 2012; its twin, Voyager 2, followed in 2018. Both were launched in 1977, Voyager 2 first, and between them they flew past Jupiter, Saturn, Uranus and Neptune.\n\n\"One big surprise is the extent to which our Sun continues to affect interstellar space,\" said Linda Spilker, the Voyager project scientist at NASA's Jet Propulsion Laboratory (JPL).\n\n## A spacecraft in trouble\n\nThe milestone comes while the spacecraft is having problems. NASA said the team had not received science or engineering data from Voyager 1 since 14 November. The probe is still sending a carrier signal, which shows it is alive, and engineers are working out what has gone wrong. Mission managers face \"nearly constant\" new anomalies, one report said.\n\nBoth Voyagers draw power from radioisotope thermoelectric generators, which convert the heat of decaying plutonium into electricity and lose about 4 watts a year. Earlier this year engineers switched off three power-hungry devices and replaced them with lower-power alternatives, a move NASA said carried some risk. That should let both spacecraft keep their remaining science instruments running until at least their 50th launch anniversaries next year, NASA said. Those instruments measure plasma waves, magnetic fields and cosmic rays.\n\nThe probes have survived earlier scares, including clogged thrusters and a computer fault that garbled Voyager 1's data in 2023 and 2024 before engineers fixed it from Earth.\n\n\"We listen to Voyager 1 every day and send commands to the spacecraft weekly,\" said Suzanne Dodd, the Voyager project manager at JPL. NASA's Deep Space Network of large antennas in California, Spain and Australia handles the contact.\n\n## What happens next\n\nEngineers will keep trying to restore the flow of data. At some point the spacecraft will run out of power and fall silent; one report said that is expected in the 2030s. Voyager 1 will then keep travelling as what NASA calls a silent ambassador, carrying the Golden Record of sounds and images from Earth. It is due to be one light-day from the Sun, rather than from Earth, in early 2027.",
+  "sources": [
+    {
+      "title": "NASA: NASA's Voyager 1 makes history reaching one light-day from Earth (release 26-098, 19 Nov 2026)",
+      "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "primary": true
+    },
+    {
+      "title": "NASA JPL: Voyager 1 makes history reaching one light-day from Earth",
+      "url": "https://www.jpl.nasa.gov/news/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+      "primary": true
+    },
+    {
+      "title": "Nature: Voyager 1 achieves a cosmic first: one 'light day' from Earth",
+      "url": "https://www.nature.com/articles/d41586-026-03672-1"
+    },
+    {
+      "title": "Scientific American: Voyager 1 is a light-day away. What now?",
+      "url": "https://www.scientificamerican.com/article/voyager-1-is-a-light-day-away-what-now/"
+    },
+    {
+      "title": "EarthSky: Voyager 1 reaches 1 light-day from Earth",
+      "url": "https://earthsky.org/space/voyager-1-1-light-day-from-earth-november-17-18-2026/"
+    }
+  ],
+  "correction": "",
+  "image": {
+    "src": "voyager-1-light-day.jpg",
+    "alt": "Chart on a logarithmic scale showing how long light takes to travel from Earth: 1.3 seconds to the Moon, about 4 hours to Neptune and 24 hours to Voyager 1, which reached that distance on 18 November 2026. Below, key facts: 25.9 billion km from Earth, more than 49 years in flight since its 1977 launch, a speed of 61,155 km/h, and last science data received on 14 November.",
+    "caption": "Voyager 1 is now as far from Earth as light travels in a day.",
+    "credit": "Graphic: The Declaration",
+    "hero": false
+  }
+}
