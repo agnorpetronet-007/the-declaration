@@ -1,0 +1,52 @@
+{
+  "title": "Army issued 580 tenders naming Chinese drone parts since 2021, industry body tells defence ministry",
+  "dek": "The Drone Federation of India says such tenders have nearly doubled this year and warns that parts bought for in-house assembly may escape security checks.",
+  "section": "India",
+  "format": "standard",
+  "topics": [
+    "India-China",
+    "Defence",
+    "Geopolitics"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-22T13:26:15Z",
+  "updatedAt": "2026-11-22T13:26:15Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Indian Army units have issued hundreds of government purchase tenders since 2021 that name Chinese drones or drone parts, and the number has risen sharply this year, according to an industry body that has asked the defence ministry to exclude Chinese components from military drones.\n\nThe Drone Federation of India (DFI), which represents domestic drone and counter-drone makers, said it found 689 tenders on the Government e-Marketplace (GeM) between 10 March 2021 and 19 November 2026 that specified Chinese drones or components. Of those, 580, or about 84 per cent, were issued by Army units, it said in a representation dated 20 November to Defence Secretary Rajesh Kumar Singh and the Chief of Defence Staff, General N.S. Subramani, according to reports.\n\n## What the tenders show\n\nThe count has grown each year, according to the federation's review of publicly available bid documents:\n\n- 2021 (from 10 March): 6 tenders, 2 of them from the Army\n- 2022: 36\n- 2023: 60\n- 2024: 42, of which 31 from the Army\n- 2025: 190, of which 161 from the Army\n- 2026 (to 19 November): 355, of which 328 from the Army\n\nThe bids name brands including DJI, RadioMaster, SpeedyBee, T-Motor, EMAX, RunCam, GEPRC and HGLRC, and cover motors, flight controllers, electronic speed controllers, radio receivers, cameras and video transmitters, according to reports. DJI and RadioMaster alone appear in 450 of the 689 tenders. Smaller numbers came from the Border Security Force, the Armed Forces Tribunal, the Controller General of Defence Accounts and others.\n\nThe federation's president, Smit Shah, said the tenders were small and mostly for training, but that the trend was still a serious concern, according to reports. An industry source said most recent Army tenders were for parts because units had started assembling their own drones, one report said.\n\n## The risks the industry body cites\n\nThe DFI said parts that units buy separately for in-house assembly \"may not necessarily pass through the same security checks\" as complete drones, which could expose flight-control, communication and data links to cyber attack. It noted that 104 of this year's 328 Army tenders were issued after 14 August, when the Army opened AASHVAST, a laboratory that screens drones for Chinese-origin parts, hidden code and remote-access features.\n\nIt also warned that new Chinese export licensing rules for drone motors, speed controllers, autopilots and radios could cut off supplies to units that depend on them. The rules, issued on 19 October by China's commerce ministry, customs administration and the Central Military Commission's equipment department, took effect on 18 November. And it said Indian component makers would not grow if their main customer kept buying Chinese parts.\n\nThe federation asked for an advisory to all military formations barring Chinese components from drones bought for internal use, including through GeM, a preference for Indian-made parts, and mandatory country-of-origin declarations and component-level tracing in drone tenders. It offered its Bharat Drone Stack platform, which lists more than 200 Indian component makers, to find local suppliers at short notice.\n\n## What the Army and the rules say\n\nThe Army did not respond to requests for comment from reporters. Defence officials, speaking to reporters, defended GeM as a neutral platform on which buyers set technical requirements and sellers compete on price, and said the Army checks that products meet specifications and can blacklist sellers who misstate where parts come from, according to reports.\n\nIndia banned imports of fully built and knocked-down drones in February 2022, with exemptions for government, defence and security use, but imports of drone components are still allowed. India has separately barred makers of military drones from using parts from countries that share a land border with India, according to reports. In February 2025 the Army cancelled an order for 400 logistics drones after Chinese parts were found in them.\n\n## Why it matters\n\nThe tenders point to India's continuing reliance on Chinese electronics, including in defence. They come as Indian and Chinese troops face off at several points in Arunachal Pradesh, which the then chief of the Indo-Tibetan Border Police said in October had been going on since July, and after weeks of military talks on the eastern sector of the Line of Actual Control, according to reports. The federation's warning is that Beijing's new licensing rules could disrupt a supply chain that Army units now rely on for training drones. When the rules were announced, a spokesperson for China's commerce ministry said they were meant to \"safeguard national security and interests, and fulfill international obligations such as non-proliferation\", that the items have a \"clear dual-use nature\", and that licence applications that meet requirements will be approved.",
+  "sources": [
+    {
+      "title": "Xinhua: China optimizes, adjusts export control measures for some drone-related items (commerce ministry announcement, 19 Oct 2026)",
+      "url": "https://english.news.cn/20261019/0f6c932a504444a7b47960b771eba4cd/c.html"
+    },
+    {
+      "title": "ThePrint: Industry body raises alarm, 689 tenders for Chinese drones and parts floated since 2021, 84% by Army",
+      "url": "https://theprint.in/defence/industry-body-raises-alarm-689-tenders-for-chinese-drones-parts-floated-since-2021-84-by-army/3105003/"
+    },
+    {
+      "title": "Outlook: Chinese drones in India, 689 military procurement tenders flagged",
+      "url": "https://www.outlookindia.com/national/chinese-drone-components-indian-army-tenders-dfi-689-procurement-notices"
+    },
+    {
+      "title": "Business Standard: Indian Army buying Chinese-made drone components, says DFI president",
+      "url": "https://www.business-standard.com/external-affairs-defence-security/news/india-news-indian-army-buying-chinese-drone-components-dfi-chief-smit-shah-126112200276_1.html"
+    },
+    {
+      "title": "Inquirer (Reuters): India bars makers of military drones from using Chinese parts",
+      "url": "https://newsinfo.inquirer.net/1813810/india-bars-makers-of-military-drones-from-using-chinese-parts"
+    },
+    {
+      "title": "The Diplomat: Face-offs at India-China border are continuing at multiple points, ITBP chief confirms",
+      "url": "https://thediplomat.com/2026/10/face-offs-at-india-china-border-are-continuing-at-multiple-points-itbp-chief-confirms/"
+    }
+  ],
+  "correction": "",
+  "image": {
+    "src": "army-chinese-drone-tenders-by-year.jpg",
+    "alt": "Bar chart of Government e-Marketplace tenders naming Chinese drones or drone parts, by year: 6 in 2021 (from 10 March), 36 in 2022, 60 in 2023, 42 in 2024, 190 in 2025 and 355 in 2026 up to 19 November. Army units issued 161 of the 2025 tenders and 328 of the 2026 tenders, and 580 of the 689 in total.",
+    "caption": "Tenders naming Chinese drones or parts have risen sharply since 2024, according to the Drone Federation of India.",
+    "credit": "Graphic: The Declaration",
+    "hero": false
+  }
+}
