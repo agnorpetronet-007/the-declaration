@@ -1,0 +1,39 @@
+{
+  "title": "CERT-In warns attackers are rewriting payment records to steal through legitimate systems",
+  "dek": "A critical advisory says the fraud has spread beyond banks to IT firms that run government-linked payouts, and that AI 'agentic' attack tools are being used against Indian networks.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Cybersecurity",
+    "CERT-In",
+    "Artificial intelligence"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-22T07:23:51Z",
+  "updatedAt": "2026-11-22T07:23:51Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "India's national cybersecurity agency has warned that attackers are quietly changing business records and approval chains so that organisations' own, legitimate payment systems send money to them, and that the fraud is no longer limited to banks and fintech firms.\n\nThe Indian Computer Emergency Response Team (CERT-In) rated the threat \"critical\" in an advisory numbered CIAD-2026-0062, first issued on Friday, 20 November, and updated on Sunday. It says the abuse now reaches technology service providers, IT-enabled services firms and non-financial payout platforms, including those that handle government-linked payments and vendor payouts. The same advisory warns that \"AI-driven agentic offensive frameworks\", software that uses several AI agents to probe and break into systems, are being used against enterprises, government bodies and academic and research institutions in India.\n\n## How the fraud works\n\nAccording to the advisory, attackers alter records such as a beneficiary's bank details or the list of who can approve a payment, then let the organisation's normal payment run go ahead. Because the transfer passes through trusted systems and established approval steps, it looks valid and can clear routine checks. Weak independent verification and reconciliation of changes to those records let the payments go unnoticed.\n\n\"Organisations need to verify the underlying business records and the authority for a payment,\" the advisory says, not only the payment request itself. It warns government organisations that \"multiple approvals within the same provider-controlled system may not provide sufficient protection\", since an attacker inside the provider's system can control every step.\n\nCERT-In does not name any affected organisation, say how much money has been taken or say who is behind the attacks.\n\n## The AI attack tools\n\nThe advisory describes the agentic frameworks as carrying out automated reconnaissance for exposed systems, quickly preparing exploits from software updates and published technical details, running several intrusion tasks in parallel, and changing their approach when an attempt is blocked. They also abuse valid passwords, administrative functions and trust relationships between organisations.\n\nIt asks organisations to review internet-facing applications, user identities, privileged accounts, service credentials and external connections, and to check their logs for unusual reconnaissance, credential use, administrative activity and outbound data transfers.\n\n## What CERT-In asks organisations to do\n\n- government bodies and service owners should restrict which provider accounts can change payment records or approvals, and check payment instructions against independent records that the provider cannot alter\n- high-risk changes, such as new beneficiaries or approval rules, should be verified outside the provider's system\n- IT service firms and payout platforms should separate client environments and limit administrative privileges\n- incidents must be reported to CERT-In within six hours of being noticed, under its April 2022 directions, and unauthorised transactions to the National Cyber Crime Reporting Portal (cybercrime.gov.in) or helpline 1930\n\n## Background\n\nThe advisory is the latest in a series. In October CERT-In warned of attackers misusing payment and disbursement interfaces at financial firms, and on 4 November it named a threat actor it calls \"Crafty Falcon\", which it said was using publicly available AI hacking tools against non-bank lenders, fintech firms and crypto exchanges. The new advisory tells organisations to apply the measures in those earlier warnings as well. CERT-In separately issued an advisory in October on AI agents under evaluation that had reached live systems of Indian organisations without authorisation.\n\nThe Telecom Regulatory Authority of India is also consulting on draft rules for the responsible use of AI in telecom networks; comments close on 27 November.",
+  "sources": [
+    {
+      "title": "CERT-In: Advisory CIAD-2026-0062, Abuse of business payment workflows and use of AI-driven agentic offensive frameworks across sectors (issued 20 Nov, updated 22 Nov 2026)",
+      "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0062&pageid=PUBVLNOTES02",
+      "primary": true
+    },
+    {
+      "title": "CERT-In: Advisory CIAD-2026-0058, Escalation of AI-driven attacks on BFSI entities by threat actor 'CRAFTY FALCON'",
+      "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0058&pageid=PUBVLNOTES02",
+      "primary": true
+    },
+    {
+      "title": "Elets BFSI: CERT-In advisory on payment workflow fraud",
+      "url": "https://bfsi.eletsonline.com/cert-in-payment-workflow-advisory/"
+    },
+    {
+      "title": "Communications Today: AI-driven threats push DoT and telcos into joint security review",
+      "url": "https://www.communicationstoday.co.in/ai-driven-threats-push-dot-and-telcos-into-joint-security-review/"
+    }
+  ],
+  "correction": ""
+}
