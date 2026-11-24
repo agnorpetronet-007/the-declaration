@@ -1,0 +1,48 @@
+{
+  "title": "Sarvam releases upgraded open-weight 105B model for Indian-language AI agents",
+  "dek": "The Bengaluru company says the new checkpoint matches Google's lightweight models on agent benchmarks at a fraction of the price, and its compressed version runs on a single workstation GPU.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Sarvam AI",
+    "Artificial intelligence",
+    "IndiaAI Mission"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-23T07:28:38Z",
+  "updatedAt": "2026-11-23T07:28:38Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Sarvam AI, one of the companies building foundation models under the government's IndiaAI Mission, released an upgraded version of its largest model on Sunday, saying it now matches leading lightweight models from Google on tasks such as customer support and voice agents, at a much lower price.\n\n\"Today, we're releasing Sarvam-105B-1711, a new open-weight checkpoint of Sarvam 105B,\" the company said in a blog post dated 22 November. It described the model as \"built for high-volume work such as customer support, voice agents and agentic tasks\". Open-weight means the model's parameters can be downloaded and run by anyone, rather than used only through the company's own service.\n\n## What is new\n\nThe release is an updated version of the 105-billion-parameter model Sarvam launched in February, not a new model trained from scratch. According to the model's listing on the Hugging Face platform, it uses a mixture-of-experts design that activates about 10.3 billion parameters for each word it processes, and is released under the permissive Apache 2.0 licence.\n\nSarvam said the model's average score across eight conversational-agent benchmarks rose to 73.9, from 42.6 for the February version, against 74.0 for Google's Gemini 3.5 Flash-Lite and 73.0 for Google's open Gemma 4 31B model. Alibaba's Qwen3.8 27B scored 74.6 in the same comparison. On Sarvam's own test suite for Indian languages, it said, the score rose from 30.1 to 79.1. All the scores were run by Sarvam itself and have not yet been independently checked.\n\nThe company said it had cut the blended price of using the model by two-thirds, to $0.15 per million tokens from $0.44, through improvements in how the model is served. It listed Gemini 3.5 Flash-Lite at $0.85 and Qwen3.8 27B at $0.96 for comparison.\n\n## Running it in India\n\nSarvam is publishing the weights in full precision and in a compressed 4-bit format of about 65 GB. \"At 65 GB, the NVFP4 checkpoint is the only one that fits on a single 96 GB RTX PRO 6000 Blackwell,\" the company said, referring to an NVIDIA workstation graphics card. That makes it possible for banks, government departments and other organisations that cannot send data to outside servers to run the model on their own premises.\n\nThe company said it extended the model's context window, the amount of text it can take in at once, to 160,000 tokens, with long-context training on 512 GPUs that processed 330 billion tokens in a little over seven days. The Hugging Face listing gives a slightly lower figure of about 131,000 tokens.\n\n## Background\n\nThe release comes a week after Sarvam launched Token Factory, a service that runs open AI models on GPUs in India. Some in the industry criticised the company because several of the models offered on the service are Chinese-made, arguing that this sat uneasily with its role in India's \"sovereign AI\" push, according to reports. Sarvam's co-founder Pratyush Kumar has said revenue from the service helps fund the company's own model development, according to reports.\n\nSarvam's own price on Token Factory is ₹10 per million input tokens and ₹25 per million output tokens, which its pricing page describes as an introductory rate running until the end of 2026.\n\n## What happens next\n\nIndependent testers are expected to run the published weights against their own benchmarks, which will show whether Sarvam's figures hold up, particularly for Indian languages. The company has not said what it will charge after the introductory pricing ends.",
+  "sources": [
+    {
+      "title": "Sarvam AI: Sarvam-105B-1711 release blog, 22 Nov 2026",
+      "url": "https://www.sarvam.ai/blogs/sarvam-105b-1711",
+      "primary": true
+    },
+    {
+      "title": "Hugging Face: sarvamai/sarvam-105b-1711 model card",
+      "url": "https://huggingface.co/sarvamai/sarvam-105b-1711",
+      "primary": true
+    },
+    {
+      "title": "Sarvam AI: Token Factory pricing",
+      "url": "https://www.sarvam.ai/token-factory/pricing",
+      "primary": true
+    },
+    {
+      "title": "Unite.AI: Sarvam AI releases open-weight 105B checkpoint for enterprise agents",
+      "url": "https://www.unite.ai/sarvam-ai-releases-open-weight-105b-checkpoint-for-enterprise-agents/"
+    },
+    {
+      "title": "YourStory: Sarvam's move to host Chinese AI models triggers debate",
+      "url": "https://yourstory.com/2026/11/sarvams-move-to-host-chinese-ai-models-triggers-debate"
+    },
+    {
+      "title": "MediaNama: Sarvam's token factory stirs debate on India's 'sovereign' AI push",
+      "url": "https://www.medianama.com/2026/11/223-sarvam-token-factory-india-sovereign-ai/"
+    }
+  ],
+  "correction": ""
+}

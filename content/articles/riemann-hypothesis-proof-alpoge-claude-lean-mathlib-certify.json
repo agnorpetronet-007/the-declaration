@@ -1,0 +1,48 @@
+{
+  "title": "Lean and Mathlib groups certify AI-assisted proof of the Riemann Hypothesis",
+  "dek": "Levent Alpöge, a mathematician at Anthropic, says he found the proof working with the company's Claude model. Groups behind the Lean proof-checking software say the 17-million-line formal proof checks out; mathematicians say understanding it will take time.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "Riemann Hypothesis",
+    "Mathematics",
+    "Artificial intelligence"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-23T07:28:38Z",
+  "updatedAt": "2026-11-23T07:28:38Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The Lean and Mathlib communities, which maintain the Lean proof-checking software and its shared library of formalised mathematics, have said they \"certify that both the statement and the proof of the Riemann Hypothesis are correct\", after a mathematician released a machine-checkable proof of the 167-year-old problem that he says he found with the help of an AI model.\n\nLevent Alpöge, a mathematician who works at the AI company Anthropic, released the proof on Friday, 20 November, as a Lean library of about 17 million lines of code. \"I believe I have, working with Claude, discovered a proof of the Riemann Hypothesis,\" he wrote in a short note, referring to Anthropic's AI model. The proof has not been published in a peer-reviewed journal, and no human-readable version of the argument has yet been released.\n\n## What has been checked\n\nLean is software that checks every logical step of a proof written in its formal language, so a proof it accepts cannot contain a gap in reasoning. The two questions are whether the formal statement says what mathematicians mean, and whether the checking is sound.\n\nIn a joint statement dated 21 November and endorsed by the Lean FRO and the Mathlib Initiative, the communities said the statement proved is exactly the Riemann Hypothesis as defined in the Mathlib library, which had been \"carefully vetted by experts in Lean and number theory\". They said the library compiles without errors, and that the exported proof was accepted by several independent proof checkers, including Lean's official kernel, running on a copy isolated from any \"hypothetical malicious code\". \"We have full confidence that Alpöge's proof of the Riemann Hypothesis is correct,\" the statement said.\n\nA verification page run by Andrew Sutherland of the Massachusetts Institute of Technology, last updated at 16:20 UTC on 22 November (9.50 pm IST), says five theorems are proved using only Lean's three standard axioms: the Riemann Hypothesis and versions for Dirichlet L-functions, including the usual form of the Generalized Riemann Hypothesis. It says more general families of L-functions are not covered, and that some final checks were still running at the time of its update.\n\n> \"Honestly the chance that anything is fishy here is approximately zero.\" — Andrew Sutherland, MIT, in an interview\n\nKevin Buzzard of Imperial College London, a leading figure in formalised mathematics, had pointed out that the key question was whether the Lean statement corresponds to \"the actual theorem statement\", and had said that one more automated comparison was awaited, according to reports. Reports since have said that the comparison has been completed.\n\n## What the problem is\n\nThe Riemann Hypothesis, stated by Bernhard Riemann in 1859, concerns where the zeros of a function called the zeta function lie, and is equivalent to a precise statement about how evenly prime numbers are spread out. It is one of seven Millennium Prize Problems named by the Clay Mathematics Institute in 2000, each carrying a $1 million prize. The Institute has not commented publicly, and its rules require a solution to be published and accepted by the mathematical community before a prize is considered.\n\n## The role of the AI\n\nAlpöge wrote that he guided the work towards the right setting but that \"this time Claude far outpaced me near the finish line\". He said he had chosen to release only the formal Lean proof rather than \"some massive unreadable\" written document, and that he intends to write the argument up properly and expects it to be \"massively simplified\".\n\nHe also addressed the timing: the proof was released a day after Anthropic's shares began trading on the Nasdaq. \"There is an obvious cynical view, to do with the timing, but it is false,\" he wrote. Anthropic declined to comment, according to reports.\n\nReaders should note that Alpöge is an Anthropic employee and Claude is Anthropic's product. The verification described above was carried out by the independent Lean and Mathlib communities and outside mathematicians.\n\n## What happens next\n\nThe remaining checks listed on the MIT page are expected to finish, and mathematicians will now try to understand the ideas in the proof. Alpöge has promised a full written account. Other mathematicians have said, according to reports, that digesting an argument this long will take time.",
+  "sources": [
+    {
+      "title": "Lean and Mathlib communities: joint statement on the Lean verification of the Riemann Hypothesis, 21 Nov 2026",
+      "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+      "primary": true
+    },
+    {
+      "title": "Levent Alpöge: announcement note on a proof of the Riemann Hypothesis (PDF)",
+      "url": "https://alpo.ge/remark.pdf",
+      "primary": true
+    },
+    {
+      "title": "Andrew Sutherland, MIT: RH Lean proof verification page, updated 22 Nov 2026",
+      "url": "https://math.mit.edu/~drew/grh/",
+      "primary": true
+    },
+    {
+      "title": "Scientific American: The AI Riemann Hypothesis proof is almost certainly true, independent mathematicians attest",
+      "url": "https://www.scientificamerican.com/article/the-ai-riemann-hypothesis-proof-is-almost-certainly-true-independent-mathematicians-attest/"
+    },
+    {
+      "title": "The Next Web: Anthropic researcher claims Claude helped him prove the Riemann hypothesis",
+      "url": "https://thenextweb.com/news/anthropic-researcher-claims-claude-helped-him-prove-the-riemann-hypothesis"
+    },
+    {
+      "title": "The Decoder: Lean and Mathlib community officially confirms Alpöge's proof",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/"
+    }
+  ],
+  "correction": ""
+}
