@@ -1,0 +1,38 @@
+{
+  "title": "Indian astronomers identify a rare carbon-rich 'stellar fossil' from the Milky Way's earliest days",
+  "dek": "The star HE 1153-0518 has about a thousandth of the Sun's iron, and its chemistry preserves traces of the first generations of stars, a study accepted by a leading astronomy journal says.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "Astronomy",
+    "Indian Institute of Astrophysics"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-24T07:28:53Z",
+  "updatedAt": "2026-11-24T07:28:53Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Astronomers from the Indian Institute of Astrophysics (IIA) in Bengaluru and Dakshin Kamrup College in Assam have identified a rare type of ancient star whose chemistry carries the imprint of some of the first stars in the universe, in a study accepted for publication in the Monthly Notices of the Royal Astronomical Society.\n\nThe star, HE 1153-0518, has about one-thousandth of the Sun's iron. It is rich in carbon and sodium but has very little of the heavy elements that later generations of stars produce, which places it in a small group known as CEMP-no stars: carbon-enhanced metal-poor stars without the usual enrichment in heavy elements. Astronomers treat such stars as fossils, because they are thought to have formed from gas enriched by only one or a few of the earliest stars.\n\n## What the study found\n\nThe authors, Partha Pratim Goswami of Dakshin Kamrup College and Aruna Goswami of the IIA, used high-resolution spectra from the Subaru Telescope in Hawaii, combined with recent positional and brightness data, to analyse three extremely metal-poor stars. Two, HE 0401-0138 and HE 1246-1344, turned out to be ordinary metal-poor stars. The third, HE 1153-0518, is a newly identified CEMP-no star, the paper says.\n\nIts features include strong carbon enhancement, extreme sodium enrichment and very low levels of elements made by neutron capture. Its ratio of carbon-12 to carbon-13 is very low, at 2.0, a sign that material inside the star has been mixed heavily. The light from the star also shows an excess at infrared wavelengths, which the authors attribute to dust around it. Its motion through space confirms that it belongs to the Galactic halo, the old, sparse population of stars surrounding the Milky Way's disc.\n\nThe authors suggest that the star's composition reflects enrichment by \"faint\" core-collapse supernovae, early stellar explosions in which much of the heavy material falls back into the collapsing core rather than being thrown out, though they say they cannot rule out that material was transferred from a companion star. They place it in a recently proposed fourth group of CEMP-no stars.\n\n\"Ancient metal-poor stars are among the oldest surviving objects in our Galaxy,\" Aruna Goswami said, according to reports. \"Every newly discovered chemically primitive star helps us reconstruct the earliest history of the Milky Way,\" Partha Pratim Goswami said.\n\n## Why it matters\n\nThe first stars formed a few hundred million years after the Big Bang, out of hydrogen and helium alone. None has been found, and astronomers believe they were massive and short-lived. The elements they made in their cores and scattered when they exploded seeded the gas from which the next stars formed. Stars like HE 1153-0518, which formed from that gas and have survived for billions of years, are among the few direct records of what the first stars produced.\n\nOnly a small fraction of known metal-poor stars are CEMP-no stars, so each new one helps test models of how the earliest supernovae worked. The IIA, an autonomous institute under the Department of Science and Technology, has a long-running programme studying such stars; its scientists earlier reported another unusual carbon-enhanced star, HE 1005-1439.\n\nThe paper was first posted as a preprint in June 2026. It was publicised this week; the journal's publication date has not been announced.",
+  "sources": [
+    {
+      "title": "Goswami & Goswami: Three Extremely Metal-Poor stars: discovery of a new CEMP-no star (arXiv:2606.05154, accepted for publication in MNRAS)",
+      "url": "https://arxiv.org/abs/2606.05154",
+      "primary": true
+    },
+    {
+      "title": "Department of Science and Technology: Unique star discovered that challenges previous understanding of star formation processes (earlier IIA study of HE 1005-1439)",
+      "url": "https://dst.gov.in/unique-star-discovered-challenges-previous-understanding-star-formation-processes",
+      "primary": true
+    },
+    {
+      "title": "NE India Broadcast: Indian astronomers discover a rare 'stellar fossil' preserving clues to the Universe's first stars",
+      "url": "https://neindiabroadcast.com/2026/11/24/indian-astronomers-discover-a-rare-stellar-fossil-preserving-clues-to-the-universes-first-stars/"
+    },
+    {
+      "title": "TBS News: Astronomers discover rare ancient star preserving clues to early universe",
+      "url": "https://www.tbsnews.net/science/astronomers-discover-rare-ancient-star-preserving-clues-early-universe-1611941"
+    }
+  ],
+  "correction": ""
+}

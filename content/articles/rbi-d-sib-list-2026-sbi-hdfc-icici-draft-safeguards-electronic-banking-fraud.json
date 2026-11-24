@@ -1,0 +1,39 @@
+{
+  "title": "RBI keeps SBI, HDFC Bank and ICICI Bank on 'too big to fail' list, proposes new curbs on digital fraud",
+  "dek": "The central bank left the three banks' extra capital charges unchanged and published draft rules to let customers limit how their accounts can be used online. Markets are shut on Tuesday for Guru Nanak Jayanti.",
+  "section": "Business",
+  "format": "standard",
+  "topics": [
+    "RBI",
+    "Banking",
+    "Cyber crime"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-24T07:28:53Z",
+  "updatedAt": "2026-11-24T07:28:53Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The Reserve Bank of India on Monday named State Bank of India, HDFC Bank and ICICI Bank once again as domestic systemically important banks, lenders whose failure would damage the wider financial system, and kept each in the same capital bucket as last year. In a separate release the same day it published draft rules that would let bank customers decide how, and how far, their accounts can be used through digital payment channels, as an extra defence against fraud.\n\n## The 'too big to fail' list\n\nUnder the RBI's framework, a systemically important bank must hold extra common equity tier 1 (CET1) capital, the highest-quality capital, on top of the standard capital conservation buffer. The size of the extra charge depends on which of five buckets the bank falls in, based on its systemic importance score.\n\nAccording to the RBI's 2026 list, based on data as of 31 March 2026:\n\n- State Bank of India: bucket 4, an extra 0.80% of risk-weighted assets\n- HDFC Bank: bucket 2, an extra 0.40%\n- ICICI Bank: bucket 1, an extra 0.20%\n- Buckets 3 (0.60%) and 5 (1%) are empty.\n\nThe RBI issued the framework in July 2014 and updated it in December 2023. It named SBI and ICICI Bank in 2015 and added HDFC Bank in 2017. Foreign banks that are global systemically important banks and operate branches in India must also hold an extra charge in proportion to their Indian risk-weighted assets. Because all three stay in the same buckets, their extra capital charges do not change this year.\n\n## Draft safeguards against fraud\n\nThe second release proposes \"preventive safeguards\" for electronic banking transactions. In June the RBI tightened the rules limiting a customer's liability when money is stolen through unauthorised transactions. It now says a preventive layer is also needed, giving customers \"greater control over the manner and extent to which digital payment channels may be used\". The release does not list the specific controls; they are set out in seven draft documents, one each for commercial banks, small finance banks, payments banks, local area banks, regional rural banks, urban co-operative banks and rural co-operative banks.\n\nThe drafts would also widen the definition of \"negligence by a bank\" in the June rules, which matters because a bank that is found negligent must bear the loss from a fraud. The RBI said the change was meant to make banks' practices uniform and protect customers against specific failures by banks. Comments are invited until 14 December through the \"Connect 2 Regulate\" section of the RBI website or by email.\n\nThe proposals follow a series of warnings about fraud through legitimate payment systems, including a recent critical advisory from CERT-In, the government's cyber security agency, about attackers rewriting payment records.\n\n## Markets closed\n\nIndian stock, currency and bond markets are closed on Tuesday for Guru Nanak Jayanti and reopen on Wednesday. On Monday the Sensex fell 1,484 points to 82,435.99 and the Nifty closed at 25,349.65, led by banking and metal stocks. Overnight, Wall Street rebounded sharply after Nvidia reinstated Jensen Huang as chief executive: the Nasdaq rose 6.5% and the S&P 500 4.7%, according to reports, and Asian markets rallied on Tuesday, with Japan's Nikkei up about 4%. Brent crude was trading at about $86 a barrel early on Tuesday.",
+  "sources": [
+    {
+      "title": "RBI: Press release 2026-2027/1547, RBI releases 2026 list of Domestic Systemically Important Banks (D-SIBs), 23 Nov 2026",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64025",
+      "primary": true
+    },
+    {
+      "title": "RBI: Press release 2026-2027/1548, Draft Amendment Directions on Preventive Safeguards for Electronic Banking Transactions, 23 Nov 2026",
+      "url": "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=64026",
+      "primary": true
+    },
+    {
+      "title": "AP via Yahoo Finance: Asian stocks rally after Wall Street rebound as Jensen Huang returns as Nvidia's CEO",
+      "url": "https://finance.yahoo.com/markets/world-indices/articles/asian-stocks-rally-wall-street-033125464.html"
+    },
+    {
+      "title": "Goodreturns: Are BSE, NSE closed on November 24 for Guru Nanak Jayanti?",
+      "url": "https://www.goodreturns.in/news/stock-market-holiday-today-or-not-are-bse-nse-closed-november-24-guru-nanak-jayanti-check-calendar-1549209.html"
+    }
+  ],
+  "correction": ""
+}

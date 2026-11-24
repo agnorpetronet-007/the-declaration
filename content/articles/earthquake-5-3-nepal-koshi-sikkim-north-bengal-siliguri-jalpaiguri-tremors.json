@@ -1,0 +1,38 @@
+{
+  "title": "Magnitude 5.3 earthquake in eastern Nepal shakes north Bengal; no damage reported",
+  "dek": "Residents of Siliguri and Jalpaiguri ran out of their homes at about 7 am. It was the second Nepal quake felt in the region this month.",
+  "section": "Bengal",
+  "format": "brief",
+  "topics": [
+    "North Bengal",
+    "Earthquake",
+    "Sikkim"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-24T07:28:53Z",
+  "updatedAt": "2026-11-24T07:28:53Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "An earthquake of magnitude 5.3 centred in eastern Nepal, near the Sikkim border, shook north Bengal at 7.02 am on Tuesday, sending people in Siliguri and Jalpaiguri running out of their homes. No casualties or damage had been reported by early afternoon.\n\nThe National Centre for Seismology put the epicentre in Nepal's Koshi province at a depth of about 20 km, according to reports. The United States Geological Survey also recorded it at magnitude 5.3, locating it 67 km west-northwest of Mangan in Sikkim, at a depth of 10 km; the two agencies' depth estimates differ.\n\nThe tremor was felt across the Darjeeling hills and plains, Kalimpong, Jalpaiguri, North and South Dinajpur and Sikkim, and more mildly in Bihar, Bhutan and parts of Bangladesh, reports said. People out on morning walks said they felt the ground shake. Some local reports described two tremors in quick succession in Siliguri, which the seismological agencies have not confirmed.\n\nIt was the second quake from Nepal felt in the region this month, after a magnitude 4.9 tremor on 12 November. North Bengal and Sikkim lie in a high-risk seismic zone. The magnitude 6.9 Sikkim earthquake of 18 September 2011 killed 111 people, six of them in north Bengal.",
+  "sources": [
+    {
+      "title": "USGS: M 5.3, 67 km WNW of Mangan, India, 24 Nov 2026 01:32 UTC (event us6000ud3i)",
+      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000ud3i",
+      "primary": true
+    },
+    {
+      "title": "Telangana Today (IANS): 5.3-magnitude earthquake jolts North Bengal, Sikkim; residents flee homes, no casualties",
+      "url": "https://telanganatoday.com/5-3-magnitude-earthquake-jolts-north-bengal-sikkim-residents-flee-homes-no-casualties"
+    },
+    {
+      "title": "News On AIR: Earthquake shakes North Bengal, Sikkim and parts of Bihar",
+      "url": "https://newsonair.gov.in/earthquake-shakes-north-bengal-sikkim-and-parts-of-bihar/"
+    },
+    {
+      "title": "Uttarbanga Sambad: Early-morning earthquake shakes Siliguri and wide areas",
+      "url": "https://uttarbangasambad.com/earthquake-hits-north-bengal/"
+    }
+  ],
+  "correction": ""
+}
