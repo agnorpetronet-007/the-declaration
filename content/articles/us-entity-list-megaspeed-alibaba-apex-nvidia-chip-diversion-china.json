@@ -1,0 +1,38 @@
+{
+  "title": "US blacklists Nvidia buyer Megaspeed and an Alibaba unit over AI chip diversion to China",
+  "dek": "Seven South-East Asian companies were added to the Commerce Department’s Entity List after a two-year investigation; Alibaba says it will fight the listing.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Nvidia",
+    "Export controls",
+    "India-China"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-25T02:23:22Z",
+  "updatedAt": "2026-11-25T02:23:22Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The United States has put Megaspeed, a Singapore-based cloud company that was one of the biggest buyers of Nvidia's artificial-intelligence chips in South-East Asia, on its trade blacklist, along with an Alibaba subsidiary and several affiliates, over the risk that advanced chips were being diverted to China.\n\nThe Commerce Department's Bureau of Industry and Security added seven companies to its Entity List in a filing published on Monday in Washington (early Tuesday in India), citing a \"significant risk\" that they are, or could become, involved in diverting advanced computing products to unauthorised users or uses, according to reports. Companies on the list need a US licence to receive any item covered by American export rules, and applications will be reviewed with a \"presumption of denial\".\n\n## Who was listed\n\nBesides Megaspeed International in Singapore, the listing covers Megaspeed affiliates elsewhere in South-East Asia, including MSFusion in Malaysia and Megaspeed (Thailand), as well as 7Road International, which the department identified as an alias used by the Singapore and Thai companies, according to reports. It also includes Apex Enterprise Solutions, a Singapore-based subsidiary of the Chinese technology group Alibaba. Nvidia itself was not listed.\n\nAlibaba said it would pursue all legal avenues to protect its rights and reputation, and that Apex had never diverted advanced chips subject to US export restrictions, according to reports. No response from Megaspeed was reported. Singapore's Prime Minister, Lawrence Wong, said investigations into Megaspeed were continuing in Singapore and that talks with US authorities were going on, adding that Singapore must not be used as a conduit to get around US export controls.\n\n## The investigation\n\nIn a joint statement on 16 November, the Commerce and Justice departments said they had opened investigations into Megaspeed in 2024 over possible export-control violations, and issued it to correct what they called \"inaccurate information circulating in public reporting\". According to the statement as reported, Commerce investigators asked Nvidia in May 2025 for records of its direct and indirect sales to Megaspeed; in June 2025 Nvidia put Megaspeed on its \"no sell\" list, and US officials and Singapore police carried out an on-site inspection. \"Following this enforcement action, the Department of Justice took the lead role in the criminal investigation of Megaspeed,\" the departments said. No charges have been announced.\n\nThe case has been at the centre of turmoil at Nvidia this month. Its chief executive, Jensen Huang, resigned earlier this month amid US security concerns linked to the case and was reinstated by the board 11 days later. US lawmakers have also questioned why the Commerce Department did not cut Megaspeed off sooner, according to reports.\n\n## Why it matters\n\nSince 2022 Washington has restricted sales of Nvidia's most advanced AI chips to China, which wants them to train large AI models. Officials have repeatedly warned that chips are being routed to Chinese users through third countries, and South-East Asia's fast-growing data-centre hubs in Singapore and Malaysia have been the main focus.\n\nChina has consistently opposed US chip export controls as an abuse of national-security grounds; The Declaration did not find a specific response from Beijing to this listing by early Wednesday.\n\nFor India, the case is a reminder of how closely Washington now polices where AI chips sold in Asia end up. India's own AI plans, including the government's IndiaAI Mission, which rents computing capacity to start-ups and researchers, depend on Nvidia's chips, and Indian data-centre operators buy them under the same US export rules.\n\n## What happens next\n\nListed companies can ask the Commerce Department to be removed from the list. The Justice Department's criminal investigation and Singapore's inquiry are continuing.",
+  "sources": [
+    {
+      "title": "US Department of Commerce and Department of Justice: Joint statement on Megaspeed investigation, 16 Nov 2026",
+      "url": "https://www.commerce.gov/news/press-releases/2026/11/joint-statement-department-commerce-and-department-justice-megaspeed",
+      "primary": true
+    },
+    {
+      "title": "CNBC: U.S. adds Megaspeed to trade blacklist over export control concerns amid Nvidia controversy",
+      "url": "https://www.cnbc.com/2026/11/24/us-adds-megaspeed-to-trade-blacklist-over-export-control-concerns-.html"
+    },
+    {
+      "title": "CNBC: U.S. agencies say they initiated investigation into Nvidia partner Megaspeed in 2024",
+      "url": "https://www.cnbc.com/2026/11/17/megaspeed-investigation-nvidia-jensen-huang.html"
+    },
+    {
+      "title": "Stock Analysis (Reuters): US blacklists an Alibaba unit and Nvidia partner Megaspeed, seven companies in all",
+      "url": "https://stockanalysis.com/news/us-blacklists-alibaba-unit-megaspeed/"
+    }
+  ],
+  "correction": ""
+}
