@@ -1,0 +1,29 @@
+{
+  "title": "India's satellite makers depend heavily on imported parts, space regulator's report finds",
+  "dek": "An IN-SPACe study says about 60% of a satellite's cost lies in electronic components and special materials, many of them imported, with key parts taking 12 to 16 months to arrive.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "Space",
+    "IN-SPACe",
+    "Supply chains"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-26T07:24:51Z",
+  "updatedAt": "2026-11-26T07:24:51Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "India's satellite manufacturing supply chain is \"highly dependent\" on imports for critical components, and private companies contribute mainly structural assemblies and propulsion parts, according to a report by IN-SPACe, the Department of Space body that authorises and promotes private space activity.\n\nThe report, The Supply Chain Landscape of Satellite Manufacturing in India, was made public on Wednesday. It found that nearly 60% of the cost of a satellite lies in electronic, electrical and electromechanical components and specialised materials, many of which India imports. It lists 53 Indian suppliers and 162 foreign suppliers of the parts and materials it maps, with the foreign firms based in countries including the United States, Germany, Japan, France and the Netherlands.\n\n## What the report found\n\nThe study breaks satellite manufacturing down into its major subsystems and identifies the components, materials and equipment each one needs. It is a descriptive map of the industry rather than a statistical survey, according to reports.\n\nIts main findings:\n\n- Critical components often take 12 to 16 months to procure, delaying projects and making it hard for Indian firms to respond quickly to market opportunities.\n- Testing and certification facilities are limited, which weakens Indian products' chances of acceptance in global markets.\n- Many companies work on a \"project-based manufacturing model\", which discourages long-term investment in automation and production capacity.\n- There is a shortage of trained people in satellite systems engineering, quality assurance, testing and qualification, and little private research and development or technology transfer.\n- The private sector's share is largely in structural assemblies and propulsion components, much of it supplied by public sector companies and long-established private firms.\n\nThe report was prepared by two IN-SPACe officials and approved by its chairman, Pawan Goenka.\n\n## The case for building at home\n\nThe report argues that Indian industry could move from assembling satellites to exporting satellite systems and subsystems, given growing global demand for low-cost small satellites, communication payloads and high-resolution imaging. \"If the identified gaps are addressed through policy interventions, strategic investments and international collaborations, India can within the next decade establish itself as a trusted global supplier of space-grade components,\" it says.\n\nAt the Indian Space Association's India International Space Conclave earlier this week, Mr Goenka said the first phase of space reforms had opened the sector to private companies, and that the bigger need now was to generate demand, attract investment and simplify procedures. ISRO Chairman V. Narayanan told the same conclave that the first PSLV rocket built entirely by an industry consortium of HAL and L&T was ready, with its first launch planned for the first quarter of 2027, according to reports.\n\nScience Minister Jitendra Singh said this week that India's space economy is worth about $9 billion and is expected to grow to $40-45 billion in less than a decade, according to reports.\n\n## Why it matters\n\nImported electronics and materials are a strategic as well as commercial weakness for a country that relies on its own satellites for navigation, communications, weather forecasting and military surveillance. Long lead times for parts from abroad also slow down the commercial satellite constellations that Indian start-ups are trying to build. The report does not set targets; any policy response, such as support for testing facilities or domestic component makers, would come from the Department of Space and IN-SPACe.",
+  "sources": [
+    {
+      "title": "The Hindu: India's satellite supply chain 'highly dependent on imports', says space body",
+      "url": "https://www.thehindu.com/sci-tech/science/indias-satellite-supply-chain-highly-dependent-on-imports-says-space-body/article71743312.ece"
+    },
+    {
+      "title": "NewsBytes: ISRO announces first PSLV built entirely by HAL and L&T",
+      "url": "https://www.newsbytesapp.com/news/science/isro-announces-1st-pslv-built-entirely-by-hal-and-lt/tldr"
+    }
+  ],
+  "correction": ""
+}
