@@ -1,0 +1,42 @@
+{
+  "title": "US regulator clears SpaceX to launch up to one million satellites for data centres in space",
+  "dek": "The FCC approved SpaceX's 'Starmind' plan for solar-powered AI computing in orbit, rejecting objections from Amazon, Viasat and astronomers who warn of space debris and a brighter night sky.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "SpaceX",
+    "Artificial intelligence",
+    "Space"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-26T07:24:51Z",
+  "updatedAt": "2026-11-26T07:24:51Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The US Federal Communications Commission on Wednesday authorised SpaceX to deploy up to one million satellites that would work as data centres in orbit, the first time the regulator has approved a constellation built to run computing in space rather than to provide communications.\n\nThe constellation, which SpaceX calls Starmind, is made up of what the company describes as \"orbital compute modules\": solar-powered satellites that would process large amounts of data, such as for artificial intelligence, and send results back to Earth. FCC Chairman Brendan Carr said the decision \"opens a bold new frontier for the computing infrastructure needed to power America's leadership and growth\".\n\n## What was approved\n\nSpaceX applied on 30 January for a system of up to one million satellites at altitudes of 500 km to 2,000 km, according to the FCC's public notice accepting the application. The notice records that SpaceX described the system as a \"first step towards becoming a Kardashev II-level civilization\", a theoretical civilisation able to harness all the energy of its star. The satellites would talk to each other and to SpaceX's Starlink satellites over laser links.\n\nThe approval allows satellites in orbital shells between about 500 km and 1,002 km, according to reports. SpaceX must have at least one satellite operating by 2033 and the full constellation by 2040, with interim targets in between; reports differ on how those interim targets are described. The FCC imposed conditions including a detailed orbital debris mitigation plan and regular updates to the regulator. It found SpaceX's debris plan satisfactory for satellites below 600 km and deferred a request concerning disposal of some higher satellites, according to reports.\n\nThe one-million figure is the maximum the licence allows, not a commitment to build that many.\n\n## The objections\n\nAmazon's satellite unit Kuiper Systems, the satellite operator Viasat and the American Astronomical Society (AAS) had asked the FCC to reject the application. Amazon argued in March that Starmind was a \"lofty ambition rather than a real plan\". The FCC rejected the objections and said it had set aside issues outside its authority, including environmental concerns and effects on optical astronomy, according to reports.\n\nThe AAS said it was \"disheartened and dismayed\". It said the satellites would be larger and brighter than existing ones and would be visible as \"extremely bright objects\" for long periods, undermining decades of investment in observatories. Scientists have also questioned the physics: in a vacuum, the heat produced by computer chips is hard to get rid of, and critics have warned that a constellation this large raises the risk of collisions and a cascade of debris in low Earth orbit, where weather and communications satellites also fly. The environmental law group Earthjustice criticised the FCC for approving the plan without an environmental review.\n\nElon Musk, SpaceX's founder, thanked the regulator on social media.\n\n## Why it matters\n\nThe decision is part of a wider race to find power for AI computing, which is straining electricity grids. Other companies have filed similar plans: Blue Origin's Project Sunrise seeks up to 51,600 satellites and the start-up Starcloud 88,000, according to reports, and the FCC said it is still reviewing other orbital data centre applications.\n\nFor India, the ruling matters in two ways. Low Earth orbit is shared: a sharp rise in the number of satellites raises collision risks for Indian satellites and complicates the work of Indian observatories. And it comes as SpaceX's Starlink, which says it has built its Indian infrastructure with the required government approvals, prepares to offer satellite internet in India.",
+  "sources": [
+    {
+      "title": "FCC Space Bureau: public notice accepting for filing SpaceX's application for orbital data centers, DA 26-113, 4 Feb 2026 (PDF)",
+      "url": "https://docs.fcc.gov/public/attachments/DA-26-113A1.pdf",
+      "primary": true
+    },
+    {
+      "title": "CNBC: SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+      "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+    },
+    {
+      "title": "GeekWire: FCC clears SpaceX to put up to a million satellites in orbit for Starmind data center network",
+      "url": "https://www.geekwire.com/2026/fcc-clears-spacex-million-satellites-starmind-data-center/"
+    },
+    {
+      "title": "The Hindu: SpaceX allowed to deploy 1 million satellites for data centres in space, as scientists express doubt",
+      "url": "https://www.thehindu.com/sci-tech/technology/spacex-allowed-to-deploy-1-million-satellites-for-data-centres-in-space-as-scientists-express-doubt/article71745113.ece"
+    },
+    {
+      "title": "NPR: FCC says SpaceX can deploy 1 million satellites for data centers in space. Scientists are skeptical",
+      "url": "https://www.npr.org/2026/11/26/g-s1-155940/fcc-spacex-satellites-data-centers-in-space"
+    }
+  ],
+  "correction": ""
+}
