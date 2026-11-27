@@ -1,0 +1,32 @@
+{
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-26T02:22:06Z",
+  "updatedAt": "2026-11-26T02:22:06Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "correction": "",
+  "title": "Gukesh and Sindarov draw again in 20 moves; world title match level at 1-1",
+  "dek": "The champion tried the London System with White but the challenger held comfortably. Sindarov has White in Game 3 tonight.",
+  "section": "Sport",
+  "format": "brief",
+  "topics": [
+    "World Chess Championship",
+    "Chess"
+  ],
+  "body": "D. Gukesh and Javokhir Sindarov drew Game 2 of the World Chess Championship in Geneva on Wednesday in just 20 moves, leaving the 14-game match level at 1-1.\n\nWith White for the first time in the match, Gukesh opened with 1.d4 and the London System, a choice he had not made before at this level. Sindarov again played quickly in the opening, and Gukesh, who fell behind on the clock in Game 1 as well, spent long periods over several moves, including 25 minutes after Sindarov's surprising 11...Qd8 and 30 minutes on 16.f3. Sindarov's active set-up with ...f5 left White with no obvious way forward, and the game ended in a draw by threefold repetition.\n\n\"I'd have preferred both results go my way!\" Gukesh said afterwards, according to the event's official reporting. Sindarov said of his time advantage: \"When my opponent thinks, I'm just trying to chill!\"\n\nGame 3 begins at 7.30 pm IST on Thursday, with Sindarov playing White, before the first rest day on Friday. The first player to 7.5 points wins the title; a 7-7 score would go to rapid tie-breaks. The match carries a prize fund of $2.5 million.",
+  "sources": [
+    {
+      "title": "Chess.com: FIDE World Championship 2026 Game 2, London System battle ends in 20-move draw",
+      "url": "https://www.chess.com/news/view/2026-fide-world-chess-championship-game-2"
+    },
+    {
+      "title": "The Tribune: World Chess Championship: Game 2 ends in quick draw between Gukesh and Sindarov",
+      "url": "https://www.tribuneindia.com/news/chess/world-chess-championship-game-2-ends-in-quick-draw-between-gukesh-and-sindarov"
+    },
+    {
+      "title": "Deccan Herald: Gukesh, Sindarov split points after 20-move draw in Geneva",
+      "url": "https://www.deccanherald.com/sports/other-sports/d-gukesh-sindarov-split-points-after-20-move-draw-in-geneva-4231491"
+    }
+  ]
+}
