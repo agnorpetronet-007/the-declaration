@@ -1,0 +1,46 @@
+{
+  "title": "RBI eases banks' daily cash-reserve rule as liquidity slips into deficit",
+  "dek": "Banks need keep only 90% of required reserves on any day from 1 December. Forex reserves fell $4.4 billion to $700.9 billion, and SEBI opened physically settled commodity contracts to foreign investors.",
+  "section": "Business",
+  "format": "standard",
+  "topics": [
+    "RBI",
+    "Banking",
+    "Forex reserves"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-28T02:23:15Z",
+  "updatedAt": "2026-11-28T02:23:15Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "The Reserve Bank of India on Friday lowered the share of their cash reserve ratio (CRR) that banks must hold on any single day to 90% from 99%, giving them more room to manage their cash as liquidity in the banking system has turned into a deficit for the first time in about five months.\n\nThe change applies from the fortnight beginning 1 December, the central bank said in its notification to all scheduled banks, which said it was based on \"an assessment of the current and evolving macroeconomic situation and liquidity conditions\". The CRR itself, the share of deposits banks must keep with the RBI, is unchanged at 3%. Banks must still meet the requirement on average over each fortnight.\n\n## Why it matters\n\nUnder the CRR rules, banks have to maintain a daily minimum balance at the RBI as well as meet the fortnightly average. A lower daily minimum lets a bank dip further below the average on days when it is short of cash and make up the difference later, so it does not have to borrow at higher rates to meet the floor. The change does not affect customers' deposits, withdrawals or UPI payments.\n\nThe 99% daily floor had been set in an RBI circular of 9 October, when the banking system was flush with cash. Since then, liquidity has been drained by large goods and services tax payments and by the RBI's own sales of dollars to support the rupee, reports said. Demand for funds was visible at Friday's three-day variable rate repo auction, where banks bid for Rs 1.35 lakh crore against Rs 75,000 crore on offer, according to reports.\n\n## Reserves fall on gold\n\nIndia's foreign exchange reserves fell by $4.4 billion to $700.9 billion in the week ended 20 November, according to the RBI's weekly data. Almost all of the fall came from gold, whose value dropped by more than $4 billion to $94.5 billion. Foreign currency assets slipped $266 million to $583.2 billion, special drawing rights fell $67 million to $18.45 billion and the reserve position with the IMF dropped $15 million to $4.74 billion.\n\n## SEBI opens commodity contracts to foreign investors\n\nSeparately, the market regulator SEBI said foreign portfolio investors (FPIs) will be allowed to trade physically settled non-agricultural commodity derivatives, such as metals and energy contracts, on Indian exchanges from 1 June 2027. Until now FPIs could trade only cash-settled contracts in these commodities. SEBI said the move was meant to deepen institutional participation and liquidity.\n\nOptions on goods are excluded. FPIs may hold positions only until the tender or delivery period begins and must close out or roll over before then; SEBI said there would be a safeguard mechanism for positions that are not closed voluntarily.\n\n## What happens next\n\nOfficial data on economic growth in the July-September quarter is due on Monday, 30 November. Markets will watch whether the RBI adds liquidity through further repo auctions or other tools as oil prices rise on tensions in the Gulf.",
+  "sources": [
+    {
+      "title": "RBI: notification RBI/2026-27/310, change in daily minimum cash reserve maintenance requirement, 27 Nov 2026",
+      "url": "https://rbi.org.in/scripts/NotificationUser.aspx?Id=13759&Mode=0",
+      "primary": true
+    },
+    {
+      "title": "News On AIR: RBI reduces minimum daily CRR maintenance requirement to 90%",
+      "url": "https://newsonair.gov.in/rbi-reduces-daily-minimum-crr-maintenance-requirement-for-banks-to-90/"
+    },
+    {
+      "title": "Free Press Journal: RBI cuts minimum CRR maintenance requirement to 90 per cent from December 1 amid liquidity tightness",
+      "url": "https://www.freepressjournal.in/business/rbi-cuts-minimum-crr-maintenance-requirement-to-90-per-cent-from-december-1-amid-liquidity-tightness"
+    },
+    {
+      "title": "Deccan Chronicle: RBI eases daily CRR maintenance to 90% as banking liquidity slips into deficit",
+      "url": "https://www.deccanchronicle.com/business/economics/rbi-eases-daily-crr-maintenance-to-90-as-banking-liquidity-slips-into-deficit-2008599"
+    },
+    {
+      "title": "News On AIR: India's forex reserves decline by 4.4 billion dollars to 700.9 billion dollars",
+      "url": "https://newsonair.gov.in/indias-forex-reserves-decline-by-4-4-billion-dollars-to-700-9-billion-dollars/"
+    },
+    {
+      "title": "News On AIR: SEBI opens non-agricultural commodity derivatives to FPIs",
+      "url": "https://newsonair.gov.in/sebi-opens-non-agricultural-commodity-derivatives-to-fpis/"
+    }
+  ],
+  "correction": ""
+}

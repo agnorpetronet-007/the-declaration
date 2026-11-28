@@ -1,0 +1,36 @@
+{
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-27T02:22:06Z",
+  "updatedAt": "2026-11-27T02:22:06Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "correction": "",
+  "title": "IndiaAI unveils Chariot-1, a home-built language model and voice engine for 11 languages",
+  "dek": "Delhi start-up Chariot AI's models were trained from scratch in India under the IndiaAI Mission. Its open-source IndicShift tool gives 12 Indian scripts a shared alphabet to cut computing costs.",
+  "section": "Technology",
+  "format": "standard",
+  "topics": [
+    "Artificial intelligence",
+    "IndiaAI Mission"
+  ],
+  "body": "A Delhi-based start-up, Chariot Artificial Intelligence, launched a set of AI foundation models built from scratch in India on Thursday, the latest release under the government's IndiaAI Mission. The Chariot-1 suite, a large language model and a text-to-speech system, was unveiled by S. Krishnan, Secretary of the Ministry of Electronics and Information Technology (MeitY), at a research showcase in New Delhi, the ministry said.\n\nThe ministry said both models were \"pre-trained from scratch in India\", rather than built by fine-tuning a foreign model, and described the launch as part of the push for \"sovereign AI technologies\". The text-to-speech model speaks English and 10 Indian languages: Hindi, Bengali, Marathi, Tamil, Telugu, Kannada, Malayalam, Gujarati, Punjabi and Odia.\n\n## What was launched\n\nThe language model is a \"mixture-of-experts\" design with 11 billion parameters in total, of which about 4 billion are used for each word it processes, according to one detailed account of the launch. It comes in three sizes, of about 10.7 billion, 1.7 billion and 745 million parameters, meant to run on everything from data centres to phones. No benchmark results for the language model were published, and it was not clear whether it will be released publicly.\n\nThe company also presented three training techniques:\n\n- IndicShift, released as open source, maps 1,012 characters across 12 Indian scripts onto a shared set of 350 letters, so a model can see that words in, say, Bengali and Hindi are related. The company says this needs up to 2.5 times fewer tokens for Indian text than OpenAI's GPT tokeniser and improves Indian-language performance by 5% to 8% for the same computing power, without hurting English or code.\n- Nested Training trains the three model sizes in one run with a shared set of weights, which the company says is 62% faster than training them separately.\n- Mixture of Vocabularies splits the model's vocabulary into 11 groups and scores only the relevant group for each word, which the company says speeds training by 38% on the same chips.\n\nFor the speech model, the company reported more than 97% accuracy on a benchmark that tests how well a system reads out numbers, dates and abbreviations, and a character error rate of 7.6% in Hindi and 6.47% on average across nine other Indian languages. These are the company's own figures and have not been independently tested.\n\n## Why it matters\n\nTokens, the chunks of text a model reads, are what AI computing is billed in. Models built mostly on English text break Indian-language words into many more tokens, which makes them slower and costlier to run in Hindi, Bengali or Tamil. Shrinking that overhead is one of the main arguments for building models in India rather than adapting foreign ones.\n\nChariot was founded by Parth Sarthi and Suvrat Bhooshan, a former research engineer at Meta's AI research lab, according to reports. Its speech systems are already in commercial use, including for dubbing the Prime Minister's Mann Ki Baat broadcasts on Doordarshan's regional channels, reports said.\n\n## Background\n\nThe Union Cabinet approved the IndiaAI Mission in March 2024 with an outlay of Rs 10,371.92 crore, including subsidised access to graphics processors for Indian developers. The mission invited proposals for foundation models in January 2025 and received 506 applications by that April, according to reports. Earlier this month the government launched Soket Labs' EKA-1 and ZenteiQ's Dhir models under the same programme, and Sarvam AI, Gnani AI and BharatGen are among the other teams backed to build Indian models.",
+  "sources": [
+    {
+      "title": "Telangana Today: Govt launches indigenous Chariot-1 AI models under IndiaAI Mission",
+      "url": "https://telanganatoday.com/govt-launches-indigenous-chariot-1-ai-foundation-models"
+    },
+    {
+      "title": "Free Press Journal: India unveils home-grown Chariot-1 AI models",
+      "url": "https://freepressjournal.in/business/india-unveils-home-grown-chariot-1-ai-models-a-new-chapter-in-multilingual-intelligence-begins"
+    },
+    {
+      "title": "Sahyadri Startups: Chariot-1 foundation models launched with 11-billion-parameter LLM under IndiaAI Mission",
+      "url": "https://sahyadristartups.com/spotlight/chariot-1-foundation-models-launch-india/"
+    },
+    {
+      "title": "Swarajya: IndiaAI Mission unveils three indigenous AI models as Soket launches EKA-1 and ZenteiQ releases Dhir 2B and 5B",
+      "url": "https://swarajyamag.com/tech/indiaai-mission-unveils-three-indigenous-ai-models-as-soket-launches-eka-1-and-zenteiq-releases-dhr-2b-and-5b"
+    }
+  ]
+}

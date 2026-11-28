@@ -1,0 +1,51 @@
+{
+  "title": "Anaemia lower than earlier estimates, ICMR survey finds; Bengal's women worst among states",
+  "dek": "The SAMPADA survey of 2 lakh people found 56% of Indian women of reproductive age anaemic. In West Bengal the figure was 72.4%, the highest of any state.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "Public health",
+    "Anaemia",
+    "ICMR"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-25T07:26:09Z",
+  "updatedAt": "2026-11-25T07:26:09Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "Anaemia is less common in India than earlier national surveys suggested, a large new survey by the Indian Council of Medical Research (ICMR) has found, but more than half of women of reproductive age are still anaemic, and West Bengal has the highest rate among women of any state. The survey found that 72.4% of non-pregnant, non-lactating women aged 15 to 49 in Bengal were anaemic, against 55.9% nationally.\n\nThe findings come from the Survey for Assessment of Markers of Population Health, Activity, Diet and Anthropometry (SAMPADA), carried out in 2023-25 by the ICMR-National Institute of Nutrition (NIN) in Hyderabad. The Health Ministry released the key findings on Monday evening; the state-wise tables appear in the fact sheets published by ICMR-NIN.\n\n## What the survey found\n\nSAMPADA covered more than 2 lakh people in over 81,000 households across 183 districts in 35 states and Union Territories, and analysed more than 1.7 lakh blood samples, according to the ministry's release. Nationally, it found anaemia in:\n\n- 41.8% of children aged 12 to 59 months\n- 31.3% of children aged 5 to 9\n- 46.3% of adolescent girls and 22.8% of adolescent boys aged 10 to 19\n- 55.9% of women aged 15 to 49 who were not pregnant or breastfeeding\n- 22% of men aged 20 to 59\n- 55.7% of women and 44.7% of men aged 60 and above\n\nMost cases were mild. Severe anaemia affected less than 2% of people in most age groups, the ministry said. Iron deficiency accounted for about half of anaemia among women, adolescent girls and children, which means the other half has other causes, such as infections, inherited blood disorders and inflammation from chronic disease. Vitamin B12 and folate deficiency were about as common in people without anaemia as in those with it, so the survey concluded they contribute little.\n\n## Bengal's figures\n\nBengal's children aged 12 to 59 months were slightly below the national average, at 39.1%. But the state was well above it for almost every older group: 60.4% of adolescent girls, 70.7% of women aged 20 to 59, 32.1% of men aged 20 to 59, 80.6% of women aged 60 and above and 62.1% of men in that age group were anaemic, according to the fact sheets.\n\nAmong states, Bengal was followed by Assam (71.9%), Chhattisgarh (71.5%), Punjab (70.5%) and Tripura (70%) for women aged 15 to 49. Two Union Territories were higher still: the Andaman and Nicobar Islands (81.2%) and Ladakh (77.1%). Kerala had the lowest rate, 29.1%. State estimates are less precise than the national figure; the survey's 95% confidence range for Bengal's women is 65.4% to 79.5%.\n\n## Why the numbers are lower\n\nThe ICMR says SAMPADA used the \"gold standard\" method: blood drawn from a vein and tested on automated analysers within four to six hours. Earlier national surveys measured haemoglobin from finger-prick samples on portable devices, which can overestimate anaemia. The fifth National Family Health Survey (2019-21) had put anaemia at 57% among women aged 15 to 49 and 67.1% among children aged 6 to 59 months.\n\nBecause the methods and some age groups differ, the lower figures cannot by themselves show that anaemia has fallen, according to reports. The latest NFHS fact sheets did not include anaemia figures, which makes SAMPADA the main national estimate for now, reports said.\n\n## What officials said\n\n\"It is encouraging that prevalence of anaemia is lower in SAMPADA compared to previous national surveys,\" said Dr Rajiv Bahl, Secretary of the Department of Health Research and Director General of ICMR, adding that the profile would strengthen the Anaemia Mukt Bharat (Anaemia-free India) programme.\n\nDr Bharati Kulkarni, Director of ICMR-NIN, said the findings supported \"more targeted, population-specific and life-course approaches\" to preventing and managing anaemia.\n\n## What happens next\n\nThe ministry said people with moderate and severe anaemia, most of whom are iron-deficient, need to be identified through testing, treated and followed up until they recover, as planned under the second phase of Anaemia Mukt Bharat. The survey also gives India its first national baseline for anaemia among older adults, a group earlier surveys left out.",
+  "sources": [
+    {
+      "title": "PIB: Ministry of Health and Family Welfare, ICMR's SAMPADA survey shows lower prevalence of anaemia compared to previous national surveys (23 Nov 2026)",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2340476&reg=3&lang=1",
+      "primary": true
+    },
+    {
+      "title": "ICMR-NIN: Anaemia and micronutrient deficiencies across the life course in India, SAMPADA 2023-25 fact sheets (PDF)",
+      "url": "https://www.nin.res.in/ebooks/Sampada_Anaemia_BM_Factsheet.pdf",
+      "primary": true
+    },
+    {
+      "title": "ICMR: SAMPADA anaemia report (PDF)",
+      "url": "https://www.icmr.gov.in/icmrobject/uploads/Reports/1795441356_sampadaanaemiafinalpdf20_11_26.pdf",
+      "primary": true
+    },
+    {
+      "title": "ThePrint: Anaemia incidence lower, finds ICMR survey, but over half of India's women still affected",
+      "url": "https://theprint.in/health/anaemia-incidence-lower-finds-icmr-survey-but-over-half-of-indias-women-still-affected/3107564/"
+    },
+    {
+      "title": "Deccan Herald: Over 50% of Indian women of reproductive age are anaemic, ICMR",
+      "url": "https://www.deccanherald.com/health/healthcare/over-50-indian-women-of-reproductive-age-are-anaemic-icmr-4229474"
+    }
+  ],
+  "correction": "",
+  "image": {
+    "src": "sampada-anaemia-women-states.jpg",
+    "alt": "Bar chart of the share of women aged 15 to 49, not pregnant or breastfeeding, who are anaemic, from ICMR's SAMPADA survey 2023-25. Andaman and Nicobar Islands (Union Territory) 81.2%, Ladakh (Union Territory) 77.1%, West Bengal 72.4% (highlighted, highest among states), Assam 71.9%, Chhattisgarh 71.5%, Punjab 70.5%, Tripura 70.0%, India 55.9%, Kerala 29.1% (lowest).",
+    "caption": "Anaemia among women aged 15-49: West Bengal is highest among states, according to ICMR-NIN's SAMPADA fact sheets.",
+    "credit": "Graphic: The Declaration",
+    "hero": false
+  }
+}

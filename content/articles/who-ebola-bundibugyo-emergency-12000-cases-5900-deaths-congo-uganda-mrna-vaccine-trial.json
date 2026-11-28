@@ -1,0 +1,43 @@
+{
+  "title": "Ebola outbreak in Congo passes 12,000 cases as WHO keeps global emergency in place",
+  "dek": "No vaccine or treatment is approved for the Bundibugyo strain behind the outbreak. Uganda has begun Africa's first trial of an mRNA vaccine against it, including children.",
+  "section": "Science",
+  "format": "standard",
+  "topics": [
+    "Ebola",
+    "Public health",
+    "WHO"
+  ],
+  "author": "Declaration Desk",
+  "publishedAt": "2026-11-28T07:25:31Z",
+  "updatedAt": "2026-11-28T07:25:31Z",
+  "lead": false,
+  "breaking": false,
+  "status": "published",
+  "body": "More than 12,000 people have been infected and 5,900 have died in an Ebola outbreak in the Democratic Republic of the Congo that is now six months old, the World Health Organization said on Friday, as it issued updated emergency recommendations calling for better security for health workers and faster trials of vaccines and treatments.\n\nThe outbreak is caused by the Bundibugyo virus, a species of Ebola for which there is no approved vaccine or specific treatment. WHO Director-General Tedros Adhanom Ghebreyesus has determined that it remains a public health emergency of international concern, the agency's highest level of alarm, after its emergency committee met for the third time on 17 November.\n\n## What WHO says\n\nThe figures, as of 24 November, make this one of the largest Ebola outbreaks on record. WHO's previous detailed update, with data to 17 November, counted 11,613 confirmed cases and 5,678 deaths in the Congo, a crude fatality rate of 48.9%, with 3,148 recoveries. Eight Congolese provinces have reported cases, with Ituri and North Kivu in the east the worst hit. WHO rates the risk within the Congo as \"very high\".\n\nKenya has confirmed nine cases, including two deaths, and a cluster that infected four health and care workers. Nigeria reported one imported case on 20 October; the patient was evacuated to Switzerland and has recovered. Outbreaks earlier in the year in Uganda and France have been controlled, according to WHO.\n\nInsecurity in eastern Congo is a major obstacle, WHO said. It has verified at least 94 attacks on health care in the country since the emergency was declared.\n\n\"Six months into this emergency, the Committee remains deeply concerned by continued transmission,\" said Professor Lucille Blumberg, who chairs the emergency committee.\n\nThe new recommendations ask the Congo to intensify work where cases are rising, stop transmission inside health facilities, including infections linked to unsafe injections, and cut the delay between the first symptoms and diagnosis and care. Other countries are asked to identify and assess travellers who may have been exposed, without unnecessarily disrupting flights or travel.\n\n## The vaccine trial\n\nIn Uganda, the Uganda Virus Research Institute and the US company Moderna on Friday began what reports describe as Africa's first trial of an mRNA vaccine against the Bundibugyo virus. The early-stage study aims to enrol 224 volunteers and, for the first time, includes children aged one and above. Volunteers will be followed for about a year.\n\nThe trial tests safety and the immune response, not whether the vaccine prevents disease. The same candidate began human testing in adults in Canada in August, and WHO's advisers have recommended it for evaluation in a ring-vaccination trial in the Congo. WHO expects results from vaccine trials in early 2027, according to reports. Existing licensed Ebola vaccines protect against the Zaire species, not Bundibugyo.\n\n## Why it matters for India\n\nIndia has reported no Ebola cases. The Health Ministry advised in May against non-essential travel to the Congo, Uganda and South Sudan and stepped up screening at international airports, asking arrivals from affected countries to report to airport health desks and monitor their health for 21 days, according to reports. International arrivals now file an online health self-declaration through the Air Suvidha portal.\n\n## What happens next\n\nWHO's emergency committee will keep the situation under review, and the temporary recommendations stay in force. The Ugandan trial will report safety data first; larger trials in the Congo are expected to follow.",
+  "sources": [
+    {
+      "title": "WHO: WHO issues updated Ebola response recommendations, calling for improved security and accelerated research, 27 Nov 2026",
+      "url": "https://www.who.int/news/item/27-11-2026-who-issues-updated-ebola-response-recommendations--calling-for-improved-security-and-accelerated-research",
+      "primary": true
+    },
+    {
+      "title": "WHO Disease Outbreak News: Ebola disease caused by Bundibugyo virus, DRC, Kenya and Nigeria (DON630), 20 Nov 2026",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON630",
+      "primary": true
+    },
+    {
+      "title": "Bernama: Uganda launches Africa's first trial of mRNA vaccine against Bundibugyo Ebola",
+      "url": "https://www.bernama.com/en/world/news.php?id=2640639"
+    },
+    {
+      "title": "KELO: Uganda launches Africa's first trial of an mRNA Bundibugyo Ebola vaccine",
+      "url": "https://kelo.com/2026/11/27/uganda-launches-africas-first-trial-of-an-mrna-bundibugyo-ebola-vaccine/"
+    },
+    {
+      "title": "ArdorComm Media: India advises against non-essential travel to Congo, Uganda and South Sudan amid Ebola surge",
+      "url": "https://ardorcomm-media.com/india-advises-against-non-essential-travel-to-congo-uganda-and-south-sudan-amid-ebola-surge/"
+    }
+  ],
+  "correction": ""
+}
